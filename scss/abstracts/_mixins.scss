@@ -3,13 +3,26 @@
 @mixin mq($key) {
   $size: map-get($breakpoints, $key);
 
-  @media only screen and (max-width: $size) {
+  @media only screen and (min-width: $size) {
     @content;
   }
 }
 
-/* buttons */
+/* layout */
+.container {
+  @include mq(small) {
+    max-width: 1180px;
+  }
+  @include mq(medium) {
+    max-width: 1320px;
+  }
+  @include mq(large) {
+    max-width: 1420px;
+  }
+}
+/* layout */
 
+/* buttons */
 @mixin button {
   border-radius: 3px;
   padding: 0.75rem 2rem;
@@ -30,4 +43,10 @@
     text-decoration: none;
     outline: none;
   }
+}
+
+/* font awesome */
+@mixin fa {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
