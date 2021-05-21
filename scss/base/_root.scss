@@ -1,0 +1,27 @@
+@use '../abstracts' as *;
+
+:root {
+  @each $color, $shade in $colors {
+    @each $prop, $value in $shade {
+      --clr-#{$color}-#{$prop}: #{$value};
+    }
+  }
+
+  @each $screen-size, $property in $type-scale {
+    @if $screen-size == big {
+      @each $prop, $value in $property {
+        --fs-#{$prop}: #{$value};
+      }
+    } @else {
+      @include mq(small) {
+        @each $prop, $value in $property {
+          --fs-#{$prop}: #{$value};
+        }
+      }
+    }
+  }
+
+  @each $fontWeight, $fontWeightVal in $font-weights {
+    --fw-#{$fontWeight}: #{$fontWeightVal};
+  }
+}
