@@ -1093,6 +1093,9 @@ select::-ms-expand {
 .ai-tbl table .fs-big {
   font-size: 1.8rem;
 }
+.ai-tbl table .detail__head img {
+  width: 15px;
+}
 .ai-tbl table .detail__content {
   padding: 10px 10px 10px 10px;
 }

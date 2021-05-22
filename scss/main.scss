@@ -316,6 +316,12 @@ select::-ms-expand {
     }
 
     .detail {
+      &__head {
+        img {
+          width: 15px;
+        }
+      }
+
       &__content {
         padding: 10px 10px 10px 10px;
 
