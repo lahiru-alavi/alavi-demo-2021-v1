@@ -128,7 +128,7 @@ var chart = new Chart(ctx, {
       xAxes: [
         {
           scaleLabel: {
-            display: true,
+            display: false,
             labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
           },
         },

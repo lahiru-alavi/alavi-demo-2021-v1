@@ -442,4 +442,10 @@ select::-ms-expand {
       min-height: 256px;
     }
   }
+  .label {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: var(--fw-medium);
+    margin-top: 1em;
+  }
 }

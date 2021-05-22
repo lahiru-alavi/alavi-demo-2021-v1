@@ -1185,3 +1185,9 @@ select::-ms-expand {
 .ai-graph__chart #myChart {
   min-height: 256px;
 }
+.ai-graph .label {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: var(--fw-medium);
+  margin-top: 1em;
+}
