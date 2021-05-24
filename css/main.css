@@ -1182,6 +1182,11 @@ select::-ms-expand {
   left: 9.8%;
   height: 97%;
 }
+.ai-tbl .tbl-highlight__col7 {
+  width: 51.6%;
+  left: 8.1%;
+  height: 98.8%;
+}
 .ai-tbl table {
   color: var(--clr-neutral-800);
   font-size: 1.5rem;
@@ -1217,6 +1222,18 @@ select::-ms-expand {
 .ai-tbl table tbody tr.facebook--opacity td {
   background-color: var(--clr-other-b-400);
 }
+.ai-tbl table tbody tr.funnel td {
+  background-color: var(--clr-other-d-500);
+}
+.ai-tbl table tbody tr.funnel--opacity__100 td {
+  background-color: var(--clr-other-d-400);
+}
+.ai-tbl table tbody tr.funnel--opacity__200 td {
+  background-color: var(--clr-other-d-300);
+}
+.ai-tbl table tbody tr.funnel--opacity__300 td {
+  background-color: var(--clr-other-d-200);
+}
 .ai-tbl table tbody tr.google td {
   background-color: var(--clr-other-c-500);
 }
@@ -1242,6 +1259,9 @@ select::-ms-expand {
 }
 .ai-tbl table .detail__head img {
   width: 15px;
+}
+.ai-tbl table .detail__head p.x-sml {
+  color: var(--clr-neutral-600);
 }
 .ai-tbl table .detail__content {
   padding: 10px 10px 10px 10px;
@@ -1305,6 +1325,9 @@ select::-ms-expand {
 .ai-tbl table .detail__content .ldBar__green path.mainline {
   stroke: var(--clr-other-c-700);
 }
+.ai-tbl table .detail__content .ldBar__red path.mainline {
+  stroke: var(--clr-other-d-700);
+}
 
 .ai-graph__compare {
   margin-bottom: 2em;
@@ -1326,6 +1349,15 @@ select::-ms-expand {
 .ai-graph__compare .legend .opacity::before {
   opacity: var(--op-500);
 }
+.ai-graph__compare .legend .opacity--100::before {
+  opacity: var(--op-600);
+}
+.ai-graph__compare .legend .opacity--200::before {
+  opacity: var(--op-500);
+}
+.ai-graph__compare .legend .opacity--300::before {
+  opacity: var(--op-400);
+}
 .ai-graph__compare .legend__web::before {
   color: var(--clr-primary-100);
 }
@@ -1334,6 +1366,9 @@ select::-ms-expand {
 }
 .ai-graph__compare .legend__go::before {
   color: var(--clr-secondary-300);
+}
+.ai-graph__compare .legend__mk::before {
+  color: var(--clr-other-d-700);
 }
 .ai-graph__chart canvas {
   min-height: 256px;

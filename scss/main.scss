@@ -304,6 +304,11 @@ select::-ms-expand {
       left: 9.8%;
       height: 97%;
     }
+    &__col7 {
+      width: 51.6%;
+      left: 8.1%;
+      height: 98.8%;
+    }
   }
 
   table {
@@ -351,6 +356,26 @@ select::-ms-expand {
             }
           }
         }
+        &.funnel {
+          td {
+            background-color: var(--clr-other-d-500);
+          }
+          &--opacity__100 {
+            td {
+              background-color: var(--clr-other-d-400);
+            }
+          }
+          &--opacity__200 {
+            td {
+              background-color: var(--clr-other-d-300);
+            }
+          }
+          &--opacity__300 {
+            td {
+              background-color: var(--clr-other-d-200);
+            }
+          }
+        }
         &.google {
           td {
             background-color: var(--clr-other-c-500);
@@ -388,6 +413,9 @@ select::-ms-expand {
       &__head {
         img {
           width: 15px;
+        }
+        p.x-sml {
+          color: var(--clr-neutral-600);
         }
       }
 
@@ -471,6 +499,10 @@ select::-ms-expand {
           &__green path.mainline {
             stroke: var(--clr-other-c-700);
           }
+
+          &__red path.mainline {
+            stroke: var(--clr-other-d-700);
+          }
         }
       }
     }
@@ -499,6 +531,21 @@ select::-ms-expand {
         &::before {
           opacity: var(--op-500);
         }
+        &--100 {
+          &::before {
+            opacity: var(--op-600);
+          }
+        }
+        &--200 {
+          &::before {
+            opacity: var(--op-500);
+          }
+        }
+        &--300 {
+          &::before {
+            opacity: var(--op-400);
+          }
+        }
       }
 
       &__web {
@@ -514,6 +561,11 @@ select::-ms-expand {
       &__go {
         &::before {
           color: var(--clr-secondary-300);
+        }
+      }
+      &__mk {
+        &::before {
+          color: var(--clr-other-d-700);
         }
       }
     }

@@ -78,8 +78,43 @@ var bar11 = new ldBar("#f-con-roa", {
   value: 10,
   preset: "line",
 });
-
 var bar12 = new ldBar("#f-ncon-spe", {
+  value: 10,
+  preset: "line",
+});
+var bar13 = new ldBar("#mk-top-rev", {
+  value: 10,
+  preset: "line",
+});
+var bar14 = new ldBar("#mk-top-spe", {
+  value: 10,
+  preset: "line",
+});
+var bar15 = new ldBar("#mk-top-roa", {
+  value: 10,
+  preset: "line",
+});
+var bar16 = new ldBar("#mk-mid-rev", {
+  value: 10,
+  preset: "line",
+});
+var bar17 = new ldBar("#mk-mid-spe", {
+  value: 10,
+  preset: "line",
+});
+var bar18 = new ldBar("#mk-mid-roa", {
+  value: 10,
+  preset: "line",
+});
+var bar19 = new ldBar("#mk-btm-rev", {
+  value: 10,
+  preset: "line",
+});
+var bar20 = new ldBar("#mk-btm-spe", {
+  value: 10,
+  preset: "line",
+});
+var bar21 = new ldBar("#mk-btm-roa", {
   value: 10,
   preset: "line",
 });
