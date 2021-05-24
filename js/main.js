@@ -100,7 +100,7 @@ var chart = new Chart(cha1, {
       {
         label: "Website",
         fill: false,
-        borderColor: "rgba(255, 84, 0, 1)",
+        borderColor: "rgba(255, 85, 51, 1)",
         data: [3158798, 4309033, 4578236, 4283144, 4306006, 4396536, 4729692],
       },
       {
