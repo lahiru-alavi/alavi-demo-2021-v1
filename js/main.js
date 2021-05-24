@@ -63,6 +63,26 @@ var bar8 = new ldBar("#g-roa", {
   value: 10,
   preset: "line",
 });
+
+var bar9 = new ldBar("#f-con-rev", {
+  value: 10,
+  preset: "line",
+});
+
+var bar10 = new ldBar("#f-con-spe", {
+  value: 10,
+  preset: "line",
+});
+
+var bar11 = new ldBar("#f-con-roa", {
+  value: 10,
+  preset: "line",
+});
+
+var bar12 = new ldBar("#f-ncon-spe", {
+  value: 10,
+  preset: "line",
+});
 // Progress Bar
 
 // chart start
@@ -86,7 +106,7 @@ var chart = new Chart(cha1, {
       {
         label: "Facebook",
         fill: false,
-        borderColor: "rgba(26, 76, 251, 1)",
+        borderColor: "rgba(108, 139, 250, 1)",
         data: [1730237, 2295673, 2289342, 1947076, 2063682, 2101925, 2231138],
       },
       {
@@ -150,21 +170,15 @@ var chart = new Chart(cha2, {
     // Information about the dataset
     datasets: [
       {
-        label: "Website",
+        label: "Conversion",
         fill: false,
-        borderColor: "rgba(255, 84, 0, 1)",
-        data: [3158798, 4309033, 4578236, 4283144, 4306006, 4396536, 4729692],
-      },
-      {
-        label: "Facebook",
-        fill: false,
-        borderColor: "rgba(26, 76, 251, 1)",
+        borderColor: "rgba(108, 139, 250, 1)",
         data: [1730237, 2295673, 2289342, 1947076, 2063682, 2101925, 2231138],
       },
       {
-        label: "Google",
+        label: "Non Conversion",
         fill: false,
-        borderColor: "rgba(5, 212, 132, 1)",
+        borderColor: "rgba(26, 76, 251, 0.2)",
         data: [1672810, 2007076, 1796407, 1921905, 1664475, 1438009, 1188911],
       },
     ],

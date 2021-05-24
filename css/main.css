@@ -25,6 +25,7 @@
 :root {
   --clr-primary-100: #ff5400;
   --clr-secondary-100: #1a4cfb;
+  --clr-secondary-150: #6c8bfa;
   --clr-secondary-200: #ed0e0e;
   --clr-secondary-300: #05d484;
   --clr-secondary-400: #1ca200;
@@ -218,6 +219,18 @@ body {
 
 .border-secondary-100 {
   border-color: var(--clr-secondary-100) !important;
+}
+
+.txt-secondary-150 {
+  color: var(--clr-secondary-150) !important;
+}
+
+.bg-secondary-150 {
+  background-color: var(--clr-secondary-150) !important;
+}
+
+.border-secondary-150 {
+  border-color: var(--clr-secondary-150) !important;
 }
 
 .txt-secondary-200 {
@@ -1094,10 +1107,10 @@ select::-ms-expand {
   font-size: 1.2rem;
 }
 .category .filter .nav-item.active {
-  border-bottom: 2px solid var(--clr-secondary-100);
+  border-bottom: 2px solid var(--clr-secondary-150);
 }
 .category .filter .nav-item.active .nav-link {
-  color: var(--clr-secondary-100);
+  color: var(--clr-secondary-150);
 }
 .category .wrapper-box {
   background: var(--clr-neutral-100);
@@ -1109,7 +1122,7 @@ select::-ms-expand {
   position: relative;
 }
 .category .wrapper-box__bottom {
-  margin-top: 3em;
+  margin-top: 3.25em;
 }
 
 .note {
@@ -1160,6 +1173,7 @@ select::-ms-expand {
 .ai-tbl table tbody tr td {
   border-right: 1px solid var(--clr-neutral-100);
   vertical-align: middle;
+  padding: 1rem 1rem;
 }
 .ai-tbl table th,
 .ai-tbl table td {
@@ -1349,10 +1363,14 @@ select::-ms-expand {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border: 1px solid var(--clr-neutral-300);
-  padding: 45px 15px;
+  padding: 45px 30px;
 }
 .wrapper-tab__body .tab-graph {
-  margin-top: 3em;
+  margin-top: 3.25em;
+}
+.wrapper-tab__body .tab-pane {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .tab-shadow {
