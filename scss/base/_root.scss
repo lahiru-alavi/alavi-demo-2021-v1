@@ -24,4 +24,8 @@
   @each $fontWeight, $fontWeightVal in $font-weights {
     --fw-#{$fontWeight}: #{$fontWeightVal};
   }
+
+  @each $opWeight, $opWeightVal in $opacity {
+    --op-#{$opWeight}: #{$opWeightVal};
+  }
 }

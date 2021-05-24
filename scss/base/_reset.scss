@@ -76,3 +76,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+button,
+button:focus,
+a,
+a:focus {
+  outline: 0;
+}

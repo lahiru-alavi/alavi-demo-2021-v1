@@ -21,3 +21,9 @@
     font-weight: var(--fw-#{$fontWeight}) !important;
   }
 }
+
+@each $opWeight, $opWeightVal in $opacity {
+  .opacity-#{$opWeight} {
+    opacity: var(--op-#{$opWeight}) !important;
+  }
+}
