@@ -1202,15 +1202,15 @@
                         </div>
                         <div class="legend sml">
                           <span class="legend__mk">Top</span>
-                          <span class="legend__mk opacity--100">Middle</span>
-                          <span class="legend__mk opacity--200">Bottom</span>
-                          <span class="legend__mk opacity--300">Uncategorized</span>
+                          <span class="legend__mk opacity--600">Middle</span>
+                          <span class="legend__mk opacity--500">Bottom</span>
+                          <span class="legend__mk opacity--400">Uncategorized</span>
                         </div>
                       </div>
                     </div>
 
                     <div class="ai-graph__chart">
-                      <canvas id="myChart2"></canvas>
+                      <canvas id="myChart3"></canvas>
                     </div>
                     <p class="label">1 Mar, 2021 - 31 Mar, 2021 (Daily)</p>
                   </div>
@@ -1237,7 +1237,303 @@
   </section>
 
 
+  <!-- control section -->
 
+  <section class="category category__conversion">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="title">
+            <h2>Alavi vs Control Campaigns</h2>
+            <h4>Evaluate Alavi’s performance</h4>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex flex-column align-items-end filter">
+
+            <div class="d-flex justify-content-end mb-4">
+              <ul class="nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Today</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yesterday</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">7D</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">From Start of Trial</a>
+                </li>
+
+              </ul>
+
+              <a class="nav-link pr-0 pb-0" href="#"><button type="button"
+                  class="btn bg-neutral-100 border-neutral-500 sml">Custom</button></a>
+            </div>
+
+            <p class="sml">18 May, 2021 - 24 May, 2021</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="wrapper-tab mt-5">
+
+            <nav class="wrapper-tab__head">
+              <div class="nav nav-tabs row" id="nav-tab" role="tablist">
+                <button class="col-md-6 nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+
+                  <div class="title d-flex align-items-center justify-content-between">
+                    <div class="d-flex txt-neutral-800 align-items-center">
+                      <img src="img/facebook.png" alt="facebook">
+                      <h3 class="fw-semi-bold ml-3">Facebook<br>
+                        <span class="sml">Campaigns</span>
+                      </h3>
+                    </div>
+
+                    <div class="arrow">
+                      <img src="img/tab-arrow.svg" alt="tab-arrow">
+                    </div>
+
+                  </div>
+
+
+                </button>
+
+                <button class="col-md-6 nav-link ml-auto disabled" id="nav-profile-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                  aria-selected="false">
+
+
+                  <div class="title d-flex align-items-center justify-content-between">
+                    <div class="d-flex txt-neutral-800 align-items-center">
+                      <img src="img/google.png" alt="google">
+                      <h3 class="fw-semi-bold ml-3">Google<br>
+                        <span class="sml">Campaigns</span>
+                      </h3>
+                    </div>
+
+                    <div class="arrow">
+                      <img src="img/tab-arrow.svg" alt="tab-arrow">
+                    </div>
+
+                  </div>
+
+                </button>
+
+              </div>
+            </nav>
+            <div class="row tab-content wrapper-tab__body tab-shadow" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                <div class="tab-tbl">
+
+                  <div class="ai-tbl table-responsive">
+                    <div class="tbl-highlight tbl-highlight__col6"></div>
+                    <table class="table">
+                      <thead>
+                        <tr class="bg-neutral-100">
+                          <th scope="col"></th>
+                          <th scope="col" class="fs-big">Revenue</th>
+                          <th scope="col" class="fs-big">Spends</th>
+                          <th scope="col" class="fs-big">RoAS</th>
+                          <th scope="col" class="fs-big no-border">Revenue Uplift</th>
+                          <th scope="col">Reach</th>
+                          <th scope="col">Transactions</th>
+                          <th scope="col">AOV</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="alavi">
+                          <td class="no-border">
+                            <div class="detail detail__head">
+                              <img class="img-fluid m-auto" src="img/alavi-round-1.svg" alt="alavi-round-1">
+                              <p class="mt-3">Alavi</p>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="text-left detail detail__content">
+                              <p class="price">0</p>
+
+                            </div>
+                          </td>
+                          <td>
+                            <div class="text-left detail detail__content">
+                              <p class="price">0</p>
+                              <p class="ratio">Target: N/A</p>
+                              <div class="progressBar">
+                                <div id="al-spe" class="ldBar ldBar__maroon"></div>
+                              </div>
+                              <p class="ratio">Bal: N/A</p>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="text-left detail detail__content">
+                              <p class="price">0.0</p>
+
+                            </div>
+                          </td>
+                          <td class="no-border">
+
+                            <div class="text-left detail detail__content">
+                              <p class="price">0.0</p>
+
+                            </div>
+                          </td>
+                          <td>
+
+                            <div class="detail detail__content">
+                              <p>0</p>
+
+                            </div>
+
+                          </td>
+                          <td>
+                            <div class="detail detail__content">
+                              <p>0</p>
+
+                            </div>
+                          </td>
+                          <td>
+                            <div class="detail detail__content">
+                              <p>0</p>
+
+                            </div>
+                          </td>
+
+
+
+
+                        </tr>
+                        <tr>
+                          <td colspan="10"></td>
+                        </tr>
+                        <tr class="alavi alavi--opacity">
+                          <td class="no-border">
+                            <div class="detail detail__head">
+                              <img class="img-fluid m-auto" src="img/alavi-round-2.svg" alt="alavi-round-2">
+                              <p class="mt-3">Control</p>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="text-left detail detail__content">
+                              &nbsp;
+                            </div>
+                          </td>
+                          <td>
+                            <div class="text-left detail detail__content">
+                              &nbsp;
+                            </div>
+                          </td>
+                          <td>
+                            <div class="text-left detail detail__content">
+                              &nbsp;
+                            </div>
+                          </td>
+                          <td class="no-border">
+                            <div class="detail detail__content">
+                              <p class="price">N/A</p>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="detail detail__content">
+                              &nbsp;
+                            </div>
+                          </td>
+                          <td>
+                            <div class="detail detail__content">
+                              &nbsp;
+                            </div>
+                          </td>
+                          <td>
+                            <div class="detail detail__content">
+                              &nbsp;
+                            </div>
+                          </td>
+
+                        </tr>
+
+
+                      </tbody>
+                    </table>
+
+
+                  </div>
+
+                  <p class="note sml">Increase / Decrease based on previous period (11 May, 2021 - 18 May, 2021)</p>
+
+                </div>
+
+                <div class="tab-graph">
+
+                  <div class="ai-graph">
+                    <div class="ai-graph__compare">
+                      <div class="d-flex align-items-center">
+                        <p>Compare</p>
+                        <div class="select-box bg-neutral-100 ml-3 mr-3">
+                          <select class="bg-neutral-100 txt-neutral-600">
+                            <option value="">Revenue</option>
+                            <option value="">Spends</option>
+                            <option value="">RoAS</option>
+                            <option value="">Reach</option>
+                            <option value="">Transactions</option>
+                            <option value="">AOV</option>
+                            <option value="">CTR</option>
+                          </select>
+                          <span class="select-arrow txt-neutral-600"></span>
+                        </div>
+                        <div class="legend sml">
+                          <span class="legend__al">Alavi</span>
+                          <span class="legend__al opacity">Control</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="ai-graph__chart">
+                      <canvas id="myChart4"></canvas>
+                    </div>
+                    <p class="label">18 May, 2021 - 24 May, 2021</p>
+                  </div>
+
+                </div>
+
+
+
+              </div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. In nihil provident explicabo, asperiores cumque iste
+                sapiente repudiandae soluta iure optio dolorem eius, temporibus nostrum! Aliquam cumque itaque aut!
+                Quasi, atque.</div>
+
+
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+
+  </section>
+
+  <!-- footer -->
+
+  <footer class="text-center pb-5">
+    <p class="x-sml txt-neutral-700 fw-medium mb-4">&copy; 2020 Alavi.ai. All rights reserved. Terms of Service |
+      Privacy
+      Policy | Send
+      feedback </p>
+
+    <img class="img-fluid m-auto" src="img/footer-logo.svg" alt="alavi">
+
+  </footer>
 
 
 

@@ -118,6 +118,10 @@ var bar21 = new ldBar("#mk-btm-roa", {
   value: 10,
   preset: "line",
 });
+var bar22 = new ldBar("#al-spe", {
+  value: 10,
+  preset: "line",
+});
 // Progress Bar
 
 // chart start
@@ -214,6 +218,138 @@ var chart = new Chart(cha2, {
         label: "Non Conversion",
         fill: false,
         borderColor: "rgba(26, 76, 251, 0.2)",
+        data: [1672810, 2007076, 1796407, 1921905, 1664475, 1438009, 1188911],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 5000000,
+            stepSize: 500000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
+});
+
+// chart 3
+var cha2 = document.getElementById("myChart3").getContext("2d");
+var chart = new Chart(cha2, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
+
+  // The data for our dataset
+  data: {
+    labels: ["", "May 16", "May 17", "May 18", "May 19", "May 20", "May 21"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(197, 17, 98, 0.2)",
+        data: [1730237, 2295673, 2289342, 1947076, 2063682, 2101925, 2231138],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(197, 17, 98, 0.5)",
+        data: [1672810, 2007076, 1796407, 1921905, 1664475, 1438009, 1188911],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 5000000,
+            stepSize: 500000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
+});
+
+// chart 4
+var cha2 = document.getElementById("myChart4").getContext("2d");
+var chart = new Chart(cha2, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
+
+  // The data for our dataset
+  data: {
+    labels: ["", "May 16", "May 17", "May 18", "May 19", "May 20", "May 21"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(176, 0, 255, 0.2)",
+        data: [1730237, 2295673, 2289342, 1947076, 2063682, 2101925, 2231138],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(176, 0, 255, 0.5)",
         data: [1672810, 2007076, 1796407, 1921905, 1664475, 1438009, 1188911],
       },
     ],

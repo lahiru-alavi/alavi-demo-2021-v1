@@ -1187,6 +1187,11 @@ select::-ms-expand {
   left: 8.1%;
   height: 98.8%;
 }
+.ai-tbl .tbl-highlight__col6 {
+  width: 61.6%;
+  left: 9.7%;
+  height: 96%;
+}
 .ai-tbl table {
   color: var(--clr-neutral-800);
   font-size: 1.5rem;
@@ -1236,6 +1241,12 @@ select::-ms-expand {
 }
 .ai-tbl table tbody tr.google td {
   background-color: var(--clr-other-c-500);
+}
+.ai-tbl table tbody tr.alavi td {
+  background-color: var(--clr-other-e-500);
+}
+.ai-tbl table tbody tr.alavi--opacity td {
+  background-color: var(--clr-other-e-400);
 }
 .ai-tbl table th,
 .ai-tbl table td {
@@ -1328,6 +1339,9 @@ select::-ms-expand {
 .ai-tbl table .detail__content .ldBar__red path.mainline {
   stroke: var(--clr-other-d-700);
 }
+.ai-tbl table .detail__content .ldBar__maroon path.mainline {
+  stroke: var(--clr-other-e-700);
+}
 
 .ai-graph__compare {
   margin-bottom: 2em;
@@ -1349,13 +1363,13 @@ select::-ms-expand {
 .ai-graph__compare .legend .opacity::before {
   opacity: var(--op-500);
 }
-.ai-graph__compare .legend .opacity--100::before {
+.ai-graph__compare .legend .opacity--600::before {
   opacity: var(--op-600);
 }
-.ai-graph__compare .legend .opacity--200::before {
+.ai-graph__compare .legend .opacity--500::before {
   opacity: var(--op-500);
 }
-.ai-graph__compare .legend .opacity--300::before {
+.ai-graph__compare .legend .opacity--400::before {
   opacity: var(--op-400);
 }
 .ai-graph__compare .legend__web::before {
@@ -1369,6 +1383,9 @@ select::-ms-expand {
 }
 .ai-graph__compare .legend__mk::before {
   color: var(--clr-other-d-700);
+}
+.ai-graph__compare .legend__al::before {
+  color: var(--clr-other-e-700);
 }
 .ai-graph__chart canvas {
   min-height: 256px;
