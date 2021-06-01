@@ -228,7 +228,8 @@ select::-ms-expand {
 .category {
   margin: 60px 0px;
 
-  &__overall {
+  &__overall,
+  &__facebook {
     margin-top: 40px;
   }
 
@@ -270,7 +271,7 @@ select::-ms-expand {
     margin-top: 25px;
     box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px 0px;
     border-radius: 6px;
-    border-color: var(--clr-neutral-350);
+    border: 1px solid var(--clr-neutral-350);
     padding: 45px 25px;
     position: relative;
 
@@ -423,110 +424,114 @@ select::-ms-expand {
     .fs-big {
       font-size: 1.8rem;
     }
+  }
+}
 
-    .detail {
-      &__head {
-        img {
-          width: 15px;
+/* Results Start*/
+.detail {
+  &__head {
+    img {
+      width: 15px;
+    }
+    p.x-sml {
+      color: var(--clr-neutral-600);
+    }
+  }
+
+  &__content {
+    padding: 10px 10px 10px 10px;
+
+    &.text-left {
+      .percentage {
+        &::before {
+          margin-right: 6px;
         }
-        p.x-sml {
-          color: var(--clr-neutral-600);
+      }
+    }
+
+    .price {
+      font-size: 1.9rem;
+      color: var(--clr-neutral-800);
+      font-weight: var(--fw-semi-bold);
+    }
+
+    .percentage {
+      font-size: 1rem;
+
+      &::before {
+        @include fa();
+        font-size: 1.3rem;
+        vertical-align: middle;
+      }
+
+      &__up {
+        color: var(--clr-secondary-400);
+
+        &::before {
+          content: "\f0d8";
         }
       }
 
-      &__content {
-        padding: 10px 10px 10px 10px;
+      &__down {
+        color: var(--clr-secondary-200);
 
-        &.text-left {
-          .percentage {
-            &::before {
-              margin-right: 6px;
-            }
-          }
+        &::before {
+          content: "\f0d7";
         }
+      }
+    }
 
-        .price {
-          font-size: 1.9rem;
-        }
+    .ratio {
+      font-size: 1rem;
+      color: var(--clr-neutral-600);
+    }
 
-        .percentage {
-          font-size: 1rem;
+    .progressBar {
+      max-width: 8em;
+      max-height: 0.9em;
+      margin-top: 0.2em;
+    }
 
-          &::before {
-            @include fa();
-            font-size: 1.3rem;
-            vertical-align: middle;
-          }
+    .ldBar {
+      margin-left: -5px;
+      display: inline;
 
-          &__up {
-            color: var(--clr-secondary-400);
+      .ldBar-label {
+        display: none;
+      }
 
-            &::before {
-              content: "\f0d8";
-            }
-          }
+      & path.baseline {
+        stroke-width: 3;
+        stroke: var(--clr-neutral-750);
+      }
 
-          &__down {
-            color: var(--clr-secondary-200);
+      & path.mainline {
+        stroke-width: 3;
+      }
 
-            &::before {
-              content: "\f0d7";
-            }
-          }
-        }
+      &__orange path.mainline {
+        stroke: var(--clr-other-a-700);
+      }
 
-        .ratio {
-          font-size: 1rem;
-          color: var(--clr-neutral-600);
-        }
+      &__blue path.mainline {
+        stroke: var(--clr-other-b-700);
+      }
 
-        .progressBar {
-          max-width: 8em;
-          max-height: 0.9em;
-          margin-top: 0.2em;
-        }
+      &__green path.mainline {
+        stroke: var(--clr-other-c-700);
+      }
 
-        .ldBar {
-          margin-left: -5px;
-          display: inline;
+      &__red path.mainline {
+        stroke: var(--clr-other-d-700);
+      }
 
-          .ldBar-label {
-            display: none;
-          }
-
-          & path.baseline {
-            stroke-width: 3;
-            stroke: var(--clr-neutral-750);
-          }
-
-          & path.mainline {
-            stroke-width: 3;
-          }
-
-          &__orange path.mainline {
-            stroke: var(--clr-other-a-700);
-          }
-
-          &__blue path.mainline {
-            stroke: var(--clr-other-b-700);
-          }
-
-          &__green path.mainline {
-            stroke: var(--clr-other-c-700);
-          }
-
-          &__red path.mainline {
-            stroke: var(--clr-other-d-700);
-          }
-
-          &__maroon path.mainline {
-            stroke: var(--clr-other-e-700);
-          }
-        }
+      &__maroon path.mainline {
+        stroke: var(--clr-other-e-700);
       }
     }
   }
 }
+/* Results End*/
 
 .ai-graph {
   &__compare {
@@ -703,3 +708,37 @@ select::-ms-expand {
 }
 
 /* tab section end*/
+
+/*
+------------------------------------
+Optimize Page Start
+------------------------------------
+*/
+.facebook-box {
+  padding: 2em 3em;
+  h3 {
+    color: var(--clr-neutral-800);
+    font-weight: var(--fw-semi-bold);
+  }
+
+  .detail__content {
+    .price {
+      font-size: 1.6rem;
+      line-height: 2;
+    }
+    .ratio,
+    .percentage {
+      font-size: 1.2rem;
+    }
+    .link {
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+/*
+------------------------------------
+Optimize Page End
+------------------------------------
+*/

@@ -1117,7 +1117,7 @@ select::-ms-expand {
 .category {
   margin: 60px 0px;
 }
-.category__overall {
+.category__overall, .category__facebook {
   margin-top: 40px;
 }
 .category .title h2 {
@@ -1150,7 +1150,7 @@ select::-ms-expand {
   margin-top: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
   border-radius: 6px;
-  border-color: var(--clr-neutral-350);
+  border: 1px solid var(--clr-neutral-350);
   padding: 45px 25px;
   position: relative;
 }
@@ -1268,81 +1268,86 @@ select::-ms-expand {
 .ai-tbl table .fs-big {
   font-size: 1.8rem;
 }
-.ai-tbl table .detail__head img {
+
+/* Results Start*/
+.detail__head img {
   width: 15px;
 }
-.ai-tbl table .detail__head p.x-sml {
+.detail__head p.x-sml {
   color: var(--clr-neutral-600);
 }
-.ai-tbl table .detail__content {
+.detail__content {
   padding: 10px 10px 10px 10px;
 }
-.ai-tbl table .detail__content.text-left .percentage::before {
+.detail__content.text-left .percentage::before {
   margin-right: 6px;
 }
-.ai-tbl table .detail__content .price {
+.detail__content .price {
   font-size: 1.9rem;
+  color: var(--clr-neutral-800);
+  font-weight: var(--fw-semi-bold);
 }
-.ai-tbl table .detail__content .percentage {
+.detail__content .percentage {
   font-size: 1rem;
 }
-.ai-tbl table .detail__content .percentage::before {
+.detail__content .percentage::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 1.3rem;
   vertical-align: middle;
 }
-.ai-tbl table .detail__content .percentage__up {
+.detail__content .percentage__up {
   color: var(--clr-secondary-400);
 }
-.ai-tbl table .detail__content .percentage__up::before {
+.detail__content .percentage__up::before {
   content: "";
 }
-.ai-tbl table .detail__content .percentage__down {
+.detail__content .percentage__down {
   color: var(--clr-secondary-200);
 }
-.ai-tbl table .detail__content .percentage__down::before {
+.detail__content .percentage__down::before {
   content: "";
 }
-.ai-tbl table .detail__content .ratio {
+.detail__content .ratio {
   font-size: 1rem;
   color: var(--clr-neutral-600);
 }
-.ai-tbl table .detail__content .progressBar {
+.detail__content .progressBar {
   max-width: 8em;
   max-height: 0.9em;
   margin-top: 0.2em;
 }
-.ai-tbl table .detail__content .ldBar {
+.detail__content .ldBar {
   margin-left: -5px;
   display: inline;
 }
-.ai-tbl table .detail__content .ldBar .ldBar-label {
+.detail__content .ldBar .ldBar-label {
   display: none;
 }
-.ai-tbl table .detail__content .ldBar path.baseline {
+.detail__content .ldBar path.baseline {
   stroke-width: 3;
   stroke: var(--clr-neutral-750);
 }
-.ai-tbl table .detail__content .ldBar path.mainline {
+.detail__content .ldBar path.mainline {
   stroke-width: 3;
 }
-.ai-tbl table .detail__content .ldBar__orange path.mainline {
+.detail__content .ldBar__orange path.mainline {
   stroke: var(--clr-other-a-700);
 }
-.ai-tbl table .detail__content .ldBar__blue path.mainline {
+.detail__content .ldBar__blue path.mainline {
   stroke: var(--clr-other-b-700);
 }
-.ai-tbl table .detail__content .ldBar__green path.mainline {
+.detail__content .ldBar__green path.mainline {
   stroke: var(--clr-other-c-700);
 }
-.ai-tbl table .detail__content .ldBar__red path.mainline {
+.detail__content .ldBar__red path.mainline {
   stroke: var(--clr-other-d-700);
 }
-.ai-tbl table .detail__content .ldBar__maroon path.mainline {
+.detail__content .ldBar__maroon path.mainline {
   stroke: var(--clr-other-e-700);
 }
 
+/* Results End*/
 .ai-graph__compare {
   margin-bottom: 2em;
 }
@@ -1475,3 +1480,32 @@ select::-ms-expand {
 }
 
 /* tab section end*/
+/*
+------------------------------------
+Optimize Page Start
+------------------------------------
+*/
+.facebook-box {
+  padding: 2em 3em;
+}
+.facebook-box h3 {
+  color: var(--clr-neutral-800);
+  font-weight: var(--fw-semi-bold);
+}
+.facebook-box .detail__content .price {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+.facebook-box .detail__content .ratio,
+.facebook-box .detail__content .percentage {
+  font-size: 1.2rem;
+}
+.facebook-box .detail__content .link a {
+  text-decoration: underline;
+}
+
+/*
+------------------------------------
+Optimize Page End
+------------------------------------
+*/
