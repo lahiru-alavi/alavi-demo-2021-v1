@@ -749,6 +749,14 @@ Optimize Page Start
     height: 50px !important;
   }
 }
+
+.wrapper-tab--optimize {
+  .wrapper-tab__head {
+    .nav-link {
+      width: 24%;
+    }
+  }
+}
 /*
 ------------------------------------
 Optimize Page End
