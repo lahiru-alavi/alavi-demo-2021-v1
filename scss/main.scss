@@ -750,13 +750,60 @@ Optimize Page Start
   }
 }
 
+.search-box {
+  width: 23%;
+
+  .input-group {
+    border: 1px solid #ced4da;
+    justify-content: center;
+  }
+  .form-control {
+    font-size: 1.3rem;
+  }
+  .btn {
+    background: var(--clr-neutral-100);
+    line-height: 2;
+  }
+  i {
+    color: var(--clr-neutral-600);
+    font-size: 1.3rem;
+  }
+}
+
 .wrapper-tab--optimize {
   .wrapper-tab__head {
     .nav-link {
       width: 24%;
+
+      &.active {
+        padding: 27px 27px 30px 24px;
+      }
+    }
+
+    .arrow {
+      img {
+        width: 22px;
+      }
+    }
+  }
+
+  .detail__content {
+    padding: 0;
+    p {
+      font-size: 1.2rem;
+      color: var(--clr-neutral-600);
+    }
+
+    .percentage__up {
+      font-weight: var(--fw-bold);
+    }
+
+    .percentage__up:first-child::before {
+      content: none;
     }
   }
 }
+
 /*
 ------------------------------------
 Optimize Page End

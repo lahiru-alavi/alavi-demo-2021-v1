@@ -359,7 +359,23 @@
             <div class="row">
                 <div class="col-md-12">
 
-                    <div class="wrapper-tab wrapper-tab--optimize mt-5">
+                    <div class="d-flex flex-wrap align-items-center mt-5">
+                        <div class="search-box mr-5">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-0" placeholder="Search">
+                                <div class="input-group-append">
+                                    <button class="btn" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filters sml">
+                            <a class="text-decoration-underline" href="#">Advanced Search & Filters</a>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-tab wrapper-tab--optimize mt-3">
 
                         <nav class="wrapper-tab__head">
                             <div class="nav nav-tabs row" id="nav-tab" role="tablist">
@@ -367,10 +383,27 @@
                                     data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
                                     aria-selected="true">
 
-                                    <div class="title d-flex align-items-center justify-content-between">
-                                        <div class="d-flex txt-neutral-800 align-items-center">
+                                    <div
+                                        class="title d-flex txt-neutral-800 align-items-start justify-content-between w-100">
 
-                                            <h3 class="fw-semi-bold ml-3">All Campaigns</h3>
+                                        <div class="text-left detail detail__content">
+                                            <h3 class="fw-semi-bold">All Campaigns</h3>
+                                            <p class="fw-bold mt-3">Categorized & Uncategorized</p>
+                                            <p class="mt-2 mb-1">Revenue: PKR 169,906,295</p>
+                                            <p>RoAS: <span class="percentage__up mr-3">145.0</span><span
+                                                    class="percentage percentage__up">171%</span></p>
+
+
+                                            <div class="d-flex flex-wrap align-items-center mt-3">
+                                                <a type="button"
+                                                    class="btn bg-secondary-700 border-secondary-750 x-sml mr-3">Recommendations
+                                                    (78)</a>
+
+                                                <a class="text-decoration-underline x-sml" href="#">All Metrics</a>
+
+                                            </div>
+
+
                                         </div>
 
                                         <div class="arrow">
