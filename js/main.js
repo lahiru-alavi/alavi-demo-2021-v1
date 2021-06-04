@@ -122,6 +122,7 @@ var bar22 = new ldBar("#al-spe", {
   value: 10,
   preset: "line",
 });
+
 // Progress Bar
 
 // chart start

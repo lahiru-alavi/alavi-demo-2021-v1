@@ -517,6 +517,14 @@ select::-ms-expand {
         stroke: var(--clr-other-b-700);
       }
 
+      &__blue--light path.mainline {
+        stroke: var(--clr-secondary-500);
+      }
+
+      &__blue--lighter path.mainline {
+        stroke: var(--clr-secondary-600);
+      }
+
       &__green path.mainline {
         stroke: var(--clr-other-c-700);
       }
@@ -735,6 +743,10 @@ Optimize Page Start
         text-decoration: underline;
       }
     }
+  }
+  .ai-graph__chart canvas {
+    min-height: 0px;
+    height: 50px !important;
   }
 }
 /*
