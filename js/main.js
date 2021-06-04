@@ -163,6 +163,12 @@ var chart = new Chart(cha1, {
     responsive: true,
     maintainAspectRatio: false,
 
+    elements: {
+      point: {
+        radius: 0,
+      },
+    },
+
     legend: {
       display: false,
       position: "bottom",
@@ -228,6 +234,12 @@ var chart = new Chart(cha2, {
   options: {
     responsive: true,
     maintainAspectRatio: false,
+
+    elements: {
+      point: {
+        radius: 0,
+      },
+    },
 
     legend: {
       display: false,
@@ -295,6 +307,12 @@ var chart = new Chart(cha2, {
     responsive: true,
     maintainAspectRatio: false,
 
+    elements: {
+      point: {
+        radius: 0,
+      },
+    },
+
     legend: {
       display: false,
       position: "bottom",
@@ -360,6 +378,12 @@ var chart = new Chart(cha2, {
   options: {
     responsive: true,
     maintainAspectRatio: false,
+
+    elements: {
+      point: {
+        radius: 0,
+      },
+    },
 
     legend: {
       display: false,
