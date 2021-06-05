@@ -896,6 +896,38 @@ Optimize Page Start
       }
     }
   }
+
+  .wrapper-box {
+    box-shadow: none;
+    padding: 0;
+  }
+}
+
+.ai-data-tbl {
+  .dataTables_filter,
+  .dataTables_info {
+    display: none;
+  }
+
+  table.dataTable > thead .sorting:before,
+  table.dataTable > thead .sorting_asc:before,
+  table.dataTable > thead .sorting_desc:before,
+  table.dataTable > thead .sorting_asc_disabled:before,
+  table.dataTable > thead .sorting_desc_disabled:before {
+    @include fa();
+    content: "\f0d8";
+  }
+
+  table.dataTable > thead .sorting:after,
+  table.dataTable > thead .sorting_asc:after,
+  table.dataTable > thead .sorting_desc:after,
+  table.dataTable > thead .sorting_asc_disabled:after,
+  table.dataTable > thead .sorting_desc_disabled:after {
+    @include fa();
+    content: "\f0d7";
+    right: 1em;
+    bottom: 0.1em;
+  }
 }
 
 /*

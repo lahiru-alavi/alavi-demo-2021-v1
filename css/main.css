@@ -1680,6 +1680,35 @@ Optimize Page Start
 .wrapper-tab-inside .wrapper-tab__body .filters__right p {
   font-size: 1.3rem;
 }
+.wrapper-tab-inside .wrapper-box {
+  box-shadow: none;
+  padding: 0;
+}
+
+.ai-data-tbl .dataTables_filter,
+.ai-data-tbl .dataTables_info {
+  display: none;
+}
+.ai-data-tbl table.dataTable > thead .sorting:before,
+.ai-data-tbl table.dataTable > thead .sorting_asc:before,
+.ai-data-tbl table.dataTable > thead .sorting_desc:before,
+.ai-data-tbl table.dataTable > thead .sorting_asc_disabled:before,
+.ai-data-tbl table.dataTable > thead .sorting_desc_disabled:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+}
+.ai-data-tbl table.dataTable > thead .sorting:after,
+.ai-data-tbl table.dataTable > thead .sorting_asc:after,
+.ai-data-tbl table.dataTable > thead .sorting_desc:after,
+.ai-data-tbl table.dataTable > thead .sorting_asc_disabled:after,
+.ai-data-tbl table.dataTable > thead .sorting_desc_disabled:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  right: 1em;
+  bottom: 0.1em;
+}
 
 /*
 ------------------------------------
