@@ -1569,7 +1569,7 @@ Optimize Page Start
 }
 
 .search-box {
-  width: 23%;
+  width: 24%;
 }
 .search-box .input-group {
   border: 0px solid #ced4da;
@@ -1767,6 +1767,10 @@ Optimize Page Start
 }
 .ai-data-labels__top {
   margin-left: 1.9em;
+}
+
+.ai-data-results {
+  padding: 3em 2em;
 }
 
 /*
