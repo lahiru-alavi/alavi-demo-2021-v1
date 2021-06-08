@@ -81,12 +81,27 @@
   --clr-other-e-500: rgba(176, 0, 255, 0.2);
   --clr-other-e-600: rgba(176, 0, 255, 0.5);
   --clr-other-e-700: #b000ff;
+  --fs-small-300: 1rem;
+  --fs-small-400: 1.125rem;
+  --fs-small-500: 1.563rem;
+  --fs-small-600: 1.953rem;
+  --fs-small-700: 2.441rem;
+  --fs-small-800: 3.052rem;
+  --fs-big-300: 1rem;
+  --fs-big-350: 1.1rem;
+  --fs-big-400: 1.2rem;
+  --fs-big-425: 1.3rem;
+  --fs-big-450: 1.4rem;
+  --fs-big-500: 2rem;
+  --fs-big-600: 2.827rem;
+  --fs-big-700: 4rem;
+  --fs-big-800: 5.653rem;
   --fs-300: 1rem;
-  --fs-400: 1.25rem;
-  --fs-500: 2rem;
-  --fs-600: 2.827rem;
-  --fs-700: 4rem;
-  --fs-800: 5.653rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.563rem;
+  --fs-600: 1.953rem;
+  --fs-700: 2.441rem;
+  --fs-800: 3.052rem;
   --fw-thin: 200;
   --fw-light: 300;
   --fw-regular: 400;
@@ -105,11 +120,14 @@
 @media only screen and (min-width: 1200px) {
   :root {
     --fs-300: 1rem;
-    --fs-400: 1.125rem;
-    --fs-500: 1.563rem;
-    --fs-600: 1.953rem;
-    --fs-700: 2.441rem;
-    --fs-800: 3.052rem;
+    --fs-350: 1.1rem;
+    --fs-400: 1.2rem;
+    --fs-425: 1.3rem;
+    --fs-450: 1.4rem;
+    --fs-500: 2rem;
+    --fs-600: 2.827rem;
+    --fs-700: 4rem;
+    --fs-800: 5.653rem;
   }
 }
 
@@ -923,6 +941,66 @@ body {
   font-weight: var(--fw-bold) !important;
 }
 
+.fs-small-300 {
+  font-size: var(--fs-small-300) !important;
+}
+
+.fs-small-400 {
+  font-size: var(--fs-small-400) !important;
+}
+
+.fs-small-500 {
+  font-size: var(--fs-small-500) !important;
+}
+
+.fs-small-600 {
+  font-size: var(--fs-small-600) !important;
+}
+
+.fs-small-700 {
+  font-size: var(--fs-small-700) !important;
+}
+
+.fs-small-800 {
+  font-size: var(--fs-small-800) !important;
+}
+
+.fs-big-300 {
+  font-size: var(--fs-big-300) !important;
+}
+
+.fs-big-350 {
+  font-size: var(--fs-big-350) !important;
+}
+
+.fs-big-400 {
+  font-size: var(--fs-big-400) !important;
+}
+
+.fs-big-425 {
+  font-size: var(--fs-big-425) !important;
+}
+
+.fs-big-450 {
+  font-size: var(--fs-big-450) !important;
+}
+
+.fs-big-500 {
+  font-size: var(--fs-big-500) !important;
+}
+
+.fs-big-600 {
+  font-size: var(--fs-big-600) !important;
+}
+
+.fs-big-700 {
+  font-size: var(--fs-big-700) !important;
+}
+
+.fs-big-800 {
+  font-size: var(--fs-big-800) !important;
+}
+
 .opacity-100 {
   opacity: var(--op-100) !important;
 }
@@ -1722,6 +1800,9 @@ Optimize Page Start
   background: var(--clr-neutral-100);
 }
 
+.ai-data-tbl {
+  min-height: 50em;
+}
 .ai-data-tbl .table {
   margin-top: 0 !important;
 }

@@ -22,6 +22,14 @@
   }
 }
 
+@each $fontSize, $fontSizeVal in $type-scale {
+  @each $prop, $value in $fontSizeVal {
+    .fs-#{$fontSize}-#{$prop} {
+      font-size: var(--fs-#{$fontSize}-#{$prop}) !important;
+    }
+  }
+}
+
 @each $opWeight, $opWeightVal in $opacity {
   .opacity-#{$opWeight} {
     opacity: var(--op-#{$opWeight}) !important;

@@ -7,8 +7,14 @@
     }
   }
 
+  @each $fsize, $fvalue in $type-scale {
+    @each $prop, $value in $fvalue {
+      --fs-#{$fsize}-#{$prop}: #{$value};
+    }
+  }
+
   @each $screen-size, $property in $type-scale {
-    @if $screen-size == big {
+    @if $screen-size == small {
       @each $prop, $value in $property {
         --fs-#{$prop}: #{$value};
       }
