@@ -1111,6 +1111,16 @@ select::-ms-expand {
   top: 25%;
 }
 
+.select-custom {
+  height: 25px;
+}
+.select-custom select {
+  padding: 0 5px;
+}
+.select-custom .select-arrow::after {
+  font-size: 1.2rem;
+}
+
 /* select box*/
 /* navigation */
 .navigation__top .navbar-nav, .navigation__bottom .navbar-nav {
@@ -1771,6 +1781,40 @@ Optimize Page Start
 
 .ai-data-results {
   padding: 3em 2em;
+}
+.ai-data-results__load {
+  display: none;
+}
+.ai-data-results__results .btn-sec {
+  margin: 1.5em auto 2.5em auto;
+}
+.ai-data-results__results .btn-sec a {
+  border-radius: 4px;
+  padding: 0.8rem 0.6rem;
+  min-width: 8.5em;
+}
+.ai-data-results__results .btn-sec a:hover {
+  background: var(--clr-other-b-400) !important;
+  border-color: var(--clr-other-b-700) !important;
+}
+.ai-data-results__results .table th,
+.ai-data-results__results .table td {
+  font-size: 1.1rem;
+  color: var(--clr-neutral-600);
+  text-align: center;
+}
+.ai-data-results__results .table select {
+  font-size: 1.2rem;
+  padding: 0;
+}
+.ai-data-results__results .table .select-arrow::after {
+  font-size: 14px;
+  left: auto;
+  height: auto;
+  top: 50%;
+}
+.ai-data-results__results .add-metrics .table select {
+  font-size: 1.1rem;
 }
 
 /*
