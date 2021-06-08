@@ -238,3 +238,69 @@ var chart = new Chart(cha3, {
     },
   },
 });
+// chart data
+var cha4 = document.getElementById("dataChart").getContext("2d");
+var chart = new Chart(cha4, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
+
+  // The data for our dataset
+  data: {
+    labels: ["Jun", "Jun 03", "Jun 05", "Jun 07"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(26, 76, 251, 1)",
+        data: [0, 40000, 38000, 50000],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(73, 171, 255, 1)",
+        data: [0, 10000, 15000, 18000],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 60000,
+            stepSize: 20000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
+});
+// chart end
