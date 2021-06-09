@@ -1806,33 +1806,8 @@ Optimize Page Start
 .ai-data-tbl .table {
   margin-top: 0 !important;
 }
-.ai-data-tbl .dataTables_filter,
-.ai-data-tbl .dataTables_info {
-  display: none;
-}
-.ai-data-tbl table.dataTable > thead .sorting:before,
-.ai-data-tbl table.dataTable > thead .sorting_asc:before,
-.ai-data-tbl table.dataTable > thead .sorting_desc:before,
-.ai-data-tbl table.dataTable > thead .sorting_asc_disabled:before,
-.ai-data-tbl table.dataTable > thead .sorting_desc_disabled:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "";
-  bottom: 1em;
-  font-size: 1.6rem;
-  right: 0.5em;
-}
-.ai-data-tbl table.dataTable > thead .sorting:after,
-.ai-data-tbl table.dataTable > thead .sorting_asc:after,
-.ai-data-tbl table.dataTable > thead .sorting_desc:after,
-.ai-data-tbl table.dataTable > thead .sorting_asc_disabled:after,
-.ai-data-tbl table.dataTable > thead .sorting_desc_disabled:after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "";
-  right: 0.5em;
-  bottom: 0.5em;
-  font-size: 1.6rem;
+.ai-data-tbl tbody {
+  border-style: hidden;
 }
 .ai-data-tbl th,
 .ai-data-tbl td {
@@ -1845,16 +1820,34 @@ Optimize Page Start
 }
 .ai-data-tbl th:not(:last-child),
 .ai-data-tbl td:not(:last-child) {
-  border-right: 1px solid var(--clr-neutral-350);
+  border-right: 1px solid var(--clr-neutral-300);
 }
 .ai-data-tbl th {
   font-size: 1.2rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   background-color: var(--clr-neutral-250);
+  cursor: pointer;
 }
 .ai-data-tbl th:first-child {
   padding-left: 1rem;
+}
+.ai-data-tbl th:first-child div {
+  justify-content: space-between;
+}
+.ai-data-tbl th div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ai-data-tbl th div::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "";
+  margin: 0 0.6rem 0 1rem;
+  font-size: 1.5rem;
+  color: var(--clr-neutral-600);
 }
 .ai-data-tbl td {
   color: var(--clr-neutral-600);
@@ -1866,6 +1859,10 @@ Optimize Page Start
 }
 .ai-data-tbl td:first-child {
   padding-left: 1rem;
+}
+.ai-data-tbl td .img-block img {
+  width: 30px;
+  margin-right: 10px;
 }
 .ai-data-tbl tr.highlight-top td {
   background-color: var(--clr-neutral-350);
@@ -1909,7 +1906,7 @@ Optimize Page Start
   display: none;
 }
 .ai-data-results__results .btn-sec {
-  margin: 1.5em auto 2.5em auto;
+  margin: 1.5em auto 3.5em auto;
 }
 .ai-data-results__results .btn-sec a {
   border-radius: 4px;

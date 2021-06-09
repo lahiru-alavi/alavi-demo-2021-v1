@@ -371,19 +371,137 @@ var chart = new Chart(cha5, {
 });
 // chart end
 
-// dataTables
-$(document).ready(function () {
-  $(".nav-tabs button").on("shown.bs.tab", function (e) {
-    $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust();
-  });
+// chart ads
+var cha6 = document.getElementById("dataChartAds").getContext("2d");
+var chart = new Chart(cha6, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
 
-  $("table.ai-data").DataTable({
-    scrollY: "520px",
-    scrollCollapse: true,
-    paging: false,
-    orderFixed: [[0, "desc"]],
-  });
+  // The data for our dataset
+  data: {
+    labels: ["Jun", "Jun 03", "Jun 05", "Jun 07"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(26, 76, 251, 1)",
+        data: [0, 40000, 38000, 50000],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(73, 171, 255, 1)",
+        data: [0, 10000, 15000, 18000],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 60000,
+            stepSize: 20000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
 });
+// chart end
+
+// Table Sort start
+function sortTable(tableClass, n) {
+  var table,
+    rows,
+    switching,
+    i,
+    x,
+    y,
+    shouldSwitch,
+    dir,
+    switchcount = 0;
+  table = document.getElementsByClassName(tableClass)[0];
+  switching = true;
+  //Set the sorting direction to ascending:
+  dir = "asc";
+  /*Make a loop that will continue until
+  no switching has been done:*/
+  while (switching) {
+    //start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /*Loop through all table rows (except the
+    first, which contains table headers):*/
+    for (i = 2; i < rows.length - 1; i++) {
+      //start by saying there should be no switching:
+      shouldSwitch = false;
+      /*Get the two elements you want to compare,
+      one from current row and one from the next:*/
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /*check if the two rows should switch place,
+      based on the direction, asc or desc:*/
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          //if so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /*If a switch has been marked, make the switch
+      and mark that a switch has been done:*/
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      //Each time a switch is done, increase this count by 1:
+      switchcount++;
+    } else {
+      /*If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again.*/
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+// Table Sort end
 
 // $("#nav-adsets-tab").click(function () {
 //   alert("The paragraph was clicked.");

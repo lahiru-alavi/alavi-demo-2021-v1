@@ -23,7 +23,7 @@
 
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.min.css"> -->
     <link rel="stylesheet" href="css/loading-bar.css" />
     <link rel="stylesheet" href="css/main.css">
     <!-- Tweaks for older IEs-->
@@ -593,7 +593,7 @@
 
                                                     <div class="text-left detail detail__content">
                                                         <h3 class="fw-semi-bold"><span>2</span>Ad Sets</h3>
-                                                        <p class="mt-3">Last 60D ATC-PUR</p>
+                                                        <p class="mt-3">Last 60D View</p>
 
 
                                                     </div>
@@ -612,7 +612,7 @@
 
                                                     <div class="text-left detail detail__content">
                                                         <h3 class="fw-semi-bold"><span>3</span>Ads</h3>
-                                                        <p class="mt-3">&nbsp;</p>
+                                                        <p class="mt-3">June Sale 21 Catalog</p>
 
 
                                                     </div>
@@ -715,24 +715,40 @@
 
                                                                     <div class="ai-data-tbl">
 
-                                                                        <table id="aiCampaign" class="table ai-data"
+                                                                        <table id="aiCampaign" class="table aiDataTbl1"
                                                                             style="width:100%">
                                                                             <thead>
                                                                                 <tr>
-                                                                                    <th>
-                                                                                        <div class="">
-                                                                                            <p>Campaign Name</p>
-                                                                                            <p
-                                                                                                class="x-sml txt-neutral-600">
-                                                                                                Target / PKR</p>
+                                                                                    <th
+                                                                                        onclick="sortTable('aiDataTbl1', 0)">
+                                                                                        <div>
+                                                                                            <p>
+                                                                                                Campaign Name<br>
+                                                                                                <span
+                                                                                                    class="x-sml txt-neutral-600">
+                                                                                                    Target / PKR</span>
+                                                                                            </p>
                                                                                         </div>
+
                                                                                     </th>
-                                                                                    <th>Revenue</th>
-                                                                                    <th>Spends</th>
-                                                                                    <th>RoAS</th>
-                                                                                    <th>Purchases</th>
-                                                                                    <th>CPA</th>
-                                                                                    <th>Funnel Level</th>
+                                                                                    <th>
+                                                                                        <div>Revenue</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Spends</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>RoAS</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Purchases</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>CPA</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Funnel Level</div>
+                                                                                    </th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
@@ -1994,24 +2010,39 @@
 
                                                                     <div class="ai-data-tbl">
 
-                                                                        <table id="aiAdset" class="table ai-data"
+                                                                        <table id="aiAdset" class="table aiDataTbl2"
                                                                             style="width:100%">
                                                                             <thead>
                                                                                 <tr>
-                                                                                    <th>
-                                                                                        <div class="">
-                                                                                            <p>Adsets Name</p>
-                                                                                            <p
-                                                                                                class="x-sml txt-neutral-600">
-                                                                                                Target / Currency</p>
+                                                                                    <th
+                                                                                        onclick="sortTable('aiDataTbl2', 0)">
+                                                                                        <div>
+                                                                                            <p>Adsets Name<br>
+                                                                                                <span
+                                                                                                    class="x-sml txt-neutral-600">
+                                                                                                    Target /
+                                                                                                    Currency</span>
+                                                                                            </p>
                                                                                         </div>
                                                                                     </th>
-                                                                                    <th>Revenue</th>
-                                                                                    <th>Spends</th>
-                                                                                    <th>RoAS</th>
-                                                                                    <th>Purchases</th>
-                                                                                    <th>CPA</th>
-                                                                                    <th>Launch Date</th>
+                                                                                    <th>
+                                                                                        <div>Revenue</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Spends</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>RoAS</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Purchases</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>CPA</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Launch Date</div>
+                                                                                    </th>
                                                                                 </tr>
                                                                             </thead>
                                                                             <tbody>
@@ -2982,7 +3013,8 @@
                                                                                                 class="d-flex align-items-center ml-5">
                                                                                                 <i
                                                                                                     class="fas fa-square-full mr-2 txt-secondary-500"></i>
-                                                                                                <p class="sml">AOV</p>
+                                                                                                <p class="sml">Clicks
+                                                                                                </p>
                                                                                             </div>
                                                                                         </div>
 
@@ -3017,14 +3049,1138 @@
 
                                         </div>
                                         <div class="tab-pane fade" id="nav-ads" role="tabpanel"
-                                            aria-labelledby="nav-ads-tab">Lorem ipsum
-                                            dolor sit, amet consectetur adipisicing elit. In nihil provident explicabo,
-                                            asperiores
-                                            cumque iste
-                                            sapiente repudiandae soluta iure optio dolorem eius, temporibus nostrum!
-                                            Aliquam cumque
-                                            itaque aut!
-                                            Quasi, atque.</div>
+                                            aria-labelledby="nav-ads-tab">
+
+                                            <div id="tabThree" class="tab-data">
+
+                                                <div class="row filters align-items-center">
+                                                    <div class="col-md-4 pr-4 filters__left">
+                                                        <div class="search-box w-100">
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control border-0"
+                                                                    placeholder="Search">
+                                                                <div class="input-group-append">
+                                                                    <button class="btn" type="button">
+                                                                        <i class="fa fa-search"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                    <div class="col-md-4 filters__right">
+
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-6 pl-4"><a
+                                                                    class="text-decoration-underline sml"
+                                                                    href="#">Advanced
+                                                                    Search</a></div>
+                                                            <div class="col-md-6 text-right">
+                                                                <a type="button"
+                                                                    class="btn bg-secondary-100 border-secondary-100 mr-3 txt-neutral-100">+
+                                                                    New Ad</a>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="row filters align-items-center mt-3">
+                                                    <div class="col-md-4 pr-4 filters__left">
+                                                        <a class="text-decoration-underline sml" href="#">Add
+                                                            Filters</a>
+
+
+                                                    </div>
+                                                    <div class="col-md-4 filters__right">
+
+                                                        <div class="row align-items-center">
+                                                            <div class="col-md-12 text-right">
+
+                                                                <div
+                                                                    class="d-flex flex-wrap align-items-center justify-content-end">
+                                                                    <p class="mr-4">1
+                                                                        Ads found</p>
+
+                                                                    <div
+                                                                        class="select-box bg-neutral-100 border-neutral-500 ml-3 mr-3">
+                                                                        <select class="bg-neutral-100 txt-neutral-600">
+                                                                            <option value="">Active Only</option>
+                                                                            <option value="">Paused Only</option>
+                                                                            <option value="">Recommendations</option>
+                                                                            <option value="">All</option>
+
+                                                                        </select>
+                                                                        <span
+                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                    </div>
+
+                                                    <div class="col-md-4 filters__end">
+
+                                                        <div class="d-flex flex-column align-items-end filter">
+
+                                                            <div class="d-flex justify-content-end mb-4">
+                                                                <ul class="nav ml-auto">
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" aria-current="page"
+                                                                            href="#">Today</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" href="#">Yesterday</a>
+                                                                    </li>
+                                                                    <li class="nav-item active">
+                                                                        <a class="nav-link" href="#">7D</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" href="#">14D</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" href="#">Jun</a>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <a class="nav-link" href="#">May</a>
+                                                                    </li>
+                                                                </ul>
+
+                                                                <a class="nav-link pr-0 pb-0" href="#"><button
+                                                                        type="button"
+                                                                        class="btn bg-neutral-100 border-neutral-500 sml">Custom</button></a>
+                                                            </div>
+
+                                                            <p class="sml">28 May, 2021 - 3 Jun, 2021</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-md-12">
+                                                        <div class="wrapper-box">
+
+                                                            <div class="d-flex">
+                                                                <div class="col-md-8 pr-0 border-right">
+
+                                                                    <div class="ai-data-tbl">
+
+                                                                        <table id="aiAdset" class="table aiDataTbl3"
+                                                                            style="width:100%">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th
+                                                                                        onclick="sortTable('aiDataTbl3', 0)">
+                                                                                        <div>
+                                                                                            <p>Ad Name<br>
+                                                                                                <span
+                                                                                                    class="x-sml txt-neutral-600">
+                                                                                                    Target</span>
+                                                                                            </p>
+                                                                                        </div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Revenue</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Spends</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>RoAS</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Purchases</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Type</div>
+                                                                                    </th>
+                                                                                    <th>
+                                                                                        <div>Launched</div>
+                                                                                    </th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr class="highlight-top">
+                                                                                    <td>Total for selected time period
+                                                                                    </td>
+                                                                                    <td>1,783,489.0</td>
+                                                                                    <td>94,884.0</td>
+                                                                                    <td>
+                                                                                        <div
+                                                                                            class="detail detail__content">
+                                                                                            <p
+                                                                                                class="txt-secondary-400">
+                                                                                                18.8</p>
+                                                                                            <p
+                                                                                                class="percentage percentage__up">
+                                                                                                100.0</p>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>663.0</td>
+                                                                                    <td>-</td>
+                                                                                    <td>-</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div
+                                                                                            class="d-flex flex-wrap align-items-center img-block">
+                                                                                            <img src="img/safe_image.png"
+                                                                                                alt="adImage">
+                                                                                            June Sale 21 Catalog
+                                                                                        </div>
+
+                                                                                    </td>
+                                                                                    <td>1,783.489.0</td>
+                                                                                    <td>94,884.0</td>
+                                                                                    <td>
+                                                                                        <div
+                                                                                            class="detail detail__content">
+                                                                                            <p
+                                                                                                class="txt-secondary-400">
+                                                                                                18.8</p>
+                                                                                            <p
+                                                                                                class="percentage percentage__up">
+                                                                                                100.0</p>
+                                                                                        </div>
+                                                                                    </td>
+                                                                                    <td>663</td>
+                                                                                    <td>SHARE</td>
+                                                                                    <td>
+                                                                                        3 Jun, 2021
+                                                                                    </td>
+                                                                                </tr>
+
+                                                                            </tbody>
+
+                                                                        </table>
+
+
+                                                                    </div>
+
+                                                                    <div class="ai-data-labels">
+
+                                                                        <div
+                                                                            class="d-flex flex-wrap align-items-center ai-data-labels__top">
+                                                                            <div class="mr-4">
+                                                                                <p class="fw-bold sml">Alavi Indicators
+                                                                                </p>
+                                                                            </div>
+                                                                            <div
+                                                                                class="mr-5 d-flex flex-wrap align-items-center">
+                                                                                <img src="img/al-op.svg" alt="">
+                                                                                <p class="sml ml-2">
+                                                                                    Alavi Campaign
+                                                                                </p>
+                                                                            </div>
+                                                                            <div class="mr-4">
+                                                                                <a type="button"
+                                                                                    class="btn bg-secondary-700 border-secondary-750 sml mr-3">Recommendations
+                                                                                    Available</a>
+                                                                            </div>
+                                                                            <div>
+                                                                                <a type="button"
+                                                                                    class="btn bg-neutral-300 border-neutral-400 sml mr-3">Paused</a>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div
+                                                                            class="d-flex flex-wrap align-items-center mt-4 ai-data-labels__bottom">
+                                                                            <div class="mr-4">
+                                                                                <p class="fw-bold sml">Facebook
+                                                                                    Indicators
+                                                                                </p>
+                                                                            </div>
+                                                                            <div
+                                                                                class="mr-5 d-flex flex-column flex-wrap">
+                                                                                <div
+                                                                                    class="d-flex flex-wrap align-items-center">
+                                                                                    <i
+                                                                                        class="fas fa-circle txt-secondary-300 top"></i>
+                                                                                    <p class="sml ml-2">
+                                                                                        Active/Learning
+                                                                                    </p>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="d-flex flex-wrap align-items-center mt-2">
+                                                                                    <i
+                                                                                        class="fas fa-caret-up txt-secondary-200 btm"></i>
+                                                                                    <p class="sml ml-2">
+                                                                                        Error/Rejected
+                                                                                    </p>
+                                                                                </div>
+
+
+                                                                            </div>
+                                                                            <div
+                                                                                class="mr-4 d-flex flex-column flex-wrap">
+                                                                                <div
+                                                                                    class="d-flex flex-wrap align-items-center">
+                                                                                    <i
+                                                                                        class="far fa-circle txt-secondary-300 top"></i>
+                                                                                    <p class="sml ml-2">
+                                                                                        Scheduled/In Review
+                                                                                    </p>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="d-flex flex-wrap align-items-center mt-2">
+                                                                                    <i
+                                                                                        class="fas fa-caret-up txt-secondary-750 btm"></i>
+                                                                                    <p class="sml ml-2">
+                                                                                        Warning/Learning Limited
+                                                                                    </p>
+                                                                                </div>
+
+
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                                <div class="col-md-4 wrap-result">
+
+
+                                                                    <div class="ai-data-results">
+
+                                                                        <div id="data-load"
+                                                                            class="ai-data-results__load text-center">
+                                                                            <h3 class="txt-neutral-800 fw-semi-bold">
+                                                                                Campaigns for the
+                                                                                Selected Funnel</h3>
+                                                                            <p class="sml mt-3">Please click on a
+                                                                                campaign
+                                                                                (row)
+                                                                                to see
+                                                                                details</p>
+
+                                                                            <img src="img/arrow.png" alt="arrow">
+                                                                        </div>
+
+                                                                        <div id="data-result"
+                                                                            class="ai-data-results__results">
+
+                                                                            <div class="text-center">
+
+                                                                                <h3
+                                                                                    class="txt-neutral-800 fw-semi-bold">
+                                                                                    June Sale 21 Catalog</h3>
+
+                                                                                <p class="x-sml mt-4 invisible">Budget:0
+                                                                                </p>
+                                                                                <p class="x-sml mt-2 invisible">
+                                                                                    Launched:
+                                                                                    <strong>3
+                                                                                        Jun, 2021</strong>
+                                                                                    |
+                                                                                    Modified: <strong>8 Jun,
+                                                                                        2021</strong>
+                                                                                </p>
+
+
+                                                                                <div
+                                                                                    class="d-flex flex-wrap justify-content-between align-items-center btn-sec">
+
+                                                                                    <a class="btn border-neutral-500 bg-neutral-100 x-sml"
+                                                                                        href="#">Edit</a>
+                                                                                    <a class="btn border-neutral-500 bg-neutral-100 x-sml"
+                                                                                        href="#">Duplicate</a>
+                                                                                    <a class="btn border-neutral-500 bg-neutral-100 x-sml"
+                                                                                        href="#">See Visuals</a>
+                                                                                    <a class="btn border-neutral-500 bg-neutral-100 x-sml"
+                                                                                        href="#">Pause</a>
+
+
+                                                                                </div>
+
+                                                                            </div>
+
+
+                                                                            <div class="text-left">
+                                                                                <div class="key-metrics mt-5">
+                                                                                    <h4
+                                                                                        class="txt-neutral-800 fw-semi-bold">
+                                                                                        Compare Key
+                                                                                        Metrics</h4>
+
+                                                                                    <table
+                                                                                        class="table table-bordered mt-3">
+
+                                                                                        <thead>
+                                                                                            <tr>
+                                                                                                <th>Previous (Days)</th>
+                                                                                                <th>3D</th>
+                                                                                                <th>5D</th>
+                                                                                                <th>7D</th>
+                                                                                                <th>14D</th>
+                                                                                                <th>30D</th>
+                                                                                            </tr>
+                                                                                        </thead>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CTR
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Spends
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Video
+                                                                                                                Views
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Frequency
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Impressions
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Transactions
+                                                                                                            </option>
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                                <td>22.36</td>
+                                                                                                <td>22.53</td>
+                                                                                                <td>22.53</td>
+                                                                                                <td>22.53</td>
+                                                                                                <td>22.53</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CTR
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Spends
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Video
+                                                                                                                Views
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Frequency
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Impressions
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Transactions
+                                                                                                            </option>
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                                <td>54,458</td>
+                                                                                                <td>74,867</td>
+                                                                                                <td>74,867</td>
+                                                                                                <td>74,867</td>
+                                                                                                <td>74,867</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CTR
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Spends
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Video
+                                                                                                                Views
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Frequency
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Impressions
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Transactions
+                                                                                                            </option>
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                                <td>463</td>
+                                                                                                <td>618</td>
+                                                                                                <td>618</td>
+                                                                                                <td>618</td>
+                                                                                                <td>618</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CTR
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Spends
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Video
+                                                                                                                Views
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Frequency
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Impressions
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Transactions
+                                                                                                            </option>
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </td>
+                                                                                                <td>2</td>
+                                                                                                <td>2</td>
+                                                                                                <td>2</td>
+                                                                                                <td>2</td>
+                                                                                                <td>2</td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                CPA
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CTR
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Spends
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Video
+                                                                                                                Views
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Frequency
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Impressions
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Transactions
+                                                                                                            </option>
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+
+                                                                                                </td>
+                                                                                                <td>118</td>
+                                                                                                <td>121</td>
+                                                                                                <td>121</td>
+                                                                                                <td>121</td>
+                                                                                                <td>121</td>
+                                                                                            </tr>
+                                                                                        </tbody>
+
+                                                                                    </table>
+
+
+
+
+                                                                                </div>
+                                                                                <div class="add-metrics mt-5">
+                                                                                    <h4
+                                                                                        class="txt-neutral-800 fw-semi-bold">
+                                                                                        Additional Metrics</h4>
+
+                                                                                    <table
+                                                                                        class="table table-bordered mt-3">
+
+                                                                                        <thead>
+                                                                                            <tr>
+                                                                                                <th>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Freq.
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Imp.
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </th>
+                                                                                                <th>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Reach
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Freq.
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Imp.
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </th>
+                                                                                                <th>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Freq.
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Imp.
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </th>
+                                                                                                <th>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                Freq.
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Imp.
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </th>
+                                                                                                <th>
+                                                                                                    <div
+                                                                                                        class="select-box bg-neutral-100">
+                                                                                                        <select
+                                                                                                            class="bg-neutral-100 txt-neutral-600">
+                                                                                                            <option
+                                                                                                                value=""
+                                                                                                                selected>
+                                                                                                                AOV
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                CPA
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                RoAS
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Clicks
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Reach
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Link
+                                                                                                                Clicks
+                                                                                                            </option>
+
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Freq.
+                                                                                                            </option>
+                                                                                                            <option
+                                                                                                                value="">
+                                                                                                                Imp.
+                                                                                                            </option>
+
+                                                                                                        </select>
+                                                                                                        <span
+                                                                                                            class="select-arrow txt-neutral-600"></span>
+                                                                                                    </div>
+                                                                                                </th>
+
+                                                                                            </tr>
+                                                                                        </thead>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td>315237</td>
+                                                                                                <td>100649</td>
+                                                                                                <td>35972</td>
+                                                                                                <td>3</td>
+                                                                                                <td>2690.0287</td>
+                                                                                            </tr>
+
+                                                                                        </tbody>
+
+                                                                                    </table>
+
+                                                                                </div>
+
+                                                                                <div class="compare-data mt-5">
+                                                                                    <h4
+                                                                                        class="txt-neutral-800 fw-semi-bold">
+                                                                                        Compare Metrics</h4>
+                                                                                    <div
+                                                                                        class="d-flex flex-wrap align-items-center mt-3">
+
+                                                                                        <div
+                                                                                            class="select-box select-custom bg-neutral-100 border-neutral-500">
+                                                                                            <select
+                                                                                                class="bg-neutral-100 txt-neutral-600 sml">
+                                                                                                <option value="">
+                                                                                                    AOV
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Frequency
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Clicks
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Impressions
+                                                                                                </option>
+                                                                                                <option value=""
+                                                                                                    selected>
+                                                                                                    Reach
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    RoAS
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Spends
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Transactions
+                                                                                                </option>
+
+                                                                                            </select>
+                                                                                            <span
+                                                                                                class="select-arrow txt-neutral-600"></span>
+                                                                                        </div>
+
+                                                                                        <span
+                                                                                            class="mr-4 ml-4">vs</span>
+
+                                                                                        <div
+                                                                                            class="select-box select-custom bg-neutral-100 border-neutral-500">
+                                                                                            <select
+                                                                                                class="bg-neutral-100 txt-neutral-600 sml">
+                                                                                                <option value="">
+                                                                                                    AOV
+                                                                                                </option>
+                                                                                                <option value=""
+                                                                                                    selected>
+                                                                                                    Frequency
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Clicks
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Impressions
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Reach
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    RoAS
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Spends
+                                                                                                </option>
+                                                                                                <option value="">
+                                                                                                    Transactions
+                                                                                                </option>
+
+                                                                                            </select>
+                                                                                            <span
+                                                                                                class="select-arrow txt-neutral-600"></span>
+                                                                                        </div>
+
+
+
+                                                                                    </div>
+
+                                                                                    <div class="ai-graph mt-5">
+
+
+                                                                                        <div
+                                                                                            class="legend ai-graph__compare d-flex align-items-center justify-content-center">
+                                                                                            <div
+                                                                                                class="d-flex align-items-center">
+                                                                                                <i
+                                                                                                    class="fas fa-square-full txt-secondary-100 mr-2"></i>
+                                                                                                <p class="sml">Reach</p>
+                                                                                            </div>
+
+                                                                                            <div
+                                                                                                class="d-flex align-items-center ml-5">
+                                                                                                <i
+                                                                                                    class="fas fa-square-full mr-2 txt-secondary-500"></i>
+                                                                                                <p class="sml">Frequency
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div
+                                                                                            class="ai-graph__chart mb-5">
+                                                                                            <canvas
+                                                                                                id="dataChartAds"></canvas>
+                                                                                        </div>
+                                                                                        <p class="label">1
+                                                                                            Mar, 2020 - 21
+                                                                                            Mar, 2020</p>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
 
 
                                     </div>
@@ -3091,8 +4247,8 @@
     <!-- chart -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
 
-    <!-- datatable -->
-    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <!-- datatable 
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>-->
 
     <script src="js/main-opt.js"></script>
 
