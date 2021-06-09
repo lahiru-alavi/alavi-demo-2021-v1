@@ -896,9 +896,10 @@ Optimize Page Start
 
     .filters {
       &__right {
-        a {
+        .btn {
           font-size: 1.2rem;
           border-radius: 4px;
+          min-width: 115px;
         }
         .select-box {
           height: 30px;
@@ -995,6 +996,9 @@ Optimize Page Start
     &:first-child {
       padding-left: 1rem;
     }
+    &:last-child {
+      text-align: center;
+    }
 
     .img-block {
       img {
@@ -1012,6 +1016,22 @@ Optimize Page Start
         font-weight: var(--fw-semi-bold);
       }
     }
+
+    &.ClickRow {
+      cursor: pointer;
+    }
+
+    &.highlight-row {
+      td {
+        background-color: var(--clr-secondary-50);
+        color: var(--clr-neutral-100);
+
+        a {
+          color: var(--clr-neutral-100);
+        }
+      }
+    }
+
     &.highlight-btm {
       td {
         background-color: var(--clr-secondary-700);
@@ -1056,10 +1076,12 @@ Optimize Page Start
   padding: 3em 2em;
 
   &__load {
-    display: none;
+    // display: none;
   }
 
   &__results {
+    display: none;
+
     .btn-sec {
       margin: 1.5em auto 3.5em auto;
 

@@ -560,7 +560,7 @@
                                 <div class="wrapper-tab-inside mt-5">
 
                                     <nav class="wrapper-tab-inside__header">
-                                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                        <div class="nav nav-tabs tab-inside" id="nav-tab" role="tablist">
                                             <button class="col-md-4 nav-link active" id="nav-camp-tab"
                                                 data-bs-toggle="tab" data-bs-target="#nav-camp" type="button" role="tab"
                                                 aria-controls="nav-camp" aria-selected="true">
@@ -633,8 +633,9 @@
                                             <div id="tabOne" class="tab-data">
 
                                                 <div class="row filters align-items-center">
+
                                                     <div class="col-md-4 pr-4 filters__left">
-                                                        <div class="search-box w-100">
+                                                        <div class="search-box w-100 mb-3">
                                                             <div class="input-group">
                                                                 <input type="text" class="form-control border-0"
                                                                     placeholder="Search">
@@ -646,11 +647,17 @@
                                                             </div>
                                                         </div>
 
+                                                        <a class="text-decoration-underline sml" href="#">Add
+                                                            Filters</a>
+
 
                                                     </div>
+
+
+
                                                     <div class="col-md-4 filters__right">
 
-                                                        <div class="row align-items-center">
+                                                        <div class="row align-items-center mb-3">
                                                             <div class="col-md-6 pl-4"><a
                                                                     class="text-decoration-underline sml"
                                                                     href="#">Advanced
@@ -661,19 +668,6 @@
                                                                     New Campaign</a>
                                                             </div>
                                                         </div>
-
-
-
-                                                    </div>
-                                                </div>
-                                                <div class="row filters align-items-center mt-3">
-                                                    <div class="col-md-4 pr-4 filters__left">
-                                                        <a class="text-decoration-underline sml" href="#">Add
-                                                            Filters</a>
-
-
-                                                    </div>
-                                                    <div class="col-md-4 filters__right">
 
                                                         <div class="row align-items-center">
                                                             <div class="col-md-12 text-right">
@@ -704,6 +698,7 @@
 
                                                     </div>
                                                 </div>
+
 
                                                 <div class="row">
 
@@ -772,7 +767,7 @@
                                                                                     <td>123.8</td>
                                                                                     <td>&nbsp;</td>
                                                                                 </tr>
-                                                                                <tr>
+                                                                                <tr class="ClickRow">
                                                                                     <td>June Sale 21 - Dynamic - C</td>
                                                                                     <td>831,836</td>
                                                                                     <td>34,771</td>
@@ -1105,7 +1100,7 @@
                                                                             <img src="img/arrow.png" alt="arrow">
                                                                         </div>
 
-                                                                        <div id="data-result"
+                                                                        <div id="data-result-campaign"
                                                                             class="ai-data-results__results">
 
                                                                             <div class="text-center">
@@ -1138,7 +1133,8 @@
                                                                                         href="#">Edit</a>
                                                                                     <a class="btn border-neutral-500 bg-neutral-100 x-sml"
                                                                                         href="#">Duplicate</a>
-                                                                                    <a class="btn border-neutral-500 bg-neutral-100 x-sml"
+                                                                                    <a id="adSetBtn"
+                                                                                        class="btn border-neutral-500 bg-neutral-100 x-sml"
                                                                                         href="#">See Ad Sets</a>
                                                                                     <a class="btn border-neutral-500 bg-neutral-100 x-sml"
                                                                                         href="#">Pause</a>
@@ -1929,7 +1925,7 @@
 
                                                 <div class="row filters align-items-center">
                                                     <div class="col-md-4 pr-4 filters__left">
-                                                        <div class="search-box w-100">
+                                                        <div class="search-box w-100 mb-3">
                                                             <div class="input-group">
                                                                 <input type="text" class="form-control border-0"
                                                                     placeholder="Search">
@@ -1941,11 +1937,14 @@
                                                             </div>
                                                         </div>
 
+                                                        <a class="text-decoration-underline sml" href="#">Add
+                                                            Filters</a>
+
 
                                                     </div>
                                                     <div class="col-md-4 filters__right">
 
-                                                        <div class="row align-items-center">
+                                                        <div class="row align-items-center mb-3">
                                                             <div class="col-md-6 pl-4"><a
                                                                     class="text-decoration-underline sml"
                                                                     href="#">Advanced
@@ -1956,19 +1955,6 @@
                                                                     New Ad Set</a>
                                                             </div>
                                                         </div>
-
-
-
-                                                    </div>
-                                                </div>
-                                                <div class="row filters align-items-center mt-3">
-                                                    <div class="col-md-4 pr-4 filters__left">
-                                                        <a class="text-decoration-underline sml" href="#">Add
-                                                            Filters</a>
-
-
-                                                    </div>
-                                                    <div class="col-md-4 filters__right">
 
                                                         <div class="row align-items-center">
                                                             <div class="col-md-12 text-right">
@@ -1999,6 +1985,7 @@
 
                                                     </div>
                                                 </div>
+
 
                                                 <div class="row">
 
@@ -2207,20 +2194,6 @@
 
 
                                                                     <div class="ai-data-results">
-
-                                                                        <div id="data-load"
-                                                                            class="ai-data-results__load text-center">
-                                                                            <h3 class="txt-neutral-800 fw-semi-bold">
-                                                                                Campaigns for the
-                                                                                Selected Funnel</h3>
-                                                                            <p class="sml mt-3">Please click on a
-                                                                                campaign
-                                                                                (row)
-                                                                                to see
-                                                                                details</p>
-
-                                                                            <img src="img/arrow.png" alt="arrow">
-                                                                        </div>
 
                                                                         <div id="data-result"
                                                                             class="ai-data-results__results">
@@ -3345,19 +3318,7 @@
 
                                                                     <div class="ai-data-results">
 
-                                                                        <div id="data-load"
-                                                                            class="ai-data-results__load text-center">
-                                                                            <h3 class="txt-neutral-800 fw-semi-bold">
-                                                                                Campaigns for the
-                                                                                Selected Funnel</h3>
-                                                                            <p class="sml mt-3">Please click on a
-                                                                                campaign
-                                                                                (row)
-                                                                                to see
-                                                                                details</p>
 
-                                                                            <img src="img/arrow.png" alt="arrow">
-                                                                        </div>
 
                                                                         <div id="data-result"
                                                                             class="ai-data-results__results">

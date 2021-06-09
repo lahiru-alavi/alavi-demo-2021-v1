@@ -506,3 +506,15 @@ function sortTable(tableClass, n) {
 // $("#nav-adsets-tab").click(function () {
 //   alert("The paragraph was clicked.");
 // });
+
+$(document).ready(function () {
+  $("#aiCampaign").delegate("tr.ClickRow", "click", function () {
+    $("tr.ClickRow").addClass("highlight-row");
+    $("#data-load").addClass("d-none");
+    $("#data-result-campaign").addClass("d-block");
+  });
+});
+
+$("#adSetBtn").click(function () {
+  $(".tab-inside > .active").next("button").trigger("click");
+});
