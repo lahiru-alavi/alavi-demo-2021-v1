@@ -1827,8 +1827,23 @@ Optimize Page Start
   background: var(--clr-neutral-100);
 }
 
-.ai-data-tbl {
-  min-height: 50em;
+.ai-data-tbl .ai-h-tbl {
+  max-height: 500px;
+  overflow: auto;
+}
+.ai-data-tbl .ai-h-tbl::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.ai-data-tbl .ai-h-tbl::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+}
+.ai-data-tbl .ai-h-tbl::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #a8b1ba;
 }
 .ai-data-tbl .table {
   margin-top: 0 !important;
@@ -1855,6 +1870,8 @@ Optimize Page Start
   padding-bottom: 1rem;
   background-color: var(--clr-neutral-250);
   cursor: pointer;
+  position: sticky;
+  top: 0;
 }
 .ai-data-tbl th:first-child {
   padding-left: 1rem;
@@ -1898,6 +1915,8 @@ Optimize Page Start
   background-color: var(--clr-neutral-350);
   color: var(--clr-neutral-800);
   font-weight: var(--fw-semi-bold);
+  position: sticky;
+  top: 4.7em;
 }
 .ai-data-tbl tr.ClickRow {
   cursor: pointer;
