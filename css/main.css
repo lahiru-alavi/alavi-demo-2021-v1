@@ -1134,6 +1134,10 @@ h4 {
   font-size: 1rem;
 }
 
+.shadow {
+  box-shadow: 0px 0rem 1rem rgba(0, 0, 0, 0.06) !important;
+}
+
 .form-control:focus {
   box-shadow: none;
 }
@@ -1246,6 +1250,9 @@ select::-ms-expand {
 .navigation__top .nav-item.active::after, .navigation__bottom .nav-item.active::after {
   content: "";
   display: block;
+}
+.navigation .nav-opt .nav-item {
+  min-width: 200px;
 }
 .navigation__top {
   min-height: 85px;
@@ -1664,11 +1671,14 @@ Optimize Page Start
 ------------------------------------
 */
 .facebook-box {
-  padding: 2em 3em;
+  padding: 2em 3em 3em 3em;
 }
 .facebook-box h3 {
   color: var(--clr-neutral-800);
   font-weight: var(--fw-semi-bold);
+}
+.facebook-box .detail__content {
+  padding: 20px 10px 0px 10px;
 }
 .facebook-box .detail__content .price {
   font-size: 1.6rem;
@@ -1683,7 +1693,9 @@ Optimize Page Start
 }
 .facebook-box .ai-graph__chart canvas {
   min-height: 0px;
+  width: 250px !important;
   height: 50px !important;
+  margin: 0 auto;
 }
 .facebook-box .progressBar {
   margin-bottom: 0.5rem;
@@ -1785,7 +1797,7 @@ Optimize Page Start
   background-color: var(--clr-neutral-700);
   color: var(--clr-neutral-100);
   border-radius: 6px;
-  padding: 5px 12px 8px 12px;
+  padding: 5px 11px 9px 11px;
   margin-right: 1rem;
   font-size: 1.2rem;
 }
@@ -1830,20 +1842,22 @@ Optimize Page Start
 .ai-data-tbl .ai-h-tbl {
   max-height: 500px;
   overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #a8b1ba #f5f5f5;
 }
 .ai-data-tbl .ai-h-tbl::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  background-color: #f5f5f5;
+  background-color: var(--clr-neutral-300);
 }
 .ai-data-tbl .ai-h-tbl::-webkit-scrollbar {
   width: 8px;
-  background-color: #f5f5f5;
+  background-color: var(--clr-neutral-300);
 }
 .ai-data-tbl .ai-h-tbl::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #a8b1ba;
+  background-color: var(--clr-neutral-500);
 }
 .ai-data-tbl .table {
   margin-top: 0 !important;
@@ -1953,7 +1967,7 @@ Optimize Page Start
 
 .ai-data-labels {
   background: var(--clr-neutral-200);
-  padding: 4em 5em 8em 8em;
+  padding: 6em 5em 8em 8em;
 }
 .ai-data-labels img {
   width: 12px;
@@ -1966,7 +1980,7 @@ Optimize Page Start
 }
 
 .ai-data-results {
-  padding: 3em 2em;
+  padding: 3em 3em;
 }
 .ai-data-results__load img {
   width: 8em;
