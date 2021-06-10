@@ -785,6 +785,7 @@ Optimize Page Start
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-right: 0 !important;
+    color: var(--clr-neutral-500);
   }
   .form-control {
     font-size: 1.3rem;
@@ -806,8 +807,12 @@ Optimize Page Start
   }
 
   i {
-    color: var(--clr-neutral-600);
+    color: var(--clr-neutral-500);
     font-size: 1.3rem;
+  }
+  ::placeholder {
+    color: var(--clr-neutral-500);
+    opacity: 1;
   }
 }
 
