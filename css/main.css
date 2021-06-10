@@ -1851,8 +1851,8 @@ Optimize Page Start
 }
 .ai-data-tbl th {
   font-size: 1.2rem;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: var(--clr-neutral-250);
   cursor: pointer;
 }
@@ -1874,7 +1874,7 @@ Optimize Page Start
   content: "";
   margin: 0 0.6rem 0 1rem;
   font-size: 1.5rem;
-  color: var(--clr-neutral-600);
+  color: var(--clr-neutral-400);
 }
 .ai-data-tbl td {
   color: var(--clr-neutral-600);
@@ -1948,6 +1948,9 @@ Optimize Page Start
 
 .ai-data-results {
   padding: 3em 2em;
+}
+.ai-data-results__load img {
+  width: 8em;
 }
 .ai-data-results__results {
   display: none;
