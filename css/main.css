@@ -1896,6 +1896,13 @@ Optimize Page Start
 .ai-data-tbl tr.highlight-row td a {
   color: var(--clr-neutral-100);
 }
+.ai-data-tbl tr.highlight-row--black td {
+  background-color: var(--clr-neutral-800);
+  color: var(--clr-neutral-100);
+}
+.ai-data-tbl tr.highlight-row--black td a {
+  color: var(--clr-neutral-100);
+}
 .ai-data-tbl tr.highlight-btm td {
   background-color: var(--clr-secondary-700);
 }

@@ -1032,6 +1032,17 @@ Optimize Page Start
       }
     }
 
+    &.highlight-row--black {
+      td {
+        background-color: var(--clr-neutral-800);
+        color: var(--clr-neutral-100);
+
+        a {
+          color: var(--clr-neutral-100);
+        }
+      }
+    }
+
     &.highlight-btm {
       td {
         background-color: var(--clr-secondary-700);

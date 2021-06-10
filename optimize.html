@@ -583,7 +583,7 @@
 
                                             </button>
 
-                                            <button class="col-md-4 nav-link ml-auto" id="nav-adsets-tab"
+                                            <button class="col-md-4 nav-link ml-auto disabled" id="nav-adsets-tab"
                                                 data-bs-toggle="tab" data-bs-target="#nav-adsets" type="button"
                                                 role="tab" aria-controls="nav-adsets" aria-selected="false">
 
@@ -593,7 +593,7 @@
 
                                                     <div class="text-left detail detail__content">
                                                         <h3 class="fw-semi-bold"><span>2</span>Ad Sets</h3>
-                                                        <p class="mt-3">Last 60D View</p>
+                                                        <p id="adset-txt" class="mt-3 invisible">Last 60D View</p>
 
 
                                                     </div>
@@ -602,7 +602,7 @@
                                                 </div>
 
                                             </button>
-                                            <button class="col-md-4 nav-link ml-auto" id="nav-ads-tab"
+                                            <button class="col-md-4 nav-link ml-auto disabled" id="nav-ads-tab"
                                                 data-bs-toggle="tab" data-bs-target="#nav-ads" type="button" role="tab"
                                                 aria-controls="nav-ads" aria-selected="false">
 
@@ -612,7 +612,7 @@
 
                                                     <div class="text-left detail detail__content">
                                                         <h3 class="fw-semi-bold"><span>3</span>Ads</h3>
-                                                        <p class="mt-3">June Sale 21 Catalog</p>
+                                                        <p id="ad-txt" class="mt-3 invisible">June Sale 21 Catalog</p>
 
 
                                                     </div>
@@ -2053,7 +2053,7 @@
                                                                                     <td>121.1</td>
                                                                                     <td>&nbsp;</td>
                                                                                 </tr>
-                                                                                <tr>
+                                                                                <tr class="ClickRow">
                                                                                     <td>Last 60D ATC-PUR</td>
                                                                                     <td>307,664.5</td>
                                                                                     <td>7,435.0</td>
@@ -2195,7 +2195,7 @@
 
                                                                     <div class="ai-data-results">
 
-                                                                        <div id="data-result"
+                                                                        <div id="data-result-adset"
                                                                             class="ai-data-results__results">
 
                                                                             <div class="text-center">
@@ -2223,7 +2223,8 @@
                                                                                         href="#">Edit</a>
                                                                                     <a class="btn border-neutral-500 bg-neutral-100 x-sml"
                                                                                         href="#">Duplicate</a>
-                                                                                    <a class="btn border-neutral-500 bg-neutral-100 x-sml"
+                                                                                    <a id="adsBtn"
+                                                                                        class="btn border-neutral-500 bg-neutral-100 x-sml"
                                                                                         href="#">See Ads</a>
                                                                                     <a class="btn border-neutral-500 bg-neutral-100 x-sml"
                                                                                         href="#">Pause</a>
@@ -3136,7 +3137,7 @@
 
                                                                     <div class="ai-data-tbl">
 
-                                                                        <table id="aiAdset" class="table aiDataTbl3"
+                                                                        <table id="aiAds" class="table aiDataTbl3"
                                                                             style="width:100%">
                                                                             <thead>
                                                                                 <tr>
@@ -3191,7 +3192,7 @@
                                                                                     <td>-</td>
                                                                                     <td>-</td>
                                                                                 </tr>
-                                                                                <tr>
+                                                                                <tr class="ClickRow">
                                                                                     <td>
                                                                                         <div
                                                                                             class="d-flex flex-wrap align-items-center img-block">
@@ -3320,7 +3321,7 @@
 
 
 
-                                                                        <div id="data-result"
+                                                                        <div id="data-result-ad"
                                                                             class="ai-data-results__results">
 
                                                                             <div class="text-center">

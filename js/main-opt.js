@@ -509,12 +509,30 @@ function sortTable(tableClass, n) {
 
 $(document).ready(function () {
   $("#aiCampaign").delegate("tr.ClickRow", "click", function () {
-    $("tr.ClickRow").addClass("highlight-row");
+    $(this).addClass("highlight-row");
     $("#data-load").addClass("d-none");
     $("#data-result-campaign").addClass("d-block");
+  });
+  $("#aiAdset").delegate("tr.ClickRow", "click", function () {
+    $(this).addClass("highlight-row--black");
+    $("#data-result-adset").addClass("d-block");
+  });
+  $("#aiAds").delegate("tr.ClickRow", "click", function () {
+    $(this).addClass("highlight-row--black");
+    $("#data-result-ad").addClass("d-block");
   });
 });
 
 $("#adSetBtn").click(function () {
+  $("#nav-adsets-tab").removeClass("disabled");
   $(".tab-inside > .active").next("button").trigger("click");
+  $("#adset-txt").addClass("visible");
+  $("#adset-txt").removeClass("invisible");
+});
+
+$("#adsBtn").click(function () {
+  $("#nav-ads-tab").removeClass("disabled");
+  $(".tab-inside > .active").next("button").trigger("click");
+  $("#ad-txt").addClass("visible");
+  $("#ad-txt").removeClass("invisible");
 });
