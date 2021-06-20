@@ -2030,3 +2030,22 @@ Optimize Page Start
 Optimize Page End
 ------------------------------------
 */
+/*
+------------------------------------
+Expand Page Start
+------------------------------------
+*/
+.expand-tbl th div,
+.expand-tbl th:first-child div {
+  justify-content: center;
+}
+.expand-tbl td:not(:first-child),
+.expand-tbl td {
+  text-align: center;
+}
+
+/*
+------------------------------------
+Expand Page End
+------------------------------------
+*/

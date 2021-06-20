@@ -213,253 +213,108 @@
                             <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
                                 aria-labelledby="nav-home-tab">
 
-                                <div class="ai-data-tbl">
+                                <div class="d-flex flex-wrap justify-content-end mb-5">
 
-                                    <div class="ai-h-tbl">
+                                    <div class="select-box select-custom bg-neutral-100 border-neutral-500 ml-3 mr-2">
+                                        <select class="bg-neutral-100 txt-neutral-600 sml">
+                                            <option value="">Show All</option>
+                                            <option value="">Show New</option>
+                                            <option value="">Show In Use</option>
+                                            <option value="">Show Recently Stopped</option>
 
-                                        <table id="aiCampaign" class="table table-fixed aiDataTbl1" style="width:100%">
+                                        </select>
+                                        <span class="select-arrow txt-neutral-600"></span>
+                                    </div>
+
+                                </div>
+
+                                <div class="ai-data-tbl expand-tbl">
+
+                                    <div class="ai-h-tbl border-left border-top">
+
+                                        <table class="table table-fixed expandTbl1" style="width:100%">
                                             <thead>
                                                 <tr>
-                                                    <th onclick="sortTable('aiDataTbl1', 0)">
+                                                    <th onclick="sortTableNormal('expandTbl1', 0)">
                                                         <div>
-                                                            <p>
-                                                                Campaign Name<br>
-                                                                <span class="x-sml txt-neutral-600">
-                                                                    Target /
-                                                                    PKR</span>
-                                                            </p>
+
+                                                            Audience Name
+
                                                         </div>
 
                                                     </th>
                                                     <th>
-                                                        <div>Revenue</div>
+                                                        <div>Summary</div>
                                                     </th>
                                                     <th>
-                                                        <div>Spends</div>
+                                                        <div>Potential Reach</div>
                                                     </th>
                                                     <th>
-                                                        <div>RoAS</div>
+                                                        <div>Current Conv. Rate</div>
                                                     </th>
                                                     <th>
-                                                        <div>Purchases</div>
+                                                        <div>Conv Rate Uplift</div>
                                                     </th>
                                                     <th>
-                                                        <div>CPA</div>
+                                                        <div>Profile</div>
                                                     </th>
                                                     <th>
-                                                        <div>Funnel Level</div>
+                                                        <div>Status</div>
+                                                    </th>
+                                                    <th>
+                                                        <div>Action</div>
                                                     </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="highlight-top">
-                                                    <td>Total for selected time
-                                                        period
-                                                    </td>
-                                                    <td>35,185,205.0</td>
-                                                    <td>870,237.2</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                40.4</p>
-                                                            <p class="percentage percentage__up">
-                                                                149.8</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>7,031.0</td>
-                                                    <td>123.8</td>
-                                                    <td>&nbsp;</td>
-                                                </tr>
-                                                <tr class="ClickRow">
-                                                    <td>June Sale 21 - Dynamic - C
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+
+                                                <!-- data row-->
+                                                <tr>
+                                                    <td rowspan="4">13Jun21_MOFU_AI_20</td>
+                                                    <td rowspan="4">Location + Page Url(/checkout/)</td>
+                                                    <td rowspan="4">N/A</td>
+                                                    <td rowspan="4">20.09</td>
+                                                    <td rowspan="4">9.43</td>
+                                                    <td class="text-left">Demographics & Tech not specified</td>
+                                                    <td class="border-left" rowspan="4">New</td>
+                                                    <td rowspan="4"><a type="button"
+                                                            class="btn bg-secondary-100 border-secondary-100 mr-2 txt-neutral-100">Create
+                                                            Ad Set</a></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>June Sale 21 - Conversions
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+                                                    <td class="text-left">Includes: Pakistan</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>June Sale 21 - Conversions
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+                                                    <td class="text-left">Interests & Behavior not specified</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>June Sale 21 - Conversions
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+                                                    <td class="text-left">Page Url: /checkout/</td>
+                                                </tr>
+                                                <!-- data row-->
+                                                <!-- data row-->
+                                                <tr>
+                                                    <td rowspan="4">13Jun21_MOFU_AI_20</td>
+                                                    <td rowspan="4">Location + Page Url(/checkout/)</td>
+                                                    <td rowspan="4">N/A</td>
+                                                    <td rowspan="4">20.09</td>
+                                                    <td rowspan="4">9.43</td>
+                                                    <td class="text-left">Demographics & Tech not specified</td>
+                                                    <td class="border-left" rowspan="4">New</td>
+                                                    <td rowspan="4"><a type="button"
+                                                            class="btn bg-secondary-100 border-secondary-100 mr-2 txt-neutral-100">Create
+                                                            Ad Set</a></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>BB Sale - Dynamic - Conver
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+                                                    <td class="text-left">Includes: Pakistan</td>
                                                 </tr>
-                                                <tr class="highlight-btm">
-                                                    <td>[RD]-TOFU-ROW-UAE-Mar2021
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+                                                <tr>
+                                                    <td class="text-left">Interests & Behavior not specified</td>
                                                 </tr>
-                                                <tr class="highlight-btm">
-                                                    <td>[RD]-TOFU-ROW-UAE-Mar2021
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
+                                                <tr>
+                                                    <td class="text-left">Page Url: /checkout/</td>
                                                 </tr>
-                                                <tr class="highlight-btm">
-                                                    <td>[RD]-TOFU-ROW-UAE-Mar2021
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
-                                                </tr>
-                                                <tr class="highlight-btm">
-                                                    <td>[RD]-TOFU-ROW-UAE-Mar2021
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__up">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
-                                                </tr>
-                                                <tr class="highlight-btm">
-                                                    <td>[RD]-TOFU-ROW-UAE-Mar2021
-                                                    </td>
-                                                    <td>831,836</td>
-                                                    <td>34,771</td>
-                                                    <td>
-                                                        <div class="detail detail__content">
-                                                            <p class="txt-secondary-400">
-                                                                23.9</p>
-                                                            <p class="percentage percentage__down">
-                                                                100.0</p>
-                                                        </div>
-                                                    </td>
-                                                    <td>288</td>
-                                                    <td>120.7</td>
-                                                    <td class="text-decoration-underline">
-                                                        <a href="#">Unassigned</a>
-                                                    </td>
-                                                </tr>
+                                                <!-- data row-->
+
 
 
                                             </tbody>
