@@ -1208,6 +1208,9 @@ Expand Page Start
 */
 
 .expand-tbl {
+  .table tbody {
+    border-bottom: 1px solid var(--clr-neutral-300);
+  }
   th div,
   th:first-child div {
     justify-content: center;
@@ -1215,6 +1218,15 @@ Expand Page Start
   td:not(:first-child),
   td {
     text-align: center;
+  }
+  td {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    height: 3em;
+  }
+  &--v2 {
+    td {
+      height: 6em;
+    }
   }
 }
 

@@ -2035,6 +2035,9 @@ Optimize Page End
 Expand Page Start
 ------------------------------------
 */
+.expand-tbl .table tbody {
+  border-bottom: 1px solid var(--clr-neutral-300);
+}
 .expand-tbl th div,
 .expand-tbl th:first-child div {
   justify-content: center;
@@ -2042,6 +2045,13 @@ Expand Page Start
 .expand-tbl td:not(:first-child),
 .expand-tbl td {
   text-align: center;
+}
+.expand-tbl td {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+  height: 3em;
+}
+.expand-tbl--v2 td {
+  height: 6em;
 }
 
 /*
