@@ -1211,22 +1211,60 @@ Expand Page Start
   .table tbody {
     border-bottom: 1px solid var(--clr-neutral-300);
   }
-  th div,
-  th:first-child div {
-    justify-content: center;
+
+  th {
+    &:nth-child(1) div,
+    &:nth-child(2) div {
+      justify-content: space-between;
+    }
+
+    div {
+      justify-content: center;
+    }
+    &:nth-child(1),
+    &:nth-child(2) {
+      padding-left: 1.5rem;
+    }
   }
-  td:not(:first-child),
+
   td {
     text-align: center;
-  }
-  td {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem !important;
+    padding: 0.5rem 1rem 0.5rem 1rem !important;
     height: 3em;
+    b {
+      color: var(--clr-neutral-800);
+    }
+    &:not(:first-child) {
+      text-align: center;
+    }
+    &:nth-child(1),
+    &:nth-child(2) {
+      text-align: left;
+      padding-left: 1.5rem !important;
+    }
+
+    .btn {
+      font-size: var(--fs-big-400);
+    }
+  }
+  th {
+    font-weight: var(--fw-semi-bold);
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+
+    &.noSort {
+      div:after {
+        content: none;
+      }
+    }
   }
   &--v2 {
     td {
       height: 6em;
     }
+  }
+  .ai-h-tbl {
+    border-radius: 6px;
   }
 }
 
