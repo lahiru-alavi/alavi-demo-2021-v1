@@ -577,8 +577,25 @@ $(document).ready(function () {
   $("#aiCampaign").delegate("tr.ClickRow", "click", function () {
     $(this).addClass("highlight-row");
     $("#data-load").addClass("d-none");
-    $("#data-result-campaign").addClass("d-block");
   });
+  $("#aiCampaign").delegate("tr.SelectRow1", "click", function () {
+    $("#data-result-campaign_data1").addClass("d-block");
+  });
+
+  // $("#aiCampaign").delegate("tr.SelectRow2", "click", function () {
+  //   $("#data-result-campaign_data1").removeClass("d-block");
+  //   $("#data-result-campaign_data2").addClass("d-block");
+  // });
+  // $("#aiCampaign").delegate("tr.SelectRow3", "click", function () {
+  //   $("#data-result-campaign_data1").removeClass("d-block");
+  //   $("#data-result-campaign_data2").addClass("d-block");
+  // });
+  // $("#aiCampaign").delegate("tr.SelectRow4", "click", function () {
+  //   $("#data-result-campaign_data1").removeClass("d-block");
+  //   $("#data-result-campaign_data2").addClass("d-block");
+  // });
+
+
   $("#aiAdset").delegate("tr.ClickRow", "click", function () {
     $(this).addClass("highlight-row--black");
     $("#data-result-adset").addClass("d-block");
