@@ -621,14 +621,14 @@ $("#adsBtn").click(function () {
 
 // Page Redirection
 document.getElementById("nav-home-tab").onclick = function () {
-  location.href = "optimize.php";
+  location.href = "optimize.html";
 };
 document.getElementById("nav-top-funnel-tab").onclick = function () {
-  location.href = "optimize-top-funnel.php";
+  location.href = "optimize-top-funnel.html";
 };
 document.getElementById("nav-mid-funnel-tab").onclick = function () {
-  location.href = "optimize-mid-funnel.php";
+  location.href = "optimize-mid-funnel.html";
 };
 document.getElementById("nav-btm-funnel-tab").onclick = function () {
-  location.href = "optimize-btm-funnel.php";
+  location.href = "optimize-btm-funnel.html";
 };
