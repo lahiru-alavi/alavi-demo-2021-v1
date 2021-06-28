@@ -596,11 +596,11 @@ $(document).ready(function () {
   // });
 
   $("#aiAdset").delegate("tr.ClickRow", "click", function () {
-    $(this).addClass("highlight-row--black");
+    $(this).addClass("highlight-row");
     $("#data-result-adset").addClass("d-block");
   });
   $("#aiAds").delegate("tr.ClickRow", "click", function () {
-    $(this).addClass("highlight-row--black");
+    $(this).addClass("highlight-row");
     $("#data-result-ad").addClass("d-block");
   });
 });

@@ -1863,6 +1863,7 @@ Optimize Page Start
 .ai-data-tbl .table {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+  border-collapse: separate;
 }
 .ai-data-tbl tbody {
   border-style: hidden;
