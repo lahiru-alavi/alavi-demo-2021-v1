@@ -595,7 +595,6 @@ $(document).ready(function () {
   //   $("#data-result-campaign_data2").addClass("d-block");
   // });
 
-
   $("#aiAdset").delegate("tr.ClickRow", "click", function () {
     $(this).addClass("highlight-row--black");
     $("#data-result-adset").addClass("d-block");
@@ -619,3 +618,17 @@ $("#adsBtn").click(function () {
   $("#ad-txt").addClass("visible");
   $("#ad-txt").removeClass("invisible");
 });
+
+// Page Redirection
+document.getElementById("nav-home-tab").onclick = function () {
+  location.href = "optimize.php";
+};
+document.getElementById("nav-top-funnel-tab").onclick = function () {
+  location.href = "optimize-top-funnel.php";
+};
+document.getElementById("nav-mid-funnel-tab").onclick = function () {
+  location.href = "optimize-mid-funnel.php";
+};
+document.getElementById("nav-btm-funnel-tab").onclick = function () {
+  location.href = "optimize-btm-funnel.php";
+};
