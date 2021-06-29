@@ -1893,6 +1893,7 @@ Optimize Page Start
   cursor: pointer;
   position: sticky;
   top: 0;
+  border-bottom: 0;
 }
 .ai-data-tbl th:first-child {
   padding-left: 1rem;
