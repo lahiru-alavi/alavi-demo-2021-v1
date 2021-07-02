@@ -277,8 +277,8 @@ var chart = new Chart(cha2, {
 });
 
 // chart 3
-var cha2 = document.getElementById("myChart3").getContext("2d");
-var chart = new Chart(cha2, {
+var cha3 = document.getElementById("myChart3").getContext("2d");
+var chart = new Chart(cha3, {
   // The type of chart we want to create
   type: "line", // also try bar or other graph types
 
@@ -349,8 +349,8 @@ var chart = new Chart(cha2, {
 });
 
 // chart 4
-var cha2 = document.getElementById("myChart4").getContext("2d");
-var chart = new Chart(cha2, {
+var cha4 = document.getElementById("myChart4").getContext("2d");
+var chart = new Chart(cha4, {
   // The type of chart we want to create
   type: "line", // also try bar or other graph types
 
