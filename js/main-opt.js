@@ -238,6 +238,7 @@ var chart = new Chart(cha3, {
     },
   },
 });
+
 // chart data
 var cha4 = document.getElementById("dataChart").getContext("2d");
 var chart = new Chart(cha4, {
@@ -438,6 +439,207 @@ var chart = new Chart(cha6, {
 });
 // chart end
 
+// chart data common
+var chaCommon1 = document.getElementById("dataCommon1").getContext("2d");
+var chart = new Chart(chaCommon1, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
+
+  // The data for our dataset
+  data: {
+    labels: ["Jun", "Jun 03", "Jun 05", "Jun 07"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(26, 76, 251, 1)",
+        data: [0, 40000, 38000, 50000],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(73, 171, 255, 1)",
+        data: [0, 10000, 15000, 18000],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 60000,
+            stepSize: 20000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
+});
+// chart end
+
+// chart data common
+var chaCommon2 = document.getElementById("dataCommon2").getContext("2d");
+var chart = new Chart(chaCommon2, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
+
+  // The data for our dataset
+  data: {
+    labels: ["Jun", "Jun 03", "Jun 05", "Jun 07"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(26, 76, 251, 1)",
+        data: [0, 40000, 38000, 50000],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(73, 171, 255, 1)",
+        data: [0, 10000, 15000, 18000],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 60000,
+            stepSize: 20000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
+});
+// chart end
+
+// chart data common
+var chaCommon3 = document.getElementById("dataCommon3").getContext("2d");
+var chart = new Chart(chaCommon3, {
+  // The type of chart we want to create
+  type: "line", // also try bar or other graph types
+
+  // The data for our dataset
+  data: {
+    labels: ["Jun", "Jun 03", "Jun 05", "Jun 07"],
+    // Information about the dataset
+    datasets: [
+      {
+        label: "Conversion",
+        fill: false,
+        borderColor: "rgba(26, 76, 251, 1)",
+        data: [0, 40000, 38000, 50000],
+      },
+      {
+        label: "Non Conversion",
+        fill: false,
+        borderColor: "rgba(73, 171, 255, 1)",
+        data: [0, 10000, 15000, 18000],
+      },
+    ],
+  },
+
+  // Configuration options
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+
+    legend: {
+      display: false,
+      position: "bottom",
+    },
+    title: {
+      display: false,
+      text: "Precipitation in Toronto",
+    },
+    scales: {
+      yAxes: [
+        {
+          display: true,
+          scaleLabel: {
+            display: false,
+            labelString: "aaa",
+          },
+          ticks: {
+            min: 0,
+            max: 60000,
+            stepSize: 20000,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: false,
+            labelString: "15 May, 2021 - 21 May, 2021 (Daily)",
+          },
+        },
+      ],
+    },
+  },
+});
+// chart end
+
 // Table Sort start
 function sortTable(tableClass, n) {
   var table,
@@ -574,34 +776,73 @@ function sortTableNormal(tableClass, n) {
 // });
 
 $(document).ready(function () {
-  $("#aiCampaign").delegate("tr.ClickRow", "click", function () {
-    $(this).removeClass("highlight-btm");
-    $(this).addClass("highlight-row");
+  // camapign functions
+  $("#aiCampaign").delegate("tr.ClickRow td", "click", function () {
+    $("tr.ClickRow").removeClass("highlight-row");
+    $(this).parent().addClass("highlight-row");
+    $("tr.ClickRow").addClass("highlight-btm");
+    $(this).parent().removeClass("highlight-btm");
     $("#data-load").addClass("d-none");
   });
   $("#aiCampaign").delegate("tr.SelectRow1", "click", function () {
+    $(
+      "div.ai-data-results__results:not(#data-result-campaign_data1)"
+    ).removeClass("d-block");
+    $("div.ai-data-results__results:not(#data-result-campaign_data1)").addClass(
+      "d-none"
+    );
     $("#data-result-campaign_data1").addClass("d-block");
   });
 
-  // $("#aiCampaign").delegate("tr.SelectRow2", "click", function () {
-  //   $("#data-result-campaign_data1").removeClass("d-block");
-  //   $("#data-result-campaign_data2").addClass("d-block");
-  // });
-  // $("#aiCampaign").delegate("tr.SelectRow3", "click", function () {
-  //   $("#data-result-campaign_data1").removeClass("d-block");
-  //   $("#data-result-campaign_data2").addClass("d-block");
-  // });
-  // $("#aiCampaign").delegate("tr.SelectRow4", "click", function () {
-  //   $("#data-result-campaign_data1").removeClass("d-block");
-  //   $("#data-result-campaign_data2").addClass("d-block");
-  // });
+  $("#aiCampaign").delegate("tr.SelectRow2", "click", function () {
+    $(
+      "div.ai-data-results__results:not(#data-result-campaign_data2)"
+    ).removeClass("d-block");
+    $("div.ai-data-results__results:not(#data-result-campaign_data2)").addClass(
+      "d-none"
+    );
+    $("#data-result-campaign_data2").addClass("d-block");
+  });
 
-  $("#aiAdset").delegate("tr.ClickRow", "click", function () {
-    $(this).addClass("highlight-row");
+  $("#aiCampaign").delegate("tr.SelectRow3", "click", function () {
+    $(
+      "div.ai-data-results__results:not(#data-result-campaign_data3)"
+    ).removeClass("d-block");
+    $("div.ai-data-results__results:not(#data-result-campaign_data3)").addClass(
+      "d-none"
+    );
+    $("#data-result-campaign_data3").addClass("d-block");
+  });
+
+  $("#aiCampaign").delegate("tr.SelectRow4", "click", function () {
+    $(
+      "div.ai-data-results__results:not(#data-result-campaign_data4)"
+    ).removeClass("d-block");
+    $("div.ai-data-results__results:not(#data-result-campaign_data4)").addClass(
+      "d-none"
+    );
+    $("#data-result-campaign_data4").addClass("d-block");
+  });
+
+  // Adset functions
+  $("#aiAdset").delegate("tr.ClickRow td", "click", function () {
+    $(this).parent().addClass("highlight-row");
+    $("tr.ClickRow").addClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").removeClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").addClass("highlight-row");
+    $(this).parent().removeClass("highlight-btm");
     $("#data-result-adset").addClass("d-block");
   });
-  $("#aiAds").delegate("tr.ClickRow", "click", function () {
-    $(this).addClass("highlight-row");
+
+  // Ads functions
+  $("#aiAds").delegate("tr.ClickRow td", "click", function () {
+    $(this).parent().addClass("highlight-row");
+    $("tr.ClickRow").addClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").removeClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").addClass("highlight-row");
+    $("#aiAdset tr.SelectRow1").removeClass("highlight-btm");
+    $("#aiAdset tr.SelectRow1").addClass("highlight-row");
+    $(this).parent().removeClass("highlight-btm");
     $("#data-result-ad").addClass("d-block");
   });
 });
