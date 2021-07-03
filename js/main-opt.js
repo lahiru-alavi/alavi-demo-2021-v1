@@ -575,6 +575,7 @@ function sortTableNormal(tableClass, n) {
 
 $(document).ready(function () {
   $("#aiCampaign").delegate("tr.ClickRow", "click", function () {
+    $(this).removeClass("highlight-btm");
     $(this).addClass("highlight-row");
     $("#data-load").addClass("d-none");
   });
@@ -632,3 +633,8 @@ document.getElementById("nav-mid-funnel-tab").onclick = function () {
 document.getElementById("nav-btm-funnel-tab").onclick = function () {
   location.href = "optimize-btm-funnel.html";
 };
+
+// deactivate selections in dropdown
+$(document).ready(function () {
+  $(".deactiveList option:not(:selected)").attr("disabled", "disabled");
+});
