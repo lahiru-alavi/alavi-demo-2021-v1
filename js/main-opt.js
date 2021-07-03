@@ -1,3 +1,17 @@
+// Page Redirection
+document.getElementById("nav-home-tab").onclick = function () {
+  location.href = "optimize.html";
+};
+document.getElementById("nav-top-funnel-tab").onclick = function () {
+  location.href = "optimize-top-funnel.html";
+};
+document.getElementById("nav-mid-funnel-tab").onclick = function () {
+  location.href = "optimize-mid-funnel.html";
+};
+document.getElementById("nav-btm-funnel-tab").onclick = function () {
+  location.href = "optimize-btm-funnel.html";
+};
+
 // back to top
 $(function () {
   var offset = 500;
@@ -860,20 +874,6 @@ $("#adsBtn").click(function () {
   $("#ad-txt").addClass("visible");
   $("#ad-txt").removeClass("invisible");
 });
-
-// Page Redirection
-document.getElementById("nav-home-tab").onclick = function () {
-  location.href = "optimize.html";
-};
-document.getElementById("nav-top-funnel-tab").onclick = function () {
-  location.href = "optimize-top-funnel.html";
-};
-document.getElementById("nav-mid-funnel-tab").onclick = function () {
-  location.href = "optimize-mid-funnel.html";
-};
-document.getElementById("nav-btm-funnel-tab").onclick = function () {
-  location.href = "optimize-btm-funnel.html";
-};
 
 // deactivate selections in dropdown
 $(document).ready(function () {
