@@ -1,15 +1,15 @@
 // Page Redirection
 document.getElementById("nav-home-tab").onclick = function () {
-  location.href = "optimize.html";
+  location.href = "optimize.html#mkr";
 };
 document.getElementById("nav-top-funnel-tab").onclick = function () {
-  location.href = "optimize-top-funnel.html";
+  location.href = "optimize-top-funnel.html#mkr";
 };
 document.getElementById("nav-mid-funnel-tab").onclick = function () {
-  location.href = "optimize-mid-funnel.html";
+  location.href = "optimize-mid-funnel.html#mkr";
 };
 document.getElementById("nav-btm-funnel-tab").onclick = function () {
-  location.href = "optimize-btm-funnel.html";
+  location.href = "optimize-btm-funnel.html#mkr";
 };
 
 // back to top
