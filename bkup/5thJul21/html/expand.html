@@ -49,16 +49,16 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Dashboard</a>
+                            <a class="nav-link" aria-current="page" href="#">Dashboard</a>
                         </li>
                         <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Retain</a>
             </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="optimize.html">Optimize</a>
+                            <a class="nav-link" aria-current="page" href="#">Optimize</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="expand.html">Expand</a>
+                            <a class="nav-link" aria-current="page" href="#">Expand</a>
                         </li>
                         <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Engage</a>
@@ -120,15 +120,15 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li class="nav-item">
-                            <a class="nav-link txt-neutral-500 fw-regular" aria-current="page" href="expand-top.html">Get New
+                            <a class="nav-link txt-neutral-500 fw-regular" aria-current="page" href="#">Get New
                                 Visitors</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link txt-neutral-500 fw-regular" aria-current="page" href="expand.html">Do
+                        <li class="nav-item active">
+                            <a class="nav-link txt-neutral-500 fw-regular" aria-current="page" href="#">Do
                                 Remarketing</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link txt-neutral-500 fw-regular" aria-current="page" href="expand-btm.html">Get Repeat
+                        <li class="nav-item">
+                            <a class="nav-link txt-neutral-500 fw-regular" aria-current="page" href="#">Get Repeat
                                 Customers</a>
                         </li>
                     </ul>
@@ -145,7 +145,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="title">
-                        <h2>Improve Your Remarketing <span class="fs-big-450">(Bottom Funnel)</span></h2>
+                        <h2>Improve Your Remarketing <span class="fs-big-450">(Mid Funnel)</span></h2>
                         <h4>Target previous visitors to your site who have a high chance of converting.</h4>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
 
                         <nav class="wrapper-tab__head">
                             <div class="nav nav-tabs row" id="nav-tab" role="tablist">
-                                <button class="col-md-6 nav-link active" id="nav-home-expand-tab" data-bs-toggle="tab"
+                                <button class="col-md-6 nav-link active" id="nav-home-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
                                     aria-selected="true">
 
@@ -211,7 +211,7 @@
                         </nav>
                         <div class="row tab-content wrapper-tab__body tab-shadow" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
-                                aria-labelledby="nav-home-expand-tab">
+                                aria-labelledby="nav-home-tab">
 
                                 <div class="remark-tab-content">
 
@@ -247,7 +247,19 @@
 
                                                         </th>
                                                         <th>
-                                                            <div>Contact</div>
+                                                            <div>Summary</div>
+                                                        </th>
+                                                        <th>
+                                                            <div>Potential Reach</div>
+                                                        </th>
+                                                        <th>
+                                                            <div>Current Conv. Rate</div>
+                                                        </th>
+                                                        <th class="noSort">
+                                                            <div>Conv Rate Uplift</div>
+                                                        </th>
+                                                        <th class="noSort">
+                                                            <div>Profile</div>
                                                         </th>
                                                         <th>
                                                             <div>Status</div>
@@ -261,60 +273,102 @@
 
                                                     <!-- data row start-->
                                                     <tr>
-                                                        <td><b>[Alavi] - Big spenders</b></td>
-                                                        <td>5,436</td>
-                                                        <td><b>New</b></td>
-
-                                                        <td><a type="button"
+                                                        <td rowspan="4"><b>13Jun21_MOFU_AI_20</b></td>
+                                                        <td rowspan="4"><b>Location + Page Url(/checkout/)</b></td>
+                                                        <td rowspan="4">N/A</td>
+                                                        <td rowspan="4">20.09</td>
+                                                        <td rowspan="4">9.43</td>
+                                                        <td class="text-left">Demographics & Tech not specified</td>
+                                                        <td class="border-left" rowspan="4"><b>New</b></td>
+                                                        <td rowspan="4"><a type="button"
                                                                 class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
                                                                 Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Includes: Pakistan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Interests & Behavior not specified</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Page Url: /checkout/</td>
                                                     </tr>
                                                     <!-- data row end-->
                                                     <!-- data row start-->
                                                     <tr>
-                                                        <td><b>[Alavi] - Loyal Customers</b></td>
-                                                        <td>3,452</td>
-                                                        <td><b>New</b></td>
-
-                                                        <td><a type="button"
+                                                        <td rowspan="4"><b>13Jun21_MOFU_AI_22</b></td>
+                                                        <td rowspan="4"><b>Location</b></td>
+                                                        <td rowspan="4">46,000,000</td>
+                                                        <td rowspan="4">6.16</td>
+                                                        <td rowspan="4">2.89</td>
+                                                        <td class="text-left">Demographics & Tech not specified</td>
+                                                        <td class="border-left" rowspan="4"><b>New</b></td>
+                                                        <td rowspan="4"><a type="button"
                                                                 class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
                                                                 Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Includes: Pakistan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Interests & Behavior not specified</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Page Url and Unqiue Page Views not
+                                                            specified
+                                                        </td>
                                                     </tr>
                                                     <!-- data row end-->
                                                     <!-- data row start-->
                                                     <tr>
-                                                        <td><b>[Alavi] - Potential Loyalists</b></td>
-                                                        <td>5,467</td>
-                                                        <td><b>New</b></td>
-
-                                                        <td><a type="button"
+                                                        <td rowspan="4"><b>13Jun21_MOFU_AI_22</b></td>
+                                                        <td rowspan="4"><b>Location</b></td>
+                                                        <td rowspan="4">46,000,000</td>
+                                                        <td rowspan="4">6.16</td>
+                                                        <td rowspan="4">2.89</td>
+                                                        <td class="text-left">Demographics & Tech not specified</td>
+                                                        <td class="border-left" rowspan="4"><b>New</b></td>
+                                                        <td rowspan="4"><a type="button"
                                                                 class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
                                                                 Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Includes: Pakistan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Interests & Behavior not specified</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Page Url and Unqiue Page Views not
+                                                            specified
+                                                        </td>
                                                     </tr>
                                                     <!-- data row end-->
                                                     <!-- data row start-->
                                                     <tr>
-                                                        <td><b>[Alavi] - At Risk</b></td>
-                                                        <td>2564</td>
-                                                        <td><b>New</b></td>
-
-                                                        <td><a type="button"
+                                                        <td rowspan="4"><b>13Jun21_MOFU_AI_22</b></td>
+                                                        <td rowspan="4"><b>Location</b></td>
+                                                        <td rowspan="4">46,000,000</td>
+                                                        <td rowspan="4">6.16</td>
+                                                        <td rowspan="4">2.89</td>
+                                                        <td class="text-left">Demographics & Tech not specified</td>
+                                                        <td class="border-left" rowspan="4"><b>New</b></td>
+                                                        <td rowspan="4"><a type="button"
                                                                 class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
                                                                 Ad Set</a></td>
                                                     </tr>
-                                                    <!-- data row end-->
-                                                    <!-- data row start-->
                                                     <tr>
-                                                        <td><b>[Alavi] - Hibernating</b></td>
-                                                        <td>4987</td>
-                                                        <td><b>New</b></td>
-
-                                                        <td><a type="button"
-                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
-                                                                Ad Set</a></td>
+                                                        <td class="text-left">Includes: Pakistan</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Interests & Behavior not specified</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-left">Page Url and Unqiue Page Views not
+                                                            specified
+                                                        </td>
                                                     </tr>
                                                     <!-- data row end-->
-
 
 
 
@@ -374,6 +428,9 @@
                                                             <div>Definition</div>
                                                         </th>
                                                         <th>
+                                                            <div>Potential Reach</div>
+                                                        </th>
+                                                        <th>
                                                             <div>Status</div>
                                                         </th>
 
@@ -386,18 +443,87 @@
 
 
                                                     <tr>
-                                                        <td><b>[Alavi] - People purchase more than 3 within 180 days.</b></td>
-                                                        <td>People who purchase more than 3.</td>
+                                                        <td><b>[Alavi] - Cart Dropout Users</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
                                                         <td><b>New</b></td>
 
                                                         <td><a type="button"
                                                                 class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
                                                                 Ad Set</a></td>
                                                     </tr>
-
                                                     <tr>
-                                                        <td><b>[Alavi] - People with order value greater than 1.5 times to AOV.</b></td>
-                                                        <td>People who purchased order value greater than the AOV.</td>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
+                                                        <td><b>New</b></td>
+
+                                                        <td><a type="button"
+                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
+                                                                Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
+                                                        <td><b>New</b></td>
+
+                                                        <td><a type="button"
+                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
+                                                                Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
+                                                        <td><b>New</b></td>
+
+                                                        <td><a type="button"
+                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
+                                                                Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
+                                                        <td><b>New</b></td>
+
+                                                        <td><a type="button"
+                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
+                                                                Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
+                                                        <td><b>New</b></td>
+
+                                                        <td><a type="button"
+                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
+                                                                Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
+                                                        <td><b>New</b></td>
+
+                                                        <td><a type="button"
+                                                                class="btn bg-secondary-100 border-secondary-100 txt-neutral-100">Create
+                                                                Ad Set</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>[Alavi] - Top Time Spenders</b></td>
+                                                        <td>People who have added products to the cart but not
+                                                            purchased.</td>
+                                                        <td>N/A</td>
                                                         <td><b>New</b></td>
 
                                                         <td><a type="button"

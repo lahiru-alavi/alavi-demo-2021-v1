@@ -1,0 +1,37 @@
+@use "../abstracts" as *;
+
+@each $color, $shade in $colors {
+  @each $prop, $value in $shade {
+    .txt-#{$color}-#{$prop} {
+      color: var(--clr-#{$color}-#{$prop}) !important;
+    }
+
+    .bg-#{$color}-#{$prop} {
+      background-color: var(--clr-#{$color}-#{$prop}) !important;
+    }
+
+    .border-#{$color}-#{$prop} {
+      border-color: var(--clr-#{$color}-#{$prop}) !important;
+    }
+  }
+}
+
+@each $fontWeight, $fontWeightVal in $font-weights {
+  .fw-#{$fontWeight} {
+    font-weight: var(--fw-#{$fontWeight}) !important;
+  }
+}
+
+@each $fontSize, $fontSizeVal in $type-scale {
+  @each $prop, $value in $fontSizeVal {
+    .fs-#{$fontSize}-#{$prop} {
+      font-size: var(--fs-#{$fontSize}-#{$prop}) !important;
+    }
+  }
+}
+
+@each $opWeight, $opWeightVal in $opacity {
+  .opacity-#{$opWeight} {
+    opacity: var(--op-#{$opWeight}) !important;
+  }
+}
