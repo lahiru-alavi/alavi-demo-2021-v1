@@ -874,6 +874,11 @@ Optimize Page Start
         width: 22px;
       }
     }
+    &.w-30 {
+      .nav-link {
+        width: 32%;
+      }
+    }
   }
 
   .detail__content {
@@ -895,6 +900,51 @@ Optimize Page Start
   .wrapper-tab__body {
     padding: 25px 30px 45px 30px;
   }
+
+  &.wrapper-tab--recommend {
+    .wrapper-tab__head {
+      .nav-link {
+        border-top: 2px solid transparent;
+
+        &:nth-child(1) {
+          border-top-color: var(--clr-secondary-200);
+          background: -webkit-linear-gradient(
+            top,
+            rgb(252, 219, 219) 0%,
+            rgb(255, 255, 255) 100%
+          );
+          .tab-img h3 {
+            color: var(--clr-secondary-200);
+          }
+        }
+        &:nth-child(2) {
+          border-top-color: var(--clr-primary-100);
+          background: -webkit-linear-gradient(
+            top,
+            rgb(255, 233, 189) 0%,
+            rgb(255, 255, 255) 100%
+          );
+          .tab-img h3 {
+            color: var(--clr-primary-100);
+          }
+        }
+        &:nth-child(3) {
+          border-top-color: var(--clr-secondary-100);
+          background: -webkit-linear-gradient(
+            top,
+            rgb(212, 221, 255) 0%,
+            rgb(255, 255, 255) 100%
+          );
+          .tab-img h3 {
+            color: var(--clr-secondary-100);
+          }
+        }
+        &:not(.active) {
+          padding: 27px 27px 27px 35px;
+        }
+      }
+    }
+  }
 }
 
 .wrapper-tab-inside {
@@ -910,7 +960,7 @@ Optimize Page Start
         background-color: var(--clr-other-b-300);
         border-color: var(--clr-secondary-100);
         opacity: 1;
-        padding: 10px 20px;
+        padding: 10px 25px;
       }
     }
     .detail__content {
@@ -927,6 +977,17 @@ Optimize Page Start
     }
     .nav-tabs {
       border: 0;
+    }
+
+    span.icon-box {
+      padding: 5px 2px 5px 2px !important;
+      width: 32px;
+      margin: 0 auto;
+      text-align: center;
+
+      i {
+        font-size: 1.8rem;
+      }
     }
   }
 
@@ -1141,6 +1202,21 @@ Optimize Page Start
     }
     &__down {
       color: var(--clr-secondary-200) !important;
+    }
+  }
+  &.ai-rec-tbl {
+    th {
+      height: 60px;
+    }
+    th:not(:first-child),
+    td:not(:first-child) {
+      text-align: center;
+    }
+    th:last-child {
+      text-align: left;
+    }
+    td {
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
   }
 }
