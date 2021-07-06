@@ -2091,10 +2091,3 @@ Expand Page Start
 Expand Page End
 ------------------------------------
 */
-
-.note_sml .percentage::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 1.3rem;
-  vertical-align: middle;
-}

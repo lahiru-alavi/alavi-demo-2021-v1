@@ -1,0 +1,53 @@
+@use 'breakpoints' as *;
+
+@mixin mq($key) {
+  $size: map-get($breakpoints, $key);
+
+  @media only screen and (min-width: $size) {
+    @content;
+  }
+}
+
+/* layout */
+.container {
+  @include mq(small) {
+    max-width: 1180px;
+  }
+  @include mq(medium) {
+    max-width: 1320px;
+  }
+  @include mq(large) {
+    max-width: 1420px;
+  }
+}
+/* layout */
+
+/* buttons */
+@mixin button {
+  border-radius: 3px;
+  padding: 0.75rem 2rem;
+  display: inline-block;
+  text-align: center;
+  background-color: var(--clr-primary-400);
+  color: color(white);
+  font-size: 16px;
+  font-weight: weights(light);
+  border: 0px solid var(--clr-primary-400);
+  min-width: 110px;
+  cursor: pointer !important;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: var(--clr-primary-400);
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+/* font awesome */
+@mixin fa {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  // content: "\f0d8";
+}

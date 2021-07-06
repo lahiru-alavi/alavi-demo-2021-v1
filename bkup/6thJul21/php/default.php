@@ -143,7 +143,7 @@
         <div class="col-md-6">
           <div class="title">
             <h2>Overall Business Results</h2>
-            <h4>Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</h4>
+            <h4>See the relationship between your sales and advertising</h4>
           </div>
 
         </div>
@@ -208,13 +208,13 @@
                     <tr class="web">
                       <td class="no-border">
                         <div class="detail detail__head">
-                          <img class="img-fluid m-auto" src="img/img-webtotal.png" alt="globe">
+                          <img class="img-fluid m-auto" src="img/globe.svg" alt="globe">
                           <p class="mt-3">Website<br>Total</p>
                         </div>
                       </td>
                       <td>
                         <div class="text-left detail detail__content">
-                          <p class="price">$121,988</p>
+                          <p class="price">Rs.293,616,361</p>
                           <p class="percentage percentage__up">52.6%</p>
                           <p class="ratio">Target: Rs.5,000,000</p>
                           <div class="progressBar">
@@ -225,7 +225,7 @@
                       </td>
                       <td>
                         <div class="text-left detail detail__content">
-                          <p class="price">$17,379</p>
+                          <p class="price">Rs.11,864,410</p>
                           <p class="percentage percentage__down">-66.1%</p>
                           <p class="ratio">Budget: Rs.800,000</p>
                           <div class="progressBar">
@@ -242,26 +242,26 @@
                       <td>
 
                         <div class="detail detail__content">
-                          <p>155,432</p>
+                          <p>1,555,136</p>
                           <p class="percentage percentage__down"><span class="d-block">-28.2%</span></p>
                         </div>
 
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>3,652</p>
+                          <p>49,914</p>
                           <p class="percentage percentage__up"><span class="d-block">60.6%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>$33.4</p>
+                          <p>5,882</p>
                           <p class="percentage percentage__down"><span class="d-block">-8.7%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>1.58%</p>
+                          <p>1.4</p>
                           <p class="percentage percentage__up"><span class="d-block">70.2%</span></p>
                         </div>
                       </td>
@@ -280,7 +280,7 @@
                       </td>
                       <td>
                         <div class="text-left detail detail__content">
-                          <p class="price">$46,283</p>
+                          <p class="price">Rs.169,990,821</p>
                           <p class="percentage percentage__up">60.1%</p>
                           <p class="ratio">Target: N/A</p>
                           <div class="progressBar">
@@ -291,7 +291,7 @@
                       </td>
                       <td>
                         <div class="text-left detail detail__content">
-                          <p class="price">$11,317</p>
+                          <p class="price">Rs.8,120,621</p>
                           <p class="percentage percentage__up">-57.0%</p>
                           <p class="ratio">Budget: Rs.0</p>
                           <div class="progressBar">
@@ -302,7 +302,7 @@
                       </td>
                       <td class="no-border">
                         <div class="text-left detail detail__content">
-                          <p class="price">4.1</p>
+                          <p class="price">20.9</p>
                           <p class="percentage percentage__up">107.8%</p>
                           <p class="ratio">RoAS Target: N/A</p>
                           <div class="progressBar">
@@ -313,37 +313,37 @@
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>68,720</p>
+                          <p>907,895</p>
                           <p class="percentage percentage__down"><span class="d-block">-31.7%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>1,470</p>
+                          <p>33,033</p>
                           <p class="percentage percentage__up"><span class="d-block">75.6%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>$31.5</p>
+                          <p>5,146</p>
                           <p class="percentage percentage__down"><span class="d-block">-17.6%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>1.13%</p>
+                          <p>2.7</p>
                           <p class="percentage percentage__up"><span class="d-block">98.1%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>2,330,533</p>
+                          <p>58,758,126</p>
                           <p class="percentage percentage__down"><span class="d-block">-14.0%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>5.60%</p>
+                          <p>2.1</p>
                           <p class="percentage percentage__down"><span class="d-block">-13.7%</span></p>
                         </div>
                       </td>
@@ -360,7 +360,7 @@
                       </td>
                       <td>
                         <div class="text-left detail detail__content">
-                          <p class="price">$19,835</p>
+                          <p class="price">Rs.167,794,259</p>
                           <p class="percentage percentage__up">64.9%</p>
                           <p class="ratio">Target: N/A</p>
                           <div class="progressBar">
@@ -371,7 +371,7 @@
                       </td>
                       <td>
                         <div class="text-left detail detail__content">
-                          <p class="price">$6,063</p>
+                          <p class="price">Rs.3,743,788</p>
                           <p class="percentage percentage__down">-82.3%</p>
                           <p class="ratio">Budget: Rs.0</p>
                           <div class="progressBar">
@@ -382,7 +382,7 @@
                       </td>
                       <td class="no-border">
                         <div class="text-left detail detail__content">
-                          <p class="price">3.3</p>
+                          <p class="price">44.8</p>
                           <p class="percentage percentage__up">129.9%</p>
                           <p class="ratio">RoAS Target: N/A</p>
                           <div class="progressBar">
@@ -393,37 +393,37 @@
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>38,446</p>
+                          <p>2,999,255</p>
                           <p class="percentage percentage__down"><span class="d-block">-116.4%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>659</p>
+                          <p>23,550</p>
                           <p class="percentage percentage__up"><span class="d-block">70.0%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>$30.1</p>
+                          <p>7,125</p>
                           <p class="percentage percentage__down"><span class="d-block">-5.7%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>1.32%</p>
+                          <p>3.4</p>
                           <p class="percentage percentage__up"><span class="d-block">-105.6%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>1,063,608</p>
+                          <p>22,304,813</p>
                           <p class="percentage percentage__up"><span class="d-block">-114.3%</span></p>
                         </div>
                       </td>
                       <td>
                         <div class="detail detail__content">
-                          <p>4.89%</p>
+                          <p>3.1</p>
                           <p class="percentage percentage__up"><span class="d-block">80.8%</span></p>
                         </div>
                       </td>
@@ -433,7 +433,7 @@
 
 
               </div>
-              <p class="note sml">Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</p>
+              <p class="note sml">Increase / Decrase based on previous period (01 Feb, 2021 - 28 Feb, 2021)</p>
             </div>
 
             <div class="wrapper-box__bottom">
@@ -478,260 +478,6 @@
 
   </section>
 
-  <!-- conversion section test-->
-
-    <section class="category category__overall">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="title">
-              <h2>Facebook Conversion vs Non-Conversion Campaigns</h2>
-              <h4>Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</h4>
-            </div>
-  
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex flex-column align-items-end filter">
-  
-              <div class="d-flex justify-content-end mb-4">
-                <ul class="nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Today</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Yesterday</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">7D</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Mar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Apr</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">May</a>
-                  </li>
-                </ul>
-  
-                <a class="nav-link pr-0 pb-0" href="#"><button type="button"
-                    class="btn bg-neutral-100 border-neutral-500 sml">Custom</button></a>
-              </div>
-  
-              <p class="sml">13 May, 2021 - 19 May, 2021</p>
-            </div>
-  
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="col-md-12">
-            <div class="wrapper-box">
-  
-              <div class="wrapper-box__top">
-                <div class="ai-tbl table-responsive">
-                  <div class="tbl-highlight"></div>
-
-                  <table class="table">
-                    <thead>
-                      <tr class="bg-neutral-100">
-                        <th scope="col"></th>
-                        <th scope="col" class="fs-big">Revenue</th>
-                        <th scope="col" class="fs-big">Spends</th>
-                        <th scope="col" class="fs-big no-border">RoAS</th>
-                        <th scope="col">Reach</th>
-                        <th scope="col">Transactions</th>
-                        <th scope="col">AOV</th>
-                        <th scope="col">CTR</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="facebook">
-                        <td class="no-border">
-                          <div class="detail detail__head">
-                            <img class="img-fluid m-auto" src="img/fb.svg" alt="fb">
-                            <p class="mt-3">Conversion<br>&amp; Catalog</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$43,043</p>
-                            <p class="percentage percentage__up">59.8%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="f-con-rev" class="ldBar ldBar__blue"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$8,986</p>
-                            <p class="percentage percentage__down">-56.7%</p>
-                            <p class="ratio">Budget: N/A</p>
-                            <div class="progressBar">
-                              <div id="f-con-spe" class="ldBar ldBar__blue"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td class="no-border">
-
-                          <div class="text-left detail detail__content">
-                            <p class="price">4.8</p>
-                            <p class="percentage percentage__up">-59.8%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="f-con-roa" class="ldBar ldBar__blue"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-
-                          <div class="detail detail__content">
-                            <p>347,685</p>
-                            <p class="percentage percentage__down"><span class="d-block">-35.23%</span></p>
-                          </div>
-
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>1,355</p>
-                            <p class="percentage percentage__up"><span class="d-block">75.38%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>$31.8</p>
-                            <p class="percentage percentage__down"><span class="d-block">-17.54%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>7.2%</p>
-                            <p class="percentage percentage__up"><span class="d-block">2.09%</span></p>
-                          </div>
-                        </td>
-
-
-                      </tr>
-                      <tr>
-                        <td colspan="10"></td>
-                      </tr>
-                      <tr class="facebook facebook--opacity">
-                        <td class="no-border">
-                          <div class="detail detail__head">
-                            <img class="img-fluid m-auto" src="img/fb.svg" alt="fb">
-                            <p class="mt-3">Non<br>Conversion</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$3,240</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$2,331</p>
-                            <p class="percentage percentage__down">-61.0%</p>
-                            <p class="ratio">Target: Rs.0</p>
-                            <div class="progressBar">
-                              <div id="f-ncon-spe" class="ldBar ldBar__blue"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td class="no-border">
-                          <div class="text-left detail detail__content">
-                            <p class="price">1.4</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>498,655</p>
-                            <p class="percentage percentage__up"><span class="d-block">49.39%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>115</p>
-                            <p class="percentage percentage__up"><span class="d-block">140.43%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>$28.1</p>
-                            <p class="percentage percentage__up"><span class="d-block">13.96%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>3.2%</p>
-                            <p class="percentage percentage__down"><span class="d-block">-82.44%</span></p>
-                          </div>
-                        </td>
-
-                      </tr>
-
-
-                    </tbody>
-                  </table>
-                  
-  
-  
-                </div>
-                <p class="note sml">Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</p>
-              </div>
-  
-              <div class="wrapper-box__bottom">
-
-                <div class="tab-graph">
-
-                  <div class="ai-graph">
-                    <div class="ai-graph__compare">
-                      <div class="d-flex align-items-center">
-                        <p>Compare</p>
-                        <div class="select-box bg-neutral-100 ml-3 mr-3">
-                          <select class="bg-neutral-100 txt-neutral-600">
-                            <option value="">Revenue</option>
-                            <option value="">Spends</option>
-                            <option value="">RoAS</option>
-                            <option value="">Reach</option>
-                            <option value="">Transactions</option>
-                            <option value="">AOV</option>
-                            <option value="">CTR</option>
-                          </select>
-                          <span class="select-arrow txt-neutral-600"></span>
-                        </div>
-                        <div class="legend sml">
-                          <span class="legend__fb">Conversion</span>
-                          <span class="legend__fb opacity">Non Conversion</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="ai-graph__chart">
-                      <canvas id="myChart2"></canvas>
-                    </div>
-                    <p class="label">1 Mar, 2021 - 31 Mar, 2021 (Daily)</p>
-                  </div>
-
-                </div>
-                
-              </div>
-  
-            </div>
-          </div>
-        </div>
-  
-      </div>
-  
-    </section>
-
-  <!-- converion section test end-->
-
   <!-- conversion section -->
 
   <section class="category category__conversion">
@@ -739,8 +485,8 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="title">
-            <h2>Facebook Conversion vs Non-Conversion Campaigns</h2>
-            <h4>Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</h4>
+            <h2>Conversion vs Non-Conversion Campaigns</h2>
+            <h4>See how your campaigns are performing based on their objective</h4>
           </div>
 
         </div>
@@ -859,7 +605,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$43,043</p>
+                              <p class="price">Rs.169,303,673</p>
                               <p class="percentage percentage__up">59.8%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -870,7 +616,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$8,986</p>
+                              <p class="price">Rs.7,550,868</p>
                               <p class="percentage percentage__down">-56.7%</p>
                               <p class="ratio">Budget: N/A</p>
                               <div class="progressBar">
@@ -882,7 +628,7 @@
                           <td class="no-border">
 
                             <div class="text-left detail detail__content">
-                              <p class="price">4.8</p>
+                              <p class="price">22.4</p>
                               <p class="percentage percentage__up">-59.8%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -894,26 +640,26 @@
                           <td>
 
                             <div class="detail detail__content">
-                              <p>347,685</p>
+                              <p>12,309,288</p>
                               <p class="percentage percentage__down"><span class="d-block">-35.23%</span></p>
                             </div>
 
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>1,355</p>
+                              <p>32,873</p>
                               <p class="percentage percentage__up"><span class="d-block">75.38%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>$31.8</p>
+                              <p>5,150</p>
                               <p class="percentage percentage__down"><span class="d-block">-17.54%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>7.2%</p>
+                              <p>3.3</p>
                               <p class="percentage percentage__up"><span class="d-block">2.09%</span></p>
                             </div>
                           </td>
@@ -932,12 +678,12 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$3,240</p>
+                              <p class="price">Rs.687,148</p>
                             </div>
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$2,331</p>
+                              <p class="price">Rs.569,754</p>
                               <p class="percentage percentage__down">-61.0%</p>
                               <p class="ratio">Target: Rs.0</p>
                               <div class="progressBar">
@@ -948,30 +694,30 @@
                           </td>
                           <td class="no-border">
                             <div class="text-left detail detail__content">
-                              <p class="price">1.4</p>
+                              <p class="price">1</p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>498,655</p>
+                              <p>14,876,167</p>
                               <p class="percentage percentage__up"><span class="d-block">49.39%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>115</p>
+                              <p>160</p>
                               <p class="percentage percentage__up"><span class="d-block">140.43%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>$28.1</p>
+                              <p>4,295</p>
                               <p class="percentage percentage__up"><span class="d-block">13.96%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>3.2%</p>
+                              <p>0.3</p>
                               <p class="percentage percentage__down"><span class="d-block">-82.44%</span></p>
                             </div>
                           </td>
@@ -985,7 +731,7 @@
 
                   </div>
 
-                  <p class="note sml">Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</p>
+                  <p class="note sml">Increase / Decrase based on previous period (01 Feb, 2021 - 28 Feb, 2021)</p>
 
                 </div>
 
@@ -1041,411 +787,14 @@
 
   </section>
 
-
-
-    <!-- funnel section test-->
-
-    <section class="category category__overall">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="title">
-              <h2>Facebook Conversion Campaign Results by Marketing Funnel</h2>
-              <h4>Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</h4>
-            </div>
-  
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex flex-column align-items-end filter">
-  
-              <div class="d-flex justify-content-end mb-4">
-                <ul class="nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Today</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Yesterday</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">7D</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Mar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Apr</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">May</a>
-                  </li>
-                </ul>
-  
-                <a class="nav-link pr-0 pb-0" href="#"><button type="button"
-                    class="btn bg-neutral-100 border-neutral-500 sml">Custom</button></a>
-              </div>
-  
-              <p class="sml">13 May, 2021 - 19 May, 2021</p>
-            </div>
-  
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="col-md-12">
-            <div class="wrapper-box">
-  
-              <div class="wrapper-box__top">
-                <div class="ai-tbl table-responsive">
-                  <div class="tbl-highlight"></div>
-
-                  <table class="table">
-                    <thead>
-                      <tr class="bg-neutral-100">
-                        <th scope="col"></th>
-                        <th scope="col" class="fs-big">Revenue</th>
-                        <th scope="col" class="fs-big">Spends</th>
-                        <th scope="col" class="fs-big no-border">RoAS</th>
-                        <th scope="col">Reach</th>
-                        <th scope="col">Transactions</th>
-                        <th scope="col">AOV</th>
-                        <th scope="col">CTR</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr class="funnel">
-                        <td class="no-border">
-                          <div class="detail detail__head">
-                            <img class="img-fluid m-auto" src="img/funnel-1.svg" alt="funnel">
-                            <p class="mt-3">Top</p>
-                            <p class="x-sml">Attract New<br>Visitors</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$8,356.98</p>
-                            <p class="percentage percentage__up">50.2%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-top-rev" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$2,695.80</p>
-                            <p class="percentage percentage__up">17.8%</p>
-                            <p class="ratio">Budget: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-top-spe" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td class="no-border">
-
-                          <div class="text-left detail detail__content">
-                            <p class="price">3.1</p>
-                            <p class="percentage percentage__up">50.2%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-top-roa" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-
-                          <div class="detail detail__content">
-                            <p>293,823</p>
-                            <p class="percentage percentage__down"><span class="d-block">-12.3%</span></p>
-                          </div>
-
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>281</p>
-                            <p class="percentage percentage__up"><span class="d-block">46.0%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>29.7</p>
-                            <p class="percentage percentage__up"><span class="d-block">4.5%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>5.50%</p>
-                            <p class="percentage percentage__up"><span class="d-block">38.3%</span></p>
-                          </div>
-                        </td>
-
-
-                      </tr>
-                      <tr>
-                        <td colspan="10"></td>
-                      </tr>
-                      <tr class="funnel funnel--opacity__100">
-                        <td class="no-border">
-                          <div class="detail detail__head">
-                            <img class="img-fluid m-auto" src="img/funnel-2.svg" alt="funnel-2">
-                            <p class="mt-3">Middle</p>
-                            <p class="x-sml">Convert<br>New Visitors</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$21,206.96</p>
-                            <p class="percentage percentage__up">9.5%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-mid-rev" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$3,594.40</p>
-                            <p class="percentage percentage__down">-85.1%</p>
-                            <p class="ratio">Budget: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-mid-spe" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td class="no-border">
-                          <div class="text-left detail detail__content">
-                            <p class="price">5.9</p>
-                            <p class="percentage percentage__up">92.7%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-mid-roa" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>57,906</p>
-                            <p class="percentage percentage__down"><span class="d-block">-26.8%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>657</p>
-                            <p class="percentage percentage__up"><span class="d-block">10.5%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>32.3</p>
-                            <p class="percentage percentage__down"><span class="d-block">-1.1%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>9.85%</p>
-                            <p class="percentage percentage__up"><span class="d-block">14.7%</span></p>
-                          </div>
-                        </td>
-
-                      </tr>
-                      <tr>
-                        <td colspan="10"></td>
-                      </tr>
-
-                      <tr class="funnel funnel--opacity__200">
-                        <td class="no-border">
-                          <div class="detail detail__head">
-                            <img class="img-fluid m-auto" src="img/funnel-3.svg" alt="funnel-2">
-                            <p class="mt-3">Bottom</p>
-                            <p class="x-sml">Get Repeat<br>Customers</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$9,201.66</p>
-                            <p class="percentage percentage__down">-13.9%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-btm-rev" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$1,437.76</p>
-                            <p class="percentage percentage__down">-49.7%</p>
-                            <p class="ratio">Budget: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-btm-spe" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td class="no-border">
-                          <div class="text-left detail detail__content">
-                            <p class="price">6.4</p>
-                            <p class="percentage percentage__up">36.4%</p>
-                            <p class="ratio">Target: N/A</p>
-                            <div class="progressBar">
-                              <div id="mk-btm-roa" class="ldBar ldBar__red"></div>
-                            </div>
-                            <p class="ratio">Bal: N/A</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>11,268</p>
-                            <p class="percentage percentage__up"><span class="d-block">4.2%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>273</p>
-                            <p class="percentage percentage__up"><span class="d-block">-3.6%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>33.7</p>
-                            <p class="percentage percentage__down"><span class="d-block">-10.3%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>7.80%</p>
-                            <p class="percentage percentage__up"><span class="d-block">10.2%</span></p>
-                          </div>
-                        </td>
-
-                      </tr>
-
-                      <tr>
-                        <td colspan="10"></td>
-                      </tr>
-
-                      <tr class="funnel funnel--opacity__300">
-                        <td class="no-border">
-                          <div class="detail detail__head">
-                            <img class="img-fluid m-auto" src="img/funnel-2.svg" alt="funnel-2">
-                            <p class="mt-3">Uncat.</p>
-                            <p class="x-sml">Not<br>Assigned To<br>Any Level</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$4,277.34</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="text-left detail detail__content">
-                            <p class="price">$1,258.04</p>
-                          </div>
-                        </td>
-                        <td class="no-border">
-                          <div class="text-left detail detail__content">
-                            <p class="price">3.4</p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>46,044</p>
-                            <p class="percentage percentage__up"><span class="d-block">36.3%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>144</p>
-                            <p class="percentage percentage__up"><span class="d-block">79.5%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>29.7</p>
-                            <p class="percentage percentage__down"><span class="d-block">-11.3%</span></p>
-                          </div>
-                        </td>
-                        <td>
-                          <div class="detail detail__content">
-                            <p>6.60%</p>
-                            <p class="percentage percentage__up"><span class="d-block">1.9%</span></p>
-                          </div>
-                        </td>
-
-                      </tr>
-
-
-                    </tbody>
-                  </table>
-                  
-  
-  
-                </div>
-                <p class="note sml">Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</p>
-              </div>
-  
-              <div class="wrapper-box__bottom">
-
-                <div class="tab-graph">
-
-                  <div class="ai-graph">
-                    <div class="ai-graph__compare">
-                      <div class="d-flex align-items-center">
-                        <p>Compare</p>
-                        <div class="select-box bg-neutral-100 ml-3 mr-3">
-                          <select class="bg-neutral-100 txt-neutral-600">
-                            <option value="">Revenue</option>
-                            <option value="">Spends</option>
-                            <option value="">RoAS</option>
-                            <option value="">Reach</option>
-                            <option value="">Transactions</option>
-                            <option value="">AOV</option>
-                            <option value="">CTR</option>
-                          </select>
-                          <span class="select-arrow txt-neutral-600"></span>
-                        </div>
-                        <div class="legend sml">
-                          <span class="legend__mk">Top</span>
-                          <span class="legend__mk opacity--600">Middle</span>
-                          <span class="legend__mk opacity--500">Bottom</span>
-                          <span class="legend__mk opacity--400">Uncategorized</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="ai-graph__chart">
-                      <canvas id="myChart3"></canvas>
-                    </div>
-                    <p class="label">1 Mar, 2021 - 31 Mar, 2021 (Daily)</p>
-                  </div>
-
-                </div>
-                
-              </div>
-  
-            </div>
-          </div>
-        </div>
-  
-      </div>
-  
-    </section>
-
-  <!-- funnel section test end-->
-
   <!-- funnel section -->
   <section class="category category__funnel">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="title">
-            <h2>Facebook Conversion Campaign Results by Marketing Funnel</h2>
-            <h4>Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</h4>
+            <h2>Conversion Campaign Results by Marketing Funnel</h2>
+            <h4>Assess the effectiveness of conversions and catalog campaigns at each level of the funnel</h4>
           </div>
 
         </div>
@@ -1565,7 +914,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$8,356.98</p>
+                              <p class="price">Rs.10,811,944</p>
                               <p class="percentage percentage__up">50.2%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -1576,7 +925,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$2,695.80</p>
+                              <p class="price">Rs.1,241,940</p>
                               <p class="percentage percentage__up">17.8%</p>
                               <p class="ratio">Budget: N/A</p>
                               <div class="progressBar">
@@ -1588,7 +937,7 @@
                           <td class="no-border">
 
                             <div class="text-left detail detail__content">
-                              <p class="price">3.1</p>
+                              <p class="price">8.7</p>
                               <p class="percentage percentage__up">50.2%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -1600,26 +949,26 @@
                           <td>
 
                             <div class="detail detail__content">
-                              <p>293,823</p>
+                              <p>569,197</p>
                               <p class="percentage percentage__down"><span class="d-block">-12.3%</span></p>
                             </div>
 
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>281</p>
+                              <p>714</p>
                               <p class="percentage percentage__up"><span class="d-block">46.0%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>29.7</p>
+                              <p>15,143</p>
                               <p class="percentage percentage__up"><span class="d-block">4.5%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>5.50%</p>
+                              <p>1.3</p>
                               <p class="percentage percentage__up"><span class="d-block">38.3%</span></p>
                             </div>
                           </td>
@@ -1639,7 +988,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$21,206.96</p>
+                              <p class="price">Rs.13,154,320</p>
                               <p class="percentage percentage__up">9.5%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -1650,7 +999,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$3,594.40</p>
+                              <p class="price">Rs.283,825</p>
                               <p class="percentage percentage__down">-85.1%</p>
                               <p class="ratio">Budget: N/A</p>
                               <div class="progressBar">
@@ -1661,7 +1010,7 @@
                           </td>
                           <td class="no-border">
                             <div class="text-left detail detail__content">
-                              <p class="price">5.9</p>
+                              <p class="price">46.4</p>
                               <p class="percentage percentage__up">92.7%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -1672,25 +1021,25 @@
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>57,906</p>
+                              <p>38,872</p>
                               <p class="percentage percentage__down"><span class="d-block">-26.8%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>657</p>
+                              <p>810</p>
                               <p class="percentage percentage__up"><span class="d-block">10.5%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>32.3</p>
+                              <p>16,240</p>
                               <p class="percentage percentage__down"><span class="d-block">-1.1%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>9.85%</p>
+                              <p>3.7</p>
                               <p class="percentage percentage__up"><span class="d-block">14.7%</span></p>
                             </div>
                           </td>
@@ -1710,7 +1059,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$9,201.66</p>
+                              <p class="price">Rs.4,137,194</p>
                               <p class="percentage percentage__down">-13.9%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -1721,7 +1070,7 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$1,437.76</p>
+                              <p class="price">Rs.117,168</p>
                               <p class="percentage percentage__down">-49.7%</p>
                               <p class="ratio">Budget: N/A</p>
                               <div class="progressBar">
@@ -1732,7 +1081,7 @@
                           </td>
                           <td class="no-border">
                             <div class="text-left detail detail__content">
-                              <p class="price">6.4</p>
+                              <p class="price">35.3</p>
                               <p class="percentage percentage__up">36.4%</p>
                               <p class="ratio">Target: N/A</p>
                               <div class="progressBar">
@@ -1743,25 +1092,25 @@
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>11,268</p>
+                              <p>5,182</p>
                               <p class="percentage percentage__up"><span class="d-block">4.2%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>273</p>
+                              <p>300</p>
                               <p class="percentage percentage__up"><span class="d-block">-3.6%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>33.7</p>
+                              <p>13,791</p>
                               <p class="percentage percentage__down"><span class="d-block">-10.3%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>7.80%</p>
+                              <p>2.48</p>
                               <p class="percentage percentage__up"><span class="d-block">10.2%</span></p>
                             </div>
                           </td>
@@ -1782,40 +1131,40 @@
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$4,277.34</p>
+                              <p class="price">Rs.141,200,216</p>
                             </div>
                           </td>
                           <td>
                             <div class="text-left detail detail__content">
-                              <p class="price">$1,258.04</p>
+                              <p class="price">Rs.5,907,935</p>
                             </div>
                           </td>
                           <td class="no-border">
                             <div class="text-left detail detail__content">
-                              <p class="price">3.4</p>
+                              <p class="price">23.9</p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>46,044</p>
+                              <p>11,696,037</p>
                               <p class="percentage percentage__up"><span class="d-block">36.3%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>144</p>
+                              <p>31,049</p>
                               <p class="percentage percentage__up"><span class="d-block">79.5%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>29.7</p>
+                              <p>4,548</p>
                               <p class="percentage percentage__down"><span class="d-block">-11.3%</span></p>
                             </div>
                           </td>
                           <td>
                             <div class="detail detail__content">
-                              <p>6.60%</p>
+                              <p>3.36</p>
                               <p class="percentage percentage__up"><span class="d-block">1.9%</span></p>
                             </div>
                           </td>
@@ -1829,7 +1178,7 @@
 
                   </div>
 
-                  <p class="note sml">Increase / Decrease based on previous period (22 Jun, 2021 - 28 Jun, 2021)</p>
+                  <p class="note sml">Increase / Decrase based on previous period (01 Feb, 2021 - 28 Feb, 2021)</p>
 
                 </div>
 
@@ -1890,7 +1239,7 @@
 
   <!-- control section -->
 
-  <section class="category category__conversion d-none">
+  <section class="category category__conversion">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
