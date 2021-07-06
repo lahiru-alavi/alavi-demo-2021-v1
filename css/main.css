@@ -1142,6 +1142,23 @@ h4 {
   box-shadow: none;
 }
 
+/* arrow text */
+.at::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.at__up::before {
+  content: "";
+  color: var(--clr-secondary-400);
+}
+.at__down::before {
+  content: "";
+  color: var(--clr-secondary-200);
+}
+
+/* arrow text */
 /* select box*/
 .select-box-wrap {
   border-radius: 3px;
@@ -2091,10 +2108,3 @@ Expand Page Start
 Expand Page End
 ------------------------------------
 */
-
-.note_sml .percentage::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 1.3rem;
-  vertical-align: middle;
-}

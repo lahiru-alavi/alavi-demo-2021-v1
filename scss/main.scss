@@ -59,6 +59,28 @@ h4 {
   box-shadow: none;
 }
 
+/* arrow text */
+.at {
+  &::before {
+    @include fa();
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  &__up {
+    &::before {
+      content: "\f0d8";
+      color: var(--clr-secondary-400);
+    }
+  }
+  &__down {
+    &::before {
+      content: "\f0d7";
+      color: var(--clr-secondary-200);
+    }
+  }
+}
+/* arrow text */
+
 /* select box*/
 
 .select-box-wrap {
