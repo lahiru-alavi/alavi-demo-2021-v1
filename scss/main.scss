@@ -1209,6 +1209,12 @@ Optimize Page Start
     td {
       padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
+    .btn {
+      cursor: inherit;
+      a {
+        cursor: pointer;
+      }
+    }
   }
 }
 
