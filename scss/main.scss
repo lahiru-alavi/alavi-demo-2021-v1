@@ -398,6 +398,11 @@ select::-ms-expand {
           vertical-align: middle;
           padding: 1rem 1rem;
         }
+
+        td[colspan] {
+          padding: 0.5rem 1rem;
+        }
+
         &.web {
           td {
             background-color: var(--clr-other-a-500);

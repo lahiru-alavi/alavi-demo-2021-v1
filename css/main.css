@@ -1427,6 +1427,9 @@ select::-ms-expand {
   vertical-align: middle;
   padding: 1rem 1rem;
 }
+.ai-tbl table tbody tr td[colspan] {
+  padding: 0.5rem 1rem;
+}
 .ai-tbl table tbody tr.web td {
   background-color: var(--clr-other-a-500);
 }
