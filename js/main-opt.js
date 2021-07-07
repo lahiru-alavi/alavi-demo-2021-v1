@@ -1,16 +1,17 @@
 // Page Redirection
 document.getElementById("nav-home-tab").onclick = function () {
-  location.href = "optimize.html#mkr";
+  location.href = "optimize-all.html#mkr";
 };
 document.getElementById("nav-top-funnel-tab").onclick = function () {
-  location.href = "optimize-top-funnel.html#mkr";
+  location.href = "optimize.html#mkr";
 };
-document.getElementById("nav-mid-funnel-tab").onclick = function () {
-  location.href = "optimize-mid-funnel.html#mkr";
-};
-document.getElementById("nav-btm-funnel-tab").onclick = function () {
-  location.href = "optimize-btm-funnel.html#mkr";
-};
+
+// document.getElementById("nav-mid-funnel-tab").onclick = function () {
+//   location.href = "optimize-mid-funnel.html#mkr";
+// };
+// document.getElementById("nav-btm-funnel-tab").onclick = function () {
+//   location.href = "optimize-btm-funnel.html#mkr";
+// };
 
 // back to top
 $(function () {
@@ -270,12 +271,6 @@ var chart = new Chart(cha4, {
         borderColor: "rgba(26, 76, 251, 1)",
         data: [0, 40000, 38000, 50000],
       },
-      {
-        label: "Non Conversion",
-        fill: false,
-        borderColor: "rgba(73, 171, 255, 1)",
-        data: [0, 10000, 15000, 18000],
-      },
     ],
   },
 
@@ -335,12 +330,6 @@ var chart = new Chart(cha5, {
         fill: false,
         borderColor: "rgba(26, 76, 251, 1)",
         data: [0, 40000, 38000, 50000],
-      },
-      {
-        label: "Non Conversion",
-        fill: false,
-        borderColor: "rgba(73, 171, 255, 1)",
-        data: [0, 10000, 15000, 18000],
       },
     ],
   },
@@ -403,12 +392,12 @@ var chart = new Chart(cha6, {
         borderColor: "rgba(26, 76, 251, 1)",
         data: [0, 40000, 38000, 50000],
       },
-      {
-        label: "Non Conversion",
-        fill: false,
-        borderColor: "rgba(73, 171, 255, 1)",
-        data: [0, 10000, 15000, 18000],
-      },
+      // {
+      //   label: "Non Conversion",
+      //   fill: false,
+      //   borderColor: "rgba(73, 171, 255, 1)",
+      //   data: [0, 10000, 15000, 18000],
+      // },
     ],
   },
 
@@ -469,12 +458,6 @@ var chart = new Chart(chaCommon1, {
         fill: false,
         borderColor: "rgba(26, 76, 251, 1)",
         data: [0, 40000, 38000, 50000],
-      },
-      {
-        label: "Non Conversion",
-        fill: false,
-        borderColor: "rgba(73, 171, 255, 1)",
-        data: [0, 10000, 15000, 18000],
       },
     ],
   },
@@ -537,12 +520,6 @@ var chart = new Chart(chaCommon2, {
         borderColor: "rgba(26, 76, 251, 1)",
         data: [0, 40000, 38000, 50000],
       },
-      {
-        label: "Non Conversion",
-        fill: false,
-        borderColor: "rgba(73, 171, 255, 1)",
-        data: [0, 10000, 15000, 18000],
-      },
     ],
   },
 
@@ -603,12 +580,6 @@ var chart = new Chart(chaCommon3, {
         fill: false,
         borderColor: "rgba(26, 76, 251, 1)",
         data: [0, 40000, 38000, 50000],
-      },
-      {
-        label: "Non Conversion",
-        fill: false,
-        borderColor: "rgba(73, 171, 255, 1)",
-        data: [0, 10000, 15000, 18000],
       },
     ],
   },

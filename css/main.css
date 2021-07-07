@@ -1815,25 +1815,22 @@ Optimize Page Start
   padding: 25px 30px 45px 30px;
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link {
-  border-top: 2px solid transparent;
+  border-top: 3px solid transparent;
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(1) {
   border-top-color: var(--clr-secondary-200);
-  background: -webkit-linear-gradient(top, #fcdbdb 0%, white 100%);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(1) .tab-img h3 {
   color: var(--clr-secondary-200);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(2) {
   border-top-color: var(--clr-primary-100);
-  background: -webkit-linear-gradient(top, #ffe9bd 0%, white 100%);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(2) .tab-img h3 {
   color: var(--clr-primary-100);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(3) {
   border-top-color: var(--clr-secondary-100);
-  background: -webkit-linear-gradient(top, #d4ddff 0%, white 100%);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(3) .tab-img h3 {
   color: var(--clr-secondary-100);
@@ -1868,6 +1865,7 @@ Optimize Page Start
   border: 0;
 }
 .wrapper-tab-inside__header span.icon-box {
+  background-color: var(--clr-secondary-200) !important;
   padding: 5px 2px 5px 2px !important;
   width: 32px;
   margin: 0 auto;
@@ -2045,14 +2043,11 @@ Optimize Page Start
   color: var(--clr-secondary-200) !important;
 }
 .ai-data-tbl.ai-rec-tbl th {
-  height: 60px;
+  height: 48px;
 }
 .ai-data-tbl.ai-rec-tbl th:not(:first-child),
 .ai-data-tbl.ai-rec-tbl td:not(:first-child) {
   text-align: center;
-}
-.ai-data-tbl.ai-rec-tbl th:last-child {
-  text-align: left;
 }
 .ai-data-tbl.ai-rec-tbl td {
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -2114,6 +2109,10 @@ Optimize Page Start
 }
 .ai-data-results__results .compare-data .ai-graph__chart canvas {
   min-height: 120px !important;
+}
+
+.pic-modal {
+  max-width: 70%;
 }
 
 /*
