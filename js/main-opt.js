@@ -40,15 +40,15 @@ $(function () {
 
 // Progress Bar
 var bar1 = new ldBar("#opt-rev", {
-  value: 90,
+  value: 77,
   preset: "line",
 });
 var bar2 = new ldBar("#opt-spe", {
-  value: 90,
+  value: 75,
   preset: "line",
 });
 var bar3 = new ldBar("#opt-roa", {
-  value: 90,
+  value: 100,
   preset: "line",
 });
 // Progress Bar

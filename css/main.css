@@ -1373,6 +1373,10 @@ select::-ms-expand {
   padding-left: 15em;
 }
 
+.note2 {
+  padding-left: 21em;
+}
+
 /* table */
 .ai-tbl {
   position: relative;
@@ -1515,12 +1519,14 @@ select::-ms-expand {
 }
 .detail__content .percentage__up::before {
   content: "";
+  margin-right: 6px;
 }
 .detail__content .percentage__down {
   color: var(--clr-secondary-200);
 }
 .detail__content .percentage__down::before {
   content: "";
+  margin-right: 6px;
 }
 .detail__content .ratio {
   font-size: 1rem;
