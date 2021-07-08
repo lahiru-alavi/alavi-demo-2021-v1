@@ -1145,6 +1145,7 @@ h4 {
 
 .x-sml {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .shadow {
@@ -1320,11 +1321,12 @@ select::-ms-expand {
   color: var(--clr-neutral-100);
 }
 .navigation__bottom {
-  min-height: 55px;
+  min-height: 45px;
 }
 .navigation__bottom .navbar-nav .nav-link {
   font-size: 14px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
+  line-height: 25px;
 }
 .navigation__bottom .nav-item.active::after {
   content: "";
@@ -1384,6 +1386,10 @@ select::-ms-expand {
   padding-left: 15em;
 }
 
+.note2 {
+  padding-left: 21em;
+}
+
 /* table */
 .ai-tbl {
   position: relative;
@@ -1441,7 +1447,7 @@ select::-ms-expand {
   padding: 1rem 1rem;
 }
 .ai-tbl table tbody tr td[colspan] {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
 }
 .ai-tbl table tbody tr.web td {
   background-color: var(--clr-other-a-500);

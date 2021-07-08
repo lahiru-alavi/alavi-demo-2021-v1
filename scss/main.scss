@@ -49,6 +49,7 @@ h4 {
 
 .x-sml {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .shadow {
@@ -269,11 +270,12 @@ select::-ms-expand {
   }
 
   &__bottom {
-    min-height: 55px;
+    min-height: 45px;
 
     .navbar-nav .nav-link {
       font-size: 14px;
-      padding-bottom: 16px;
+      padding-bottom: 8px;
+      line-height: 25px;
     }
 
     .nav-item {
@@ -351,6 +353,10 @@ select::-ms-expand {
   padding-left: 15em;
 }
 
+.note2 {
+  padding-left: 21em;
+}
+
 /* table */
 .ai-tbl {
   position: relative;
@@ -415,7 +421,7 @@ select::-ms-expand {
         }
 
         td[colspan] {
-          padding: 0.5rem 1rem;
+          padding: 0.4rem 1rem;
         }
 
         &.web {
