@@ -1568,7 +1568,6 @@ select::-ms-expand {
 /* Results End*/
 .ai-graph__compare {
   margin-bottom: 2em;
-  display: none !important;
 }
 .ai-graph__compare p {
   color: var(--clr-neutral-800);
@@ -2116,6 +2115,9 @@ Optimize Page Start
 }
 .ai-data-results__results .compare-data .ai-graph__chart canvas {
   min-height: 120px !important;
+}
+.ai-data-results__results .compare-data .ai-graph__compare {
+  display: none !important;
 }
 
 .pic-modal {

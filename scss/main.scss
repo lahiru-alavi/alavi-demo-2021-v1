@@ -600,7 +600,7 @@ select::-ms-expand {
 .ai-graph {
   &__compare {
     margin-bottom: 2em;
-    display: none !important;
+
     p {
       color: var(--clr-neutral-800);
       font-weight: var(--fw-semi-bold);
@@ -1293,6 +1293,9 @@ Optimize Page Start
     .compare-data {
       .ai-graph__chart canvas {
         min-height: 120px !important;
+      }
+      .ai-graph__compare {
+        display: none !important;
       }
     }
   }
