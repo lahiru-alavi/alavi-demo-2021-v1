@@ -939,6 +939,10 @@ Optimize Page Start
         &:not(.active) {
           padding: 27px 27px 27px 35px;
         }
+
+        &.active {
+          padding: 27px 27px 50px 35px;
+        }
       }
     }
   }

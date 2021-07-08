@@ -1841,6 +1841,9 @@ Optimize Page Start
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:not(.active) {
   padding: 27px 27px 27px 35px;
 }
+.wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link.active {
+  padding: 27px 27px 50px 35px;
+}
 
 .wrapper-tab-inside__header .nav-tabs .nav-link {
   width: 32%;
