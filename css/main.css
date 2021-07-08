@@ -1145,6 +1145,7 @@ h4 {
 
 .x-sml {
   font-size: 1rem;
+  line-height: 1.4;
 }
 
 .shadow {
@@ -1383,7 +1384,7 @@ select::-ms-expand {
   border: 4px solid var(--clr-neutral-300);
   border-radius: 6px;
   width: 44.6%;
-  height: 98%;
+  height: 98.6%;
   left: 7.3%;
   top: 0;
 }
