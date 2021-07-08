@@ -177,6 +177,18 @@ select::-ms-expand {
   }
 }
 
+.select-mx {
+  height: 30px;
+
+  select {
+    padding: 0 5px;
+  }
+
+  .select-arrow::after {
+    font-size: 1.2rem;
+  }
+}
+
 /* select box*/
 
 /* navigation */

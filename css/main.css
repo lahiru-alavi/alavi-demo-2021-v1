@@ -1263,6 +1263,16 @@ select::-ms-expand {
   font-size: 1.2rem;
 }
 
+.select-mx {
+  height: 30px;
+}
+.select-mx select {
+  padding: 0 5px;
+}
+.select-mx .select-arrow::after {
+  font-size: 1.2rem;
+}
+
 /* select box*/
 /* navigation */
 .navigation__top .navbar-nav, .navigation__bottom .navbar-nav {
