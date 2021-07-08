@@ -134,7 +134,7 @@ var chart = new Chart(cha1, {
 
   // The data for our dataset
   data: {
-    labels: ["1 Jun", "2 Jun", "3 Jun", "4 Jun", "5 Jun", "6 Jun", "7 Jun", "8 Jun", "9 Jun", "10 Jun", "11 Jun", "12 Jun", "13 Jun", "14 Jun", "15 Jun", "16 Jun", "17 Jun", "18 Jun", "19 Jun", "20 Jun",   ],
+    labels: ["1 Jun", "2 Jun", "3 Jun", "4 Jun", "5 Jun", "6 Jun", "7 Jun", "8 Jun", "9 Jun", "10 Jun", "11 Jun", "12 Jun", "13 Jun", "14 Jun", "15 Jun", "16 Jun", "17 Jun", "18 Jun", "19 Jun", "20 Jun"],
     // Information about the dataset
     datasets: [
       {
@@ -187,8 +187,8 @@ var chart = new Chart(cha1, {
           },
           ticks: {
             min: 0,
-            max: 5000000,
-            stepSize: 500000,
+            max: 150000,
+            stepSize: 5000,
           },
         },
       ],
@@ -212,20 +212,20 @@ var chart = new Chart(cha2, {
 
   // The data for our dataset
   data: {
-    labels: ["", "May 16", "May 17", "May 18", "May 19", "May 20", "May 21"],
+    labels: ["1 Jun", "2 Jun", "3 Jun", "4 Jun", "5 Jun", "6 Jun", "7 Jun", "8 Jun", "9 Jun", "10 Jun", "11 Jun", "12 Jun", "13 Jun", "14 Jun", "15 Jun", "16 Jun", "17 Jun", "18 Jun", "19 Jun", "20 Jun"],
     // Information about the dataset
     datasets: [
       {
         label: "Conversion",
         fill: false,
         borderColor: "rgba(108, 139, 250, 1)",
-        data: [1730237, 2295673, 2289342, 1947076, 2063682, 2101925, 2231138],
+        data: [54000, 50000, 42400, 56000, 56000, 56000, 54000, 42000, 44000, 45600, 44000, 47000, 50000, 54000, 53500, 52000, 53800, 54000, 56000, 54000, ],
       },
       {
         label: "Non Conversion",
         fill: false,
         borderColor: "rgba(26, 76, 251, 0.2)",
-        data: [1672810, 2007076, 1796407, 1921905, 1664475, 1438009, 1188911],
+        data: [54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, 54000, ],
       },
     ],
   },
@@ -284,7 +284,7 @@ var chart = new Chart(cha3, {
 
   // The data for our dataset
   data: {
-    labels: ["", "May 16", "May 17", "May 18", "May 19", "May 20", "May 21"],
+    labels: ["1 Jun", "2 Jun", "3 Jun", "4 Jun", "5 Jun", "6 Jun", "7 Jun", "8 Jun", "9 Jun", "10 Jun", "11 Jun", "12 Jun", "13 Jun", "14 Jun", "15 Jun", "16 Jun", "17 Jun", "18 Jun", "19 Jun", "20 Jun"],
     // Information about the dataset
     datasets: [
       {
