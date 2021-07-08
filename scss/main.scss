@@ -250,7 +250,7 @@ select::-ms-expand {
     .right-nav {
       .nav-item {
         .nav-link {
-          color: var(--clr-neutral-600);
+          color: var(--clr-neutral-100);
         }
       }
     }
@@ -600,6 +600,7 @@ select::-ms-expand {
 .ai-graph {
   &__compare {
     margin-bottom: 2em;
+    display: none !important;
     p {
       color: var(--clr-neutral-800);
       font-weight: var(--fw-semi-bold);
@@ -1220,7 +1221,7 @@ Optimize Page Start
 
 .ai-data-labels {
   background: var(--clr-neutral-200);
-  padding: 6em 5em 8em 8em;
+  padding: 5em 5em 5em 8em;
 
   img {
     width: 12px;
