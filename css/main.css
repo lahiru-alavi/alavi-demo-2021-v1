@@ -1926,7 +1926,7 @@ Optimize Page Start
 }
 
 .ai-data-tbl .ai-h-tbl {
-  height: 500px;
+  height: 539px;
   overflow-y: scroll;
   border-bottom: 1px solid var(--clr-neutral-400);
   scrollbar-width: thin;
@@ -2077,7 +2077,7 @@ Optimize Page Start
 
 .ai-data-labels {
   background: var(--clr-neutral-200);
-  padding: 6em 5em 8em 8em;
+  padding: 6em 5em 5em 8em;
 }
 .ai-data-labels img {
   width: 12px;
