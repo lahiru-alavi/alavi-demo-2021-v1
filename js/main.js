@@ -25,97 +25,97 @@ $(function () {
 
 // Progress Bar
 var bar1 = new ldBar("#w-rev", {
-  value: 90,
+  value: 94,
   preset: "line",
 });
 
 var bar2 = new ldBar("#w-spe", {
-  value: 90,
+  value: 70,
   preset: "line",
 });
 
 var bar3 = new ldBar("#f-rev", {
-  value: 10,
+  value: 77,
   preset: "line",
 });
 
 var bar4 = new ldBar("#f-spe", {
-  value: 10,
+  value: 75,
   preset: "line",
 });
 
 var bar5 = new ldBar("#f-roa", {
-  value: 10,
+  value: 100,
   preset: "line",
 });
 
 var bar6 = new ldBar("#g-rev", {
-  value: 10,
+  value: 66,
   preset: "line",
 });
 
 var bar7 = new ldBar("#g-spe", {
-  value: 10,
+  value: 61,
   preset: "line",
 });
 
 var bar8 = new ldBar("#g-roa", {
-  value: 10,
+  value: 100,
   preset: "line",
 });
 
 var bar9 = new ldBar("#f-con-rev", {
-  value: 10,
+  value: 77,
   preset: "line",
 });
 
 var bar10 = new ldBar("#f-con-spe", {
-  value: 10,
+  value: 75,
   preset: "line",
 });
 
 var bar11 = new ldBar("#f-con-roa", {
-  value: 10,
+  value: 100,
   preset: "line",
 });
 var bar12 = new ldBar("#f-ncon-spe", {
-  value: 10,
+  value: 78,
   preset: "line",
 });
 var bar13 = new ldBar("#mk-top-rev", {
-  value: 10,
+  value: 84,
   preset: "line",
 });
 var bar14 = new ldBar("#mk-top-spe", {
-  value: 10,
+  value: 90,
   preset: "line",
 });
 var bar15 = new ldBar("#mk-top-roa", {
-  value: 10,
+  value: 93,
   preset: "line",
 });
 var bar16 = new ldBar("#mk-mid-rev", {
-  value: 10,
+  value: 71,
   preset: "line",
 });
 var bar17 = new ldBar("#mk-mid-spe", {
-  value: 10,
+  value: 70,
   preset: "line",
 });
 var bar18 = new ldBar("#mk-mid-roa", {
-  value: 10,
+  value: 100,
   preset: "line",
 });
 var bar19 = new ldBar("#mk-btm-rev", {
-  value: 10,
+  value: 77,
   preset: "line",
 });
 var bar20 = new ldBar("#mk-btm-spe", {
-  value: 10,
+  value: 76,
   preset: "line",
 });
 var bar21 = new ldBar("#mk-btm-roa", {
-  value: 10,
+  value: 100,
   preset: "line",
 });
 var bar22 = new ldBar("#al-spe", {
