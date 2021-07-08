@@ -1307,14 +1307,15 @@ select::-ms-expand {
   border-radius: 0px;
 }
 .navigation__top .right-nav .nav-item .nav-link {
-  color: var(--clr-neutral-600);
+  color: var(--clr-neutral-100);
 }
 .navigation__bottom {
   min-height: 45px;
 }
 .navigation__bottom .navbar-nav .nav-link {
   font-size: 14px;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
+  line-height: 25px;
 }
 .navigation__bottom .nav-item.active::after {
   content: "";
@@ -1345,7 +1346,7 @@ select::-ms-expand {
   align-items: flex-end;
 }
 .category .filter .nav-link {
-  padding: 0.8rem 1rem;
+  padding: 0.1rem 1rem;
   font-size: 1.2rem;
 }
 .category .filter .nav-item.active {
