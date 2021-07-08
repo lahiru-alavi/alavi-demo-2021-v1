@@ -1700,6 +1700,11 @@ select::-ms-expand {
   padding-left: 0;
   padding-right: 0;
 }
+.wrapper-tab__body .tab-pane2 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
 
 .tab-shadow {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px 0px;
@@ -1795,7 +1800,7 @@ Optimize Page Start
   padding: 27px 27px 20px 35px;
 }
 .wrapper-tab--optimize .wrapper-tab__head .nav-link.active {
-  padding: 27px 27px 40px 35px;
+  padding: 27px 27px 52px 35px;
 }
 .wrapper-tab--optimize .wrapper-tab__head .tab-img img {
   width: 20px;
@@ -1820,7 +1825,10 @@ Optimize Page Start
   content: none;
 }
 .wrapper-tab--optimize .wrapper-tab__body {
-  padding: 25px 30px 45px 30px;
+  padding: 12px 30px 34px 30px;
+}
+.wrapper-tab--optimize .wrapper-tab__body {
+  padding: 12px 30px 34px 30px;
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link {
   border-top: 3px solid transparent;
@@ -1865,7 +1873,7 @@ Optimize Page Start
   background-color: var(--clr-neutral-700);
   color: var(--clr-neutral-100);
   border-radius: 6px;
-  padding: 5px 11px 9px 11px;
+  padding: 6px 11px 6px 11px;
   margin-right: 1rem;
   font-size: 1.2rem;
 }
@@ -1885,7 +1893,7 @@ Optimize Page Start
 .wrapper-tab-inside .wrapper-tab__body {
   border: 0;
   box-shadow: none;
-  padding: 20px 0px;
+  padding: 0px 0px;
 }
 .wrapper-tab-inside .wrapper-tab__body .filters__right .btn {
   font-size: 1.2rem;
