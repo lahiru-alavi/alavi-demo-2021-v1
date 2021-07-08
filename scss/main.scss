@@ -316,6 +316,9 @@ select::-ms-expand {
         }
       }
     }
+    p {
+      transform: translateY(-27%);
+    }
   }
   .wrapper-box {
     background: var(--clr-neutral-100);
@@ -959,13 +962,20 @@ Optimize Page Start
     }
     .detail__content {
       h3 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
         span {
           background-color: var(--clr-neutral-700);
           color: var(--clr-neutral-100);
           border-radius: 6px;
-          padding: 5px 11px 9px 11px;
+          padding: 5px 2px 5px 2px;
+          text-align: center;
           margin-right: 1rem;
-          font-size: 1.2rem;
+          width: 32px;
+          i {
+            font-size: 1.8rem;
+          }
         }
       }
     }
