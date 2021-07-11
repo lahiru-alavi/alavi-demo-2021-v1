@@ -128,9 +128,23 @@
               <a class="nav-link txt-neutral-700 fw-regular" aria-current="page" href="#">Executive View</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link txt-neutral-700 fw-regular" aria-current="page" href="#">Set Targets</a>
+              <a class="nav-link txt-neutral-700 fw-regular" aria-current="page" href="#" data-bs-toggle="modal"
+                data-bs-target="#targetModal">Set Targets</a>
             </li>
           </ul>
+
+          <div class="d-flex align-items-center justify-content-center px-0 px-lg-2 ml-auto">
+
+            <div class="right-nav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-underline fw-regular" href="#">Sign Out</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
         </div>
       </div>
     </nav>
@@ -144,7 +158,8 @@
         <div class="col-md-6">
           <div class="title">
             <h2>Overall Business Results</h2>
-            <h4><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span> based on selected period versus previous period (12 May, 2021 - 31 May, 2021)</h4>
+            <h4><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span> based on selected
+              period versus previous period (12 May, 2021 - 31 May, 2021)</h4>
           </div>
 
         </div>
@@ -437,7 +452,8 @@
 
 
               </div>
-              <p class="note sml d-none"><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span>
+              <p class="note sml d-none"><span class="at at__up">Increase</span> / <span
+                  class="at at__down">Decrease</span>
                 based on selected period versus previous period (12 May, 2021 - 31 May, 2021)</p>
             </div>
 
@@ -491,7 +507,8 @@
         <div class="col-md-6">
           <div class="title">
             <h2>Facebook Conversion vs Non-Conversion Campaigns</h2>
-            <h4><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span> based on selected period versus previous period (12 May, 2021 - 31 May, 2021)</h4>
+            <h4><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span> based on selected
+              period versus previous period (12 May, 2021 - 31 May, 2021)</h4>
           </div>
 
         </div>
@@ -688,7 +705,8 @@
 
 
               </div>
-              <p class="note2 sml d-none"><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span>
+              <p class="note2 sml d-none"><span class="at at__up">Increase</span> / <span
+                  class="at at__down">Decrease</span>
                 based on selected period versus previous period (12 May, 2021 - 31 May, 2021)</p>
             </div>
 
@@ -748,7 +766,8 @@
         <div class="col-md-6">
           <div class="title">
             <h2>Facebook Conversion Campaigns by Marketing Funnel</h2>
-            <h4><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span> based on selected period versus previous period (12 May, 2021 - 31 May, 2021)</h4>
+            <h4><span class="at at__up">Increase</span> / <span class="at at__down">Decrease</span> based on selected
+              period versus previous period (12 May, 2021 - 31 May, 2021)</h4>
           </div>
 
         </div>
@@ -1082,19 +1101,22 @@
 
 
               </div>
-              
+
               <div class="funbtn" style="width: 52%; height: 98.8%; margin-left: 8.6%;">
 
-                <div style="width:200px; margin:auto;">
- 
-                               <img src="img/fun_btn.png" alt="fun" class="m-auto float-left">
- 
-                               <span>Categorize Campaigns</span>
- 
-                </div>
- 
- </div>
-              
+                <a href="#" data-bs-toggle="modal" data-bs-target="#">
+
+                  <div style="width:200px; margin:auto;">
+
+                    <img width="26" src="img/fun_btn.png" alt="fun" class="m-auto float-left">
+
+                    <span>Categorize Campaigns</span>
+
+                  </div>
+                </a>
+
+              </div>
+
             </div>
 
             <div class="wrapper-box__bottom">
@@ -1433,6 +1455,36 @@
       </div>
 
   </section>
+
+  <!-- Modal Window Start -->
+  <!-- set targets start -->
+
+  <div class="modal fade" id="targetModal" tabindex="-1" aria-labelledby="targetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered pic-modal">
+      <div class="modal-content">
+
+        <img src="img/popup-settargets.png" alt="modal-img">
+
+      </div>
+    </div>
+  </div>
+  <!-- set targets end -->
+
+  <!-- campaign cat modal start -->
+
+  <div class="modal fade" id="campaignModal" tabindex="-1" aria-labelledby="campaignModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered pic-modal">
+      <div class="modal-content">
+
+        <img src="img/test-img.png" alt="modal-img">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- campaign cat modal end -->
+
+  <!-- Modal Window End -->
 
   <!-- footer -->
 

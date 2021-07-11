@@ -1,47 +1,34 @@
 .note {
-
-    padding-left: 8.5em;
-
+  padding-left: 8.5em;
 }
 
 .note2 {
-
-    padding-left: 15.5em;
-
+  padding-left: 15.5em;
 }
 
-.expand-tbl td:nth-child(1), .expand-tbl td:nth-child(2) {
-    text-align: left;
-    padding-left: 1rem !important;
+.expand-tbl td:nth-child(1),
+.expand-tbl td:nth-child(2) {
+  text-align: left;
+  padding-left: 1rem !important;
 }
 
 .mb-4 {
-    margin-bottom: 1.6rem !important;
+  margin-bottom: 1.6rem !important;
 }
 
 .detail__content .percentage__up::before {
-    content: "";
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 .detail__content .percentage__down::before {
-    content: "";
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 .funbtn {
-
-    background-color: #dedede;
-
-    padding: 12px 10px;
-
-    text-align: center;
-
-    color: #000;
-
-    font-size: 14px;
-
-    border-radius: 6px;
-
+  background-color: #dedede;
+  padding: 12px 10px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  border-radius: 6px;
 }
-    
