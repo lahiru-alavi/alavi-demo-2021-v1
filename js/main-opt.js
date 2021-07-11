@@ -816,6 +816,7 @@ $(document).ready(function () {
     $("#aiCampaign tr.SelectRow1").removeClass("highlight-btm");
     $("#aiCampaign tr.SelectRow1").addClass("highlight-row");
     $(this).parent().removeClass("highlight-btm");
+    $("#data-load-adset").addClass("d-none");
     $("#data-result-adset").addClass("d-block");
   });
 
@@ -828,6 +829,7 @@ $(document).ready(function () {
     $("#aiAdset tr.SelectRow1").removeClass("highlight-btm");
     $("#aiAdset tr.SelectRow1").addClass("highlight-row");
     $(this).parent().removeClass("highlight-btm");
+    $("#data-load-ads").addClass("d-none");
     $("#data-result-ad").addClass("d-block");
   });
 });
