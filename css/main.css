@@ -24,6 +24,7 @@
 /* font awesome */
 :root {
   --clr-primary-100: #ff5400;
+  --clr-primary-200: #ffa700;
   --clr-secondary-20: #0f0f0f;
   --clr-secondary-50: #13006f;
   --clr-secondary-100: #1a4cfb;
@@ -236,6 +237,18 @@ body {
 
 .border-primary-100 {
   border-color: var(--clr-primary-100) !important;
+}
+
+.txt-primary-200 {
+  color: var(--clr-primary-200) !important;
+}
+
+.bg-primary-200 {
+  background-color: var(--clr-primary-200) !important;
+}
+
+.border-primary-200 {
+  border-color: var(--clr-primary-200) !important;
 }
 
 .txt-secondary-20 {
@@ -1889,7 +1902,7 @@ Optimize Page Start
   color: var(--clr-secondary-200);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(2) {
-  border-top-color: var(--clr-primary-100);
+  border-top-color: var(--clr-primary-200);
 }
 .wrapper-tab--optimize.wrapper-tab--recommend .wrapper-tab__head .nav-link:nth-child(2) .tab-img h3 {
   color: var(--clr-primary-100);
@@ -2214,7 +2227,7 @@ Optimize Page Start
 }
 
 .pic-modal {
-  max-width: 70%;
+  max-width: 50%;
 }
 .pic-modal img {
   margin: 0 auto;

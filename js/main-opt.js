@@ -38,6 +38,19 @@ $(function () {
 });
 // back to top
 
+// scroll to relevant section
+$(".smoothScroll").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: 600,
+    },
+    500
+  );
+  return false;
+});
+
+// scroll to relevant section
+
 // Progress Bar
 var bar1 = new ldBar("#opt-rev", {
   value: 77,

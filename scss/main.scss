@@ -10,6 +10,7 @@ body {
 
 html {
   font-size: 62.5%;
+  // scroll-behavior: smooth;
 }
 
 body {
@@ -950,7 +951,7 @@ Optimize Page Start
           }
         }
         &:nth-child(2) {
-          border-top-color: var(--clr-primary-100);
+          border-top-color: var(--clr-primary-200);
 
           .tab-img h3 {
             color: var(--clr-primary-100);
@@ -1367,7 +1368,7 @@ Optimize Page Start
 }
 
 .pic-modal {
-  max-width: 70%;
+  max-width: 50%;
 
   img {
     margin: 0 auto;
