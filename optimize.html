@@ -130,7 +130,8 @@
                                 Campaigns</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link txt-neutral-700 fw-regular" aria-current="page" href="#">Set Targets</a>
+                            <a class="nav-link txt-neutral-700 fw-regular" aria-current="page" href="#" data-bs-toggle="modal"
+                            data-bs-target="#targetModal">Set Targets</a>
                         </li>
                     </ul>
 
@@ -7986,7 +7987,7 @@
                                                                                         <a class="btn border-neutral-500 bg-neutral-100 x-sml d-none"
                                                                                             href="#">Duplicate</a>
                                                                                         <a class="btn border-neutral-500 bg-neutral-100 x-sml mx-2"
-                                                                                            href="#">See Visuals</a>
+                                                                                            href="#" data-bs-toggle="modal" data-bs-target="#visualModal">See Visuals</a>
                                                                                         <a class="btn border-neutral-500 bg-neutral-100 x-sml mx-2"
                                                                                             href="#">Pause</a>
 
@@ -8778,6 +8779,29 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="visualModal" tabindex="-1" aria-labelledby="visualModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered pic-modal">
+            <div class="modal-content">
+
+                <img src="img/popup-see-visuals.png" alt="modal-img">
+
+            </div>
+        </div>
+    </div>
+
+  <!-- set targets start -->
+
+  <div class="modal fade" id="targetModal" tabindex="-1" aria-labelledby="targetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered pic-modal">
+      <div class="modal-content">
+
+        <img src="img/popup-settargets.png" alt="modal-img" style="width: 1000px; height: auto;">
+
+      </div>
+    </div>
+  </div>
+  <!-- set targets end -->
 
     <!-- Modal Window End -->
 
