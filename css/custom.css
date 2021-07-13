@@ -33,3 +33,9 @@
   border-radius: 6px;
   border: solid 1px #ccc;
 }
+
+.expand-tbl th:nth-child(2) div {
+
+  justify-content: center !important;
+  
+  }
