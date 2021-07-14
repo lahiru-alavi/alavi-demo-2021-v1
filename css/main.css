@@ -2276,6 +2276,12 @@ Expand Page Start
 .expand-tbl td .btn {
   font-size: var(--fs-big-400);
 }
+.expand-tbl td[rowspan] {
+  border-bottom-width: 2px;
+}
+.expand-tbl td.bd-btm {
+  border-bottom-width: 2px;
+}
 .expand-tbl th {
   font-weight: var(--fw-semi-bold);
   padding-top: 1.8rem;

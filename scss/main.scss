@@ -1429,6 +1429,12 @@ Expand Page Start
     .btn {
       font-size: var(--fs-big-400);
     }
+    &[rowspan] {
+      border-bottom-width: 2px;
+    }
+    &.bd-btm {
+      border-bottom-width: 2px;
+    }
   }
   th {
     font-weight: var(--fw-semi-bold);
