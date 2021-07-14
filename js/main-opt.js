@@ -1141,6 +1141,8 @@ $(document).ready(function () {
     $("tr.ClickRow").removeClass("highlight-row");
     $(this).parent().addClass("highlight-row");
     $("tr.ClickRow").addClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").removeClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").addClass("highlight-row");
     $(this).parent().removeClass("highlight-btm");
     $("#data-load-adset").addClass("d-none");
   });
@@ -1190,6 +1192,10 @@ $(document).ready(function () {
     $("tr.ClickRow").removeClass("highlight-row");
     $(this).parent().addClass("highlight-row");
     $("tr.ClickRow").addClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").removeClass("highlight-btm");
+    $("#aiCampaign tr.SelectRow1").addClass("highlight-row");
+    $("#aiAdset tr.SelectRow1").removeClass("highlight-btm");
+    $("#aiAdset tr.SelectRow1").addClass("highlight-row");
     $(this).parent().removeClass("highlight-btm");
     $("#data-load-ads").addClass("d-none");
   });
