@@ -2234,6 +2234,7 @@ Optimize Page Start
 }
 .pic-modal .modal-content {
   background-color: transparent;
+  border: 0px;
 }
 
 /*
