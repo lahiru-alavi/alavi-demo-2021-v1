@@ -769,7 +769,7 @@ var chart = new Chart(chaAds2, {
 });
 // chart end
 
-// chart data common
+// chart data common campaigns
 var chaCommon1 = document.getElementById("dataCommon1").getContext("2d");
 var chart = new Chart(chaCommon1, {
   // The type of chart we want to create
@@ -830,7 +830,7 @@ var chart = new Chart(chaCommon1, {
 });
 // chart end
 
-// chart data common
+// chart data common campaigns
 var chaCommon2 = document.getElementById("dataCommon2").getContext("2d");
 var chart = new Chart(chaCommon2, {
   // The type of chart we want to create
@@ -891,7 +891,7 @@ var chart = new Chart(chaCommon2, {
 });
 // chart end
 
-// chart data common
+// chart data common campaigns
 var chaCommon3 = document.getElementById("dataCommon3").getContext("2d");
 var chart = new Chart(chaCommon3, {
   // The type of chart we want to create
