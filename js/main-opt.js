@@ -1103,7 +1103,9 @@ $(document).ready(function () {
     $("div.ai-data-results__results:not(#data-result-campaign_data1)").addClass(
       "d-none"
     );
+    // load results start
     $("#data-result-campaign_data1").addClass("d-block");
+    // load results end
   });
 
   $("#aiCampaign").delegate("tr.SelectRow2", "click", function () {
@@ -1154,7 +1156,10 @@ $(document).ready(function () {
     $("div.ai-data-results__results:not(#data-result-adset_data1)").addClass(
       "d-none"
     );
+    // load results start
+    $("#data-result-campaign_data1").addClass("d-block");
     $("#data-result-adset_data1").addClass("d-block");
+    // load results end
   });
 
   $("#aiAdset").delegate("tr.SelectRow2", "click", function () {
@@ -1208,7 +1213,11 @@ $(document).ready(function () {
     $("div.ai-data-results__results:not(#data-result-ads_data1)").addClass(
       "d-none"
     );
+    // load results start
+    $("#data-result-campaign_data1").addClass("d-block");
+    $("#data-result-adset_data1").addClass("d-block");
     $("#data-result-ads_data1").addClass("d-block");
+    // load results end
   });
 
   $("#aiAds").delegate("tr.SelectRow2", "click", function () {
