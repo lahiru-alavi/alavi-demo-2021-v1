@@ -2298,6 +2298,10 @@ Expand Page Start
   border-radius: 6px;
 }
 
+.remark-tab-content .expand-tab-top p {
+  color: var(--clr-neutral-800);
+}
+
 /*
 ------------------------------------
 Expand Page End
