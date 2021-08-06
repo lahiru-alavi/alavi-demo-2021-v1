@@ -49,3 +49,11 @@
 .ai-data-tbl th div {
   justify-content: center;
 }
+
+.h-divider{
+  margin-top:20px;
+  margin-bottom:20px;
+  height:1px;
+  width:85%;
+  border-top:1px solid gray;
+ }
