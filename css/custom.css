@@ -57,3 +57,15 @@
   width:85%;
   border-top:1px solid gray;
  }
+
+ .expand-tbl tr.bg-clr {
+  background-color:#f2e5fe;
+}
+
+.expand-tbl td.bg-clr {
+  background-color:#f2e5fe;
+}
+
+.expand-tbl td.bg-clr2 {
+  background-color:#fde4fe;
+}
